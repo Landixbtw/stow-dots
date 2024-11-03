@@ -22,3 +22,13 @@ or
 stow .
 ```
 To get all the dotfiles setup  
+
+
+##### 🗒️Todo
+
+- Buttons for sound 
+- Buttons for screen brightness
+- Get fingerprint working
+- Get keyboard backlight working
+
+
