@@ -1,0 +1,5 @@
+ast-firmware
+vesktop
+vesktop-debug
+yay
+yay-debug
