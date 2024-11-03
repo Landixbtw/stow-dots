@@ -8,7 +8,7 @@ You should only need yay installed.
 
 All of the packages needed will be installed by the ```./install-packages.sh``` script.
 
-> ![Important]  
+> [!WARNING]
 > **DO NOT EXECUTE THE** ./load-packages.sh script since this will load the packages 
 > on your system and overwrite the package list and aur package list
 
