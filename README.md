@@ -6,9 +6,9 @@ This is my stow dotfile config V2 for my laptop.
 
 You should only need yay installed.  
 
-All of the packages needed will be installed by the ```./install-packages.sh`` script.
+All of the packages needed will be installed by the ```./install-packages.sh``` script.
 
-> ![Important]
+> ![Important]  
 > **DO NOT EXECUTE THE** ./load-packages.sh script since this will load the packages 
 > on your system and overwrite the package list and aur package list
 
@@ -24,7 +24,7 @@ stow .
 To get all the dotfiles setup  
 
 
-##### 🗒️Todo
+# 🗒️Todo
 
 - Buttons for sound 
 - Buttons for screen brightness
