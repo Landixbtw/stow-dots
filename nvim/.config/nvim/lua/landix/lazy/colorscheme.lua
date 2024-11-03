@@ -17,7 +17,7 @@ return {
 	},
 	{
         -- vcsode but better
-		enabled = true,
+		enabled = false,
 		'rockyzhang24/arctic.nvim',
 		branch = 'v2',
 		dependencies = { 'rktjmp/lush.nvim' },
@@ -45,6 +45,13 @@ return {
         "doums/darcula",
         config = function ()
             vim.cmd.colorscheme("darcula")
+        end
+    },
+    {
+        enabled = true,
+        "vague2k/vague.nvim",
+        config = function ()
+            vim.cmd.colorscheme("vague")
         end
     },
 }
