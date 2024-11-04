@@ -199,7 +199,7 @@ mytextclock = wibox.widget.textclock()
 local battery_icon = "🔋"
 local charging_icon = "🔌"
 
--- Create the battery widget:
+-- Create the battery widget
 local my_battery_widget = battery_widget {
     screen = screen,
     use_display_device = true,
@@ -207,13 +207,13 @@ local my_battery_widget = battery_widget {
     widget_template = wibox.widget.textbox
 }
 
-
--- TODO: This does not change the icon when the laptop is charging
-
 -- When UPower updates the battery status, the widget is notified
--- and calls a signal you need to connect to:
 my_battery_widget:connect_signal('upower::update', function(widget, device)
-    local icon = device.state == "charging" and charging_icon or battery_icon
+    -- Print the state to check its value
+    print("Battery state:", device.state)
+
+    -- Use "DeviceState" enum values provided by UPower (likely an integer)
+    local icon = (device.state == 1 or device.state == "charging") and charging_icon or battery_icon
     local battery_level = device.percentage
     local color
 
@@ -227,11 +227,9 @@ my_battery_widget:connect_signal('upower::update', function(widget, device)
     end
 
     -- Format with a separator
-    widget.markup = string.format('<span foreground="%s">%s</span>  <span foreground="%s">%3d%%</span> |',
+    widget.markup = string.format(' <span foreground="%s">%s</span>  <span foreground="%s">%3d%%</span> |',
                                   color, icon, color, battery_level)
 end)
-
-
 
 -- Create a wibox for each screen and add it
 local taglist_buttons = gears.table.join(
