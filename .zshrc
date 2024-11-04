@@ -119,3 +119,9 @@ eval "$(starship init zsh)"
 ## Completion scripts setup. Remove the following line to uninstall
 [[ -f /home/ole/.dart-cli-completion/zsh-config.zsh ]] && . /home/ole/.dart-cli-completion/zsh-config.zsh || true
 ## [/Completion]
+
+# TeX Live paths
+export MANPATH="/usr/local/texlive/2024/texmf-dist/doc/man:$MANPATH"
+export INFOPATH="/usr/local/texlive/2024/texmf-dist/doc/info:$INFOPATH"
+export PATH="/usr/local/texlive/2024/bin/x86_64-linux:$PATH"
+

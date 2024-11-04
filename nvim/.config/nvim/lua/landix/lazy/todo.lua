@@ -1,20 +1,36 @@
 return {
-{ 'folke/todo-comments.nvim', event = 'VimEnter', dependencies = { 'nvim-lua/plenary.nvim' }, opts = { signs = true } },
+    {
+        'folke/todo-comments.nvim',
+        event = 'VimEnter',
+        dependencies = { 'nvim-lua/plenary.nvim' },
+        opts = { signs = true }
+    },
+    {         'folke/which-key.nvim',
+        event = 'VimEnter',
+        config = function()
+            local wk = require('which-key')
 
-{ -- Useful plugin to show you pending keybinds.
-    'folke/which-key.nvim',
-    event = 'VimEnter', -- Sets the loading event to 'VimEnter'
-    config = function() -- This is the function that runs, AFTER loading
-      require('which-key').setup()
-      -- Document existing key chains
-      require('which-key').register {
-        ['<leader>c'] = { name = '[C]ode', _ = 'which_key_ignore' },
-        ['<leader>d'] = { name = '[D]ocument', _ = 'which_key_ignore' },
-        ['<leader>r'] = { name = '[R]ename', _ = 'which_key_ignore' },
-        ['<leader>s'] = { name = '[S]earch', _ = 'which_key_ignore' },
-        ['<leader>w'] = { name = '[W]orkspace', _ = 'which_key_ignore' },
-      }
-    end,
-  },
-  vim.keymap.set('n', '<leader>st', ':TodoTelescope<CR>', { desc = 'Search Todos across project' }),
+            wk.setup({
+                win = {
+                    border = "single",
+                    padding = { 2, 2, 2, 2 },
+                },
+            })
+
+            wk.add({
+                { "<leader>c", group = "[C]ode" },
+                { "<leader>c_", hidden = true },
+                { "<leader>d", group = "[D]ocument" },
+                { "<leader>d_", hidden = true },
+                { "<leader>r", group = "[R]ename" },
+                { "<leader>r_", hidden = true },
+                { "<leader>s", group = "[S]earch" },
+                { "<leader>s_", hidden = true },
+                { "<leader>w", group = "[W]orkspace" },
+                { "<leader>w_", hidden = true },
+                -- Add todo-comments keybinding in new format
+                { "<leader>st", ":TodoTelescope<CR>", desc = "Search Todos across project" },
+            })
+        end,
+    },
 }
