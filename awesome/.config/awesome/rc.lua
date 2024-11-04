@@ -61,6 +61,26 @@ local function show_volume_notification()
 end
 
 
+local kbd_light_notification
+
+-- Add this function near your other notification functions
+local function show_kbd_light_notification()
+    awful.spawn.easy_async("cat /sys/class/leds/tpacpi::kbd_backlight/brightness", function(stdout)
+        local level = tonumber(stdout)
+        local state = "Off"
+        if level == 1 then
+            state = "Low"
+        elseif level == 2 then
+            state = "High"
+        end
+        kbd_light_notification = naughty.notify({
+            text = "Keyboard Light: " .. state,
+            replaces_id = kbd_light_notification and kbd_light_notification.id or nil,
+            timeout = 1,
+        })
+    end)
+end
+
 -- {{{ Error handling
 -- Check if awesome encountered an error during startup and fell back to
 -- another config (This code will only ever execute for the fallback config)
@@ -430,7 +450,18 @@ globalkeys = gears.table.join(
     end, { description = "toggle mute", group = "custom" }),
 
 
+    -- keyboard backlight
+    awful.key({}, "XF86KbdBrightnessUp", function()
+    awful.spawn.easy_async("bash -c 'cur=$(cat /sys/class/leds/tpacpi::kbd_backlight/brightness); max=$(cat /sys/class/leds/tpacpi::kbd_backlight/max_brightness); if [ $cur -lt $max ]; then echo $((cur+1)) > /sys/class/leds/tpacpi::kbd_backlight/brightness; fi'", function()
+        show_kbd_light_notification()
+    end)
+end, { description = "increase keyboard brightness", group = "custom" }),
 
+awful.key({}, "XF86KbdBrightnessDown", function()
+    awful.spawn.easy_async("bash -c 'cur=$(cat /sys/class/leds/tpacpi::kbd_backlight/brightness); if [ $cur -gt 0 ]; then echo $((cur-1)) > /sys/class/leds/tpacpi::kbd_backlight/brightness; fi'", function()
+        show_kbd_light_notification()
+    end)
+end, { description = "decrease keyboard brightness", group = "custom" }),
 
     awful.key({ modkey }, "Return", function()
 		awful.spawn(terminal)
