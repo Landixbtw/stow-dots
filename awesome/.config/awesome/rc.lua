@@ -451,6 +451,8 @@ globalkeys = gears.table.join(
 
 
     -- keyboard backlight
+    --
+    -- fn + space to cycle through the modes 
     awful.key({}, "XF86KbdBrightnessUp", function()
     awful.spawn.easy_async("bash -c 'cur=$(cat /sys/class/leds/tpacpi::kbd_backlight/brightness); max=$(cat /sys/class/leds/tpacpi::kbd_backlight/max_brightness); if [ $cur -lt $max ]; then echo $((cur+1)) > /sys/class/leds/tpacpi::kbd_backlight/brightness; fi'", function()
         show_kbd_light_notification()

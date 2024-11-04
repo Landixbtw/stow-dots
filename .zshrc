@@ -103,6 +103,8 @@ alias oo="nvim ~/Dokumente/ole/"
 alias zj="zellij --layout ~/.config/zellij/layout.kdl"
 alias yz="yazi"
 alias yeet="sudo pacman -Rns"
+alias nano="nvim"
+
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 
