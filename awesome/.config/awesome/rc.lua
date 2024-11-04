@@ -44,6 +44,23 @@ local function show_brightness_notification()
 end
 
 
+local volume_notification
+
+-- Function to show volume adjustement notification
+local function show_volume_notification()
+    awful.spawn.easy_async("pactl get-sink-volume @DEFAULT_SINK@", function(stdout)
+        local volume = stdout:match("(%d+)%%")
+        if volume then
+            volume_notification = naughty.notify({
+                text = "Volume: " .. volume .. "%",
+                replaces_id = volume_notification and volume_notification.id or nil,
+                timeout = 1,
+            })
+        end
+    end)
+end
+
+
 -- {{{ Error handling
 -- Check if awesome encountered an error during startup and fell back to
 -- another config (This code will only ever execute for the fallback config)
@@ -384,6 +401,34 @@ globalkeys = gears.table.join(
             show_brightness_notification()
         end)
     end, { description = "decrease brightness", group = "custom" }),
+
+
+    -- Volume controll
+    awful.key({}, "XF86AudioRaiseVolume", function()
+        awful.spawn.easy_async("pactl set-sink-volume @DEFAULT_SINK@ +5%", function()
+            show_volume_notification()
+        end)
+    end, { description = "increase volume", group = "custom" }),
+
+    awful.key({}, "XF86AudioLowerVolume", function()
+        awful.spawn.easy_async("pactl set-sink-volume @DEFAULT_SINK@ -5%", function()
+            show_volume_notification()
+        end)
+    end, { description = "decrease volume", group = "custom" }),
+
+    awful.key({}, "XF86AudioMute", function()
+        awful.spawn.easy_async("pactl set-sink-mute @DEFAULT_SINK@ toggle", function()
+            awful.spawn.easy_async("pactl get-sink-mute @DEFAULT_SINK@", function(stdout)
+                local muted = stdout:match("yes")
+                volume_notification = naughty.notify({
+                    text = muted and "Volume: muted" or "Volume: unmuted",
+                    replaces_id = volume_notification and volume_notification.id or nil,
+                    timeout = 1,
+                })
+            end)
+        end)
+    end, { description = "toggle mute", group = "custom" }),
+
 
 
 
