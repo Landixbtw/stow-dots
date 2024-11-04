@@ -19,11 +19,13 @@ local hotkeys_popup = require("awful.hotkeys_popup")
 require("awful.hotkeys_popup.keys")
 
 -- Load the module:
-
 local battery_widget = require("awesome-battery_widget.src.awesome-battery_widget")
 
 -- xrandr for monitor layout
 -- local xrandr = require("xrandr")
+
+-- set wallpaper
+awful.spawn.with_shell("nitrogen --restore")
 
 
 local brightness_notification
@@ -774,9 +776,6 @@ end)
 --
 --
 
--- set wallpaper
-awful.spawn.with_shell("nitrogen --restore")
-
 -- set screens 
-awful.spawn.with_shell("xrandr --output DP-4 --mode 1920x1080 --rate 164.92 --pos 0x0 --primary")
-awful.spawn.with_shell("xrandr --output DP-2 --mode 1920x1080 --rate 164.92 --pos 1920x0")
+-- awful.spawn.with_shell("xrandr --output DP-4 --mode 1920x1080 --rate 164.92 --pos 0x0 --primary")
+-- awful.spawn.with_shell("xrandr --output DP-2 --mode 1920x1080 --rate 164.92 --pos 1920x0")
