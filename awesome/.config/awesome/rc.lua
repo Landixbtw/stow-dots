@@ -25,6 +25,25 @@ local battery_widget = require("awesome-battery_widget.src.awesome-battery_widge
 -- xrandr for monitor layout
 -- local xrandr = require("xrandr")
 
+
+local brightness_notification
+
+-- Function to show brightness notification with replacement
+local function show_brightness_notification()
+    awful.spawn.easy_async_with_shell("brightnessctl g; brightnessctl m", function(stdout)
+        local current_brightness, max_brightness = stdout:match("(%d+)%s+(%d+)")
+        if current_brightness and max_brightness then
+            local brightness_level = math.floor((tonumber(current_brightness) / tonumber(max_brightness)) * 100)
+            brightness_notification = naughty.notify({
+                text = "Brightness: " .. brightness_level .. "%",
+                replaces_id = brightness_notification and brightness_notification.id or nil,
+                timeout = 1,
+            })
+        end
+    end)
+end
+
+
 -- {{{ Error handling
 -- Check if awesome encountered an error during startup and fell back to
 -- another config (This code will only ever execute for the fallback config)
@@ -351,11 +370,22 @@ globalkeys = gears.table.join(
 		end
 	end, { description = "go back", group = "client" }),
 
-       -- Standard program
-	--
-	-- awful.key({ modkey }, "Return", function()
-	-- 	awful.spawn.with_shell("~/.local/bin/ghostty")
-	-- end, { description = "open a terminal", group = "launcher" }),
+    -- Standard program
+    -- Increase brightness keybinding
+    awful.key({}, "XF86MonBrightnessUp", function()
+        awful.spawn.easy_async("brightnessctl set +5%", function()
+            show_brightness_notification()
+        end)
+    end, { description = "increase brightness", group = "custom" }),
+
+    -- Decrease brightness keybinding
+    awful.key({}, "XF86MonBrightnessDown", function()
+        awful.spawn.easy_async("brightnessctl set 5%-", function()
+            show_brightness_notification()
+        end)
+    end, { description = "decrease brightness", group = "custom" }),
+
+
 
     awful.key({ modkey }, "Return", function()
 		awful.spawn(terminal)
