@@ -228,7 +228,17 @@ return {
 				-- tsserver = {},
 				--
                 -- java_language_server = {}; -- prob needs npm aswell
-                texlab = {};
+                texlab = {
+                    settings = {
+                        texlab = {
+                            build = {
+                                executable = "latexmk",
+                                args = { "-pdf", "-interaction=nonstopmode", "-synctex=1", "%f" },
+                                onSave = true,
+                            },
+                        },
+                    },
+                };
 				lua_ls = {
 					-- cmd = {...},
 					-- filetypes = { ...},
@@ -259,9 +269,9 @@ return {
 			vim.list_extend(ensure_installed, {
 				'stylua', -- Used to format Lua code
                 "clangd",
-                -- "bashls", -- needs npm
+                "bashls", -- needs npm
                 "lua_ls",
-                -- "yamlls", -- needs npm
+                "yamlls", -- needs npm
 			})
 			require('mason-tool-installer').setup { ensure_installed = ensure_installed }
 

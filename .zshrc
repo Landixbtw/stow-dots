@@ -95,16 +95,12 @@ alias mf="macchina"
 alias update="sudo pacman -Syyuw --noconfirm && yay --save  -Syu " # && flatpak update"
 alias sync="sudo pacman -Syuw"
 alias nvim-lazy="NVIM_APPNAME="nvim-lazyvim" nvim"
-alias nvim-tj="NVIM_APPNAME="nvim-tj" nvim"
-alias nvim-start="NVIM_APPNAME="nvim-start" nvim"
-alias emc="emacs -nw"
 alias view="live-server --no-css-inject"
-alias oo="nvim ~/Dokumente/ole/"
+alias oo="nvim ~/Dokumente/ole/obsidian-ole/vault-ole/"
 alias zj="zellij --layout ~/.config/zellij/layout.kdl"
 alias yz="yazi"
 alias yeet="sudo pacman -Rns"
-alias nano="nvim"
-
+alias texview='function _texview() { pdflatex "$1" && zathura "${1%.*}.pdf"; }; _texview'
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 

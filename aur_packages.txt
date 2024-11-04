@@ -1,4 +1,13 @@
 ast-firmware
+easyroam-desktop-bin
+easyroam-desktop-bin-debug
+enlighten-git-debug
+glib
+glib-debug
+gtk
+gtk-debug
+light
+light-debug
 vesktop
 vesktop-debug
 yay

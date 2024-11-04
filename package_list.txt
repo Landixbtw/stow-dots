@@ -1,5 +1,6 @@
 acpi
 acpi_call
+acpilight
 ast-firmware
 awesome
 base
@@ -11,6 +12,9 @@ brightnessctl
 dhcpcd
 dkms
 dmenu
+easyeffects
+easyroam-desktop-bin
+easyroam-desktop-bin-debug
 efibootmgr
 firefox
 flameshot
@@ -20,15 +24,18 @@ gcc
 git
 github-cli
 grub
+gtk
 htop
 intel-media-driver
 intel-ucode
 lazygit
 ldoc
+light
 lightdm
 lightdm-gtk-greeter
 linux
 linux-firmware
+lsp-plugins
 lua-lgi
 lxappearance
 man-db
@@ -44,6 +51,9 @@ noto-fonts
 noto-fonts-cjk
 noto-fonts-emoji
 noto-fonts-extra
+npm
+obsidian
+okular
 os-prober
 otf-aurulent-nerd
 otf-codenewroman-nerd
@@ -65,10 +75,12 @@ pipewire
 pipewire-alsa
 pipewire-jack
 pipewire-pulse
+plasma-meta
 powertop
 ranger
 ripgrep
 rofi
+rust
 sof-firmware
 stow
 sudo
@@ -163,7 +175,6 @@ xorg-setxkbmap
 xorg-smproxy
 xorg-x11perf
 xorg-xauth
-xorg-xbacklight
 xorg-xcmsdb
 xorg-xcursorgen
 xorg-xdpyinfo
@@ -194,4 +205,6 @@ xorg-xwud
 yay
 yay-debug
 yazi
+zathura
+zathura-pdf-poppler
 zsh
