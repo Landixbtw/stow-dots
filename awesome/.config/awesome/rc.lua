@@ -10,6 +10,11 @@ require("awful.autofocus")
 local wibox = require("wibox")
 -- Theme handling library
 local beautiful = require("beautiful")
+
+-- set wallpaper
+awful.spawn.with_shell("nitrogen --restore")
+
+
 -- Notification library
 local naughty = require("naughty")
 local menubar = require("menubar")
@@ -24,8 +29,9 @@ local battery_widget = require("awesome-battery_widget.src.awesome-battery_widge
 -- xrandr for monitor layout
 -- local xrandr = require("xrandr")
 
--- set wallpaper
-awful.spawn.with_shell("nitrogen --restore")
+-- network manager applet
+awful.spawn.with_shell("nm-applet")
+local nm_applet_systray= wibox.widget.systray()
 
 
 local brightness_notification
@@ -347,6 +353,7 @@ awful.screen.connect_for_each_screen(function(s)
 			layout = wibox.layout.fixed.horizontal,
 			-- mykeyboardlayout,
 			-- wibox.widget.systray(),
+            nm_applet_systray,
             my_battery_widget,
 			mytextclock,
 			-- s.mylayoutbox,

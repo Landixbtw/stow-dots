@@ -92,7 +92,7 @@ alias v="nvim"
 alias nav="nvim -u none"
 alias nf="neofetch"
 alias mf="macchina"
-alias update="sudo pacman -Syyuw --noconfirm && yay --save  -Syu " # && flatpak update"
+alias update="sudo pacman -Syyuw --noconfirm && yay --save  -Syyu " # && flatpak update"
 alias sync="sudo pacman -Syuw"
 alias nvim-lazy="NVIM_APPNAME="nvim-lazyvim" nvim"
 alias view="live-server --no-css-inject"
@@ -101,6 +101,12 @@ alias zj="zellij --layout ~/.config/zellij/layout.kdl"
 alias yz="yazi"
 alias yeet="sudo pacman -Rns"
 alias texview='function _texview() { pdflatex "$1" && zathura "${1%.*}.pdf"; }; _texview'
+alias connect="ssh rocky@hostrocky"
+
+
+
+
+export NVIM_TUI_ENABLE_TRUE_COLOR=1
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 

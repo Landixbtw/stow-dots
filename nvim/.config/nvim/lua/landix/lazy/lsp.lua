@@ -217,7 +217,7 @@ return {
 					},
 				},
 				gopls = {},
-				-- pyright = {}, -- needs pip pyright
+				pyright = {}, -- needs pip pyright
 				rust_analyzer = {},
 				-- ... etc. See `:help lspconfig-all` for a list of all the pre-configured LSPs
 				--
@@ -227,7 +227,9 @@ return {
 				-- But for many setups, the LSP (`tsserver`) will work just fine
 				-- tsserver = {},
 				--
-                -- java_language_server = {}; -- prob needs npm aswell
+                -- java_language_server = {}; -- needs maven
+                jdtls = {};
+
                 texlab = {
                     settings = {
                         texlab = {

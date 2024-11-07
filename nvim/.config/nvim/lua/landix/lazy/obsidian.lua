@@ -215,9 +215,9 @@ return {
   },
 
   -- vim.keymap.set("n", "<leader>oo", ":ObsidianOpen ~/Dokumente/ole/ <CR>", { desc="Open a note"}),
-  vim.keymap.set("n", "<leader>on", ":ObsidianNew", { desc="Enter title for new note"}),
+  vim.keymap.set("n", "<leader>on", ":ObsidianNew ", { desc="Enter title for new note"}),
   vim.keymap.set("n", "<leader>os", ":ObsidianQuickSwitch<CR>", { desc="switch or open another note"}),
-  -- vim.keymap.set("n", "<leader>os", ":ObsidianSearch", { desc="search or create notes in vault"}),
+  vim.keymap.set("n", "<leader>os", ":ObsidianSearch" , { desc="search or create notes in vault"}),
   vim.keymap.set("n", "<leader>oc", ":ObsidianToggleCheckbox", { desc="cycle through checkbox options"}),
   vim.keymap.set("n", "<leader>oe", ":ObsidianExtractNote", { desc="extract a note"}),
   vim.keymap.set("n", "<leader>op", ":ObsidianPasteImg", { desc="Paste image into notes"}),

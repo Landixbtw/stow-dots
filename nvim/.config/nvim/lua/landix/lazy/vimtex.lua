@@ -9,7 +9,7 @@ return {
             vim.g.vimtext_view_general_viewer = "zathura"
 
 
-            vim.keymap.set("n", "<leader>vv", ":keepjumps VimtexCompile<Return>VimtexView<Return>", { noremap = true, silent = true, desc = "Compile and View PDF"})
+            vim.keymap.set("n", "<leader>lx", ":keepjumps VimtexCompile<Return>VimtexView<Return>", { noremap = true, silent = true, desc = "Compile and View PDF"})
         end,
         ft = "tex",
     }

@@ -3,10 +3,7 @@
 --  NOTE: Must happen before plugins are loaded (otherwise wrong leader will be used)
 vim.g.mapleader = ' '
 vim.g.maplocalleader = ' '
-vim.g.have_nerd_font = true
--- [[ Setting options ]]
--- See `:help vim.opt`
--- NOTE: You can change these options as you wish!
+vim.g.have_nerd_font = true -- [[ Setting options ]] See `:help vim.opt` NOTE: You can change these options as you wish!
 --  For more options, you can see `:help option-list`
 
 -- Make line numbers default
@@ -82,6 +79,10 @@ vim.opt.colorcolumn = '80'
 
 -- REQUIRED FOR ZENBONES COLORSCHEME
 vim.opt.termguicolors = true
+
+vim.api.nvim_set_hl(0, "Normal", { bg = "NONE" })  -- Remove for theme background
+vim.api.nvim_set_hl(0, "NormalNC", { bg = "NONE" })
+
 
 -- Set highlight on search, but clear on pressing <Esc> in normal mode
 vim.opt.hlsearch = true

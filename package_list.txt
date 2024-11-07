@@ -14,7 +14,6 @@ dkms
 dmenu
 easyeffects
 easyroam-desktop-bin
-easyroam-desktop-bin-debug
 efibootmgr
 firefox
 flameshot
@@ -23,11 +22,14 @@ fzf
 gcc
 git
 github-cli
+gradle
 grub
 gtk
 htop
+i3lock
 intel-media-driver
 intel-ucode
+intellij-idea-community-edition
 lazygit
 ldoc
 light
@@ -40,6 +42,8 @@ lua-lgi
 lxappearance
 man-db
 man-pages
+mariadb-libs
+maven
 meson
 mesonlsp
 neofetch
@@ -76,10 +80,14 @@ pipewire-alsa
 pipewire-jack
 pipewire-pulse
 plasma-meta
+plocate
 powertop
+python-pip
+python-pipx
 ranger
 ripgrep
 rofi
+rpi-imager
 rust
 sof-firmware
 stow
@@ -87,6 +95,7 @@ sudo
 texinfo
 thermald
 thunar
+thunderbird
 tlp
 tlp-rdw
 tp_smapi

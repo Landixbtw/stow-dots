@@ -42,17 +42,24 @@ return {
     },
     {
         enabled = false,
-        "doums/darcula",
-        config = function ()
-            vim.cmd.colorscheme("darcula")
-        end
-    },
-    {
-        enabled = true,
         "vague2k/vague.nvim",
         config = function ()
             vim.cmd.colorscheme("vague")
         end
     },
+    {
+        enabled = true,
+        "bluz71/vim-moonfly-colors",
+        config = function()
+            vim.cmd.colorscheme("moonfly")
+        end
+    },
+    {
+        enabled = false,
+        "bluz71/vim-nightfly-colors",
+        config = function()
+            vim.cmd.colorscheme("nightfly")
+        end
+    }
 }
 
