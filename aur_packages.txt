@@ -1,3 +1,4 @@
+ansifilter
 ast-firmware
 easyroam-desktop-bin
 easyroam-desktop-bin-debug
@@ -8,7 +9,10 @@ gtk
 gtk-debug
 light
 light-debug
+sh-manpager
 vesktop
 vesktop-debug
 yay
 yay-debug
+zotero-bin
+zotero-bin-debug

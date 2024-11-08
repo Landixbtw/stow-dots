@@ -102,7 +102,7 @@ alias yz="yazi"
 alias yeet="sudo pacman -Rns"
 alias texview='function _texview() { pdflatex "$1" && zathura "${1%.*}.pdf"; }; _texview'
 alias connect="ssh rocky@hostrocky"
-
+alias lgg="lazygit"
 
 
 
@@ -110,7 +110,7 @@ export NVIM_TUI_ENABLE_TRUE_COLOR=1
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 
-eval "$(starship init zsh)"
+# eval "$(starship init zsh)"
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 # [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
@@ -121,6 +121,9 @@ eval "$(starship init zsh)"
 ## Completion scripts setup. Remove the following line to uninstall
 [[ -f /home/ole/.dart-cli-completion/zsh-config.zsh ]] && . /home/ole/.dart-cli-completion/zsh-config.zsh || true
 ## [/Completion]
+
+
+# export MANPAGER=most
 
 # TeX Live paths
 export MANPATH="/usr/local/texlive/2024/texmf-dist/doc/man:$MANPATH"

@@ -25,6 +25,7 @@ github-cli
 gradle
 grub
 gtk
+highlight
 htop
 i3lock
 intel-media-driver
@@ -46,6 +47,7 @@ mariadb-libs
 maven
 meson
 mesonlsp
+most
 neofetch
 neovim
 network-manager-applet
@@ -84,18 +86,22 @@ plocate
 powertop
 python-pip
 python-pipx
+python-pywal
 ranger
 ripgrep
 rofi
 rpi-imager
 rust
+sh-manpager
 sof-firmware
 stow
 sudo
+tcl
 texinfo
 thermald
 thunar
 thunderbird
+tk
 tlp
 tlp-rdw
 tp_smapi
@@ -216,4 +222,5 @@ yay-debug
 yazi
 zathura
 zathura-pdf-poppler
+zotero-bin
 zsh

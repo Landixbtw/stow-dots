@@ -778,8 +778,9 @@ client.connect_signal("unfocus", function(c)
 	c.border_color = beautiful.border_normal
 end)
 -- }}}
---
---
+
+-- pywall
+-- awful.spawn.with_shell("wal -R")
 
 -- set screens 
 -- awful.spawn.with_shell("xrandr --output DP-4 --mode 1920x1080 --rate 164.92 --pos 0x0 --primary")
