@@ -50,7 +50,7 @@ export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/usr/local/lib
 
 # See https://github.com/ohmyzsh/ohmyzsh/wiki/Themes
 # ZSH_THEME="powerlevel10k/powerlevel10k"
-ZSH_THEME="robbyrussell"
+ZSH_THEME="sorin"
 
 zstyle ':omz:update' mode reminder  # just remind me to update when it's time
 
@@ -104,9 +104,6 @@ alias texview='function _texview() { pdflatex "$1" && zathura "${1%.*}.pdf"; }; 
 alias connect="ssh rocky@hostrocky"
 alias lgg="lazygit"
 
-
-
-export NVIM_TUI_ENABLE_TRUE_COLOR=1
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 

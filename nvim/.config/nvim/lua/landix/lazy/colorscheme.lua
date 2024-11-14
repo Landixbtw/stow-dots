@@ -48,7 +48,7 @@ return {
         end
     },
     {
-        enabled = true,
+        enabled = false,
         "bluz71/vim-moonfly-colors",
         config = function()
             vim.cmd.colorscheme("moonfly")
@@ -59,6 +59,13 @@ return {
         "bluz71/vim-nightfly-colors",
         config = function()
             vim.cmd.colorscheme("nightfly")
+        end
+    },
+    {
+        enabled = true,
+        "phha/zenburn.nvim",
+        config = function ()
+            vim.cmd.colorscheme("zenburn")
         end
     }
 }

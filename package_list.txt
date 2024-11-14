@@ -1,6 +1,8 @@
 acpi
 acpi_call
 acpilight
+adobe-source-sans-fonts
+adobe-source-serif-fonts
 ast-firmware
 awesome
 base
@@ -9,12 +11,14 @@ bat
 bluez
 bluez-utils
 brightnessctl
+btop
+chafa
 dhcpcd
 dkms
 dmenu
 easyeffects
-easyroam-desktop-bin
 efibootmgr
+emacs
 firefox
 flameshot
 fprintd
@@ -27,12 +31,15 @@ grub
 gtk
 highlight
 htop
+hunspell-de
 i3lock
 intel-media-driver
 intel-ucode
 intellij-idea-community-edition
+kitty
 lazygit
 ldoc
+libreoffice-still
 light
 lightdm
 lightdm-gtk-greeter
@@ -44,6 +51,7 @@ lxappearance
 man-db
 man-pages
 mariadb-libs
+marp-cli
 maven
 meson
 mesonlsp
@@ -113,6 +121,8 @@ ttf-anonymouspro-nerd
 ttf-arimo-nerd
 ttf-bigblueterminal-nerd
 ttf-bitstream-vera-mono-nerd
+ttf-caladea
+ttf-carlito
 ttf-cascadia-code-nerd
 ttf-cascadia-mono-nerd
 ttf-cousine-nerd
@@ -124,6 +134,7 @@ ttf-envycoder-nerd
 ttf-fantasque-nerd
 ttf-firacode-nerd
 ttf-font-awesome
+ttf-gentium-basic
 ttf-go-nerd
 ttf-gohu-nerd
 ttf-hack-nerd
@@ -142,6 +153,7 @@ ttf-lekton-nerd
 ttf-liberation
 ttf-liberation-mono-nerd
 ttf-lilex-nerd
+ttf-linux-libertine-g
 ttf-martian-mono-nerd
 ttf-meslo-nerd
 ttf-monofur-nerd
@@ -165,7 +177,9 @@ ttf-victor-mono-nerd
 ttf-zed-mono-nerd
 unzip
 vesktop
+vim
 vulkan-intel
+w3m
 wezterm
 wget
 xclip
@@ -222,5 +236,6 @@ yay-debug
 yazi
 zathura
 zathura-pdf-poppler
+zip
 zotero-bin
 zsh

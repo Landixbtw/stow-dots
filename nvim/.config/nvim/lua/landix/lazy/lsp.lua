@@ -230,17 +230,7 @@ return {
                 -- java_language_server = {}; -- needs maven
                 jdtls = {};
 
-                texlab = {
-                    settings = {
-                        texlab = {
-                            build = {
-                                executable = "latexmk",
-                                args = { "-pdf", "-interaction=nonstopmode", "-synctex=1", "%f" },
-                                onSave = true,
-                            },
-                        },
-                    },
-                };
+                texlab = {},
 				lua_ls = {
 					-- cmd = {...},
 					-- filetypes = { ...},
