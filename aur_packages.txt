@@ -5,6 +5,7 @@ glib
 glib-debug
 gtk
 gtk-debug
+jetbrains-toolbox
 light
 light-debug
 marp-cli

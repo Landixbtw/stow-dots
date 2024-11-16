@@ -18,7 +18,8 @@ dkms
 dmenu
 easyeffects
 efibootmgr
-emacs
+fd
+feh
 firefox
 flameshot
 fprintd
@@ -36,6 +37,7 @@ i3lock
 intel-media-driver
 intel-ucode
 intellij-idea-community-edition
+jetbrains-toolbox
 kitty
 lazygit
 ldoc

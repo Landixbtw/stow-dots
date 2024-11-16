@@ -48,7 +48,7 @@ return {
         end
     },
     {
-        enabled = false,
+        enabled = true,
         "bluz71/vim-moonfly-colors",
         config = function()
             vim.cmd.colorscheme("moonfly")
@@ -62,11 +62,18 @@ return {
         end
     },
     {
-        enabled = true,
+        enabled = false,
         "phha/zenburn.nvim",
         config = function ()
             vim.cmd.colorscheme("zenburn")
         end
-    }
+    },
+    {
+        enabled = false,
+        "cpwrs/americano.nvim",
+        config = function()
+            vim.cmd.colorscheme("americano")
+        end
+    },
 }
 
