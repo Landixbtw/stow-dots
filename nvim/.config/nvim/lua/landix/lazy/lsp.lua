@@ -230,6 +230,8 @@ return {
                 -- java_language_server = {}; -- needs maven
                 jdtls = {};
 
+                asm_lsp = {};
+
                 texlab = {},
 				lua_ls = {
 					-- cmd = {...},

@@ -1,0 +1,6 @@
+
+[urgency_low]
+    format = "%s"
+    timeout = 1500
+    background = "#222222"
+    foreground = "#ffffff"

@@ -8,14 +8,6 @@ return {
 		end,
 	},
 	{
-        -- good light theme
-		enabled = false,
-		'rebelot/kanagawa.nvim',
-		config = function()
-			vim.cmd.colorscheme 'kanagawa-lotus'
-		end,
-	},
-	{
         -- vcsode but better
 		enabled = false,
 		'rockyzhang24/arctic.nvim',
@@ -35,30 +27,16 @@ return {
     },
     {
         enabled = false,
-        "morhetz/gruvbox",
-        config = function ()
-            vim.cmd.colorscheme("gruvbox")
-        end
-    },
-    {
-        enabled = false,
         "vague2k/vague.nvim",
         config = function ()
             vim.cmd.colorscheme("vague")
         end
     },
     {
-        enabled = true,
+        enabled = false,
         "bluz71/vim-moonfly-colors",
         config = function()
             vim.cmd.colorscheme("moonfly")
-        end
-    },
-    {
-        enabled = false,
-        "bluz71/vim-nightfly-colors",
-        config = function()
-            vim.cmd.colorscheme("nightfly")
         end
     },
     {
@@ -69,11 +47,18 @@ return {
         end
     },
     {
-        enabled = false,
+        enabled = true,
         "cpwrs/americano.nvim",
         config = function()
             vim.cmd.colorscheme("americano")
         end
     },
+    {
+        enabled = false,
+        "nuvic/flexoki-nvim",
+        config = function ()
+            vim.cmd.colorscheme("flexoki")
+        end
+    }
 }
 

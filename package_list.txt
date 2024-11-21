@@ -16,6 +16,7 @@ chafa
 dhcpcd
 dkms
 dmenu
+dunst
 easyeffects
 efibootmgr
 fd
@@ -25,6 +26,7 @@ flameshot
 fprintd
 fzf
 gcc
+ghostty-git
 git
 github-cli
 gradle
@@ -36,7 +38,6 @@ hunspell-de
 i3lock
 intel-media-driver
 intel-ucode
-intellij-idea-community-edition
 jetbrains-toolbox
 kitty
 lazygit
@@ -45,6 +46,7 @@ libreoffice-still
 light
 lightdm
 lightdm-gtk-greeter
+links
 linux
 linux-firmware
 lsp-plugins
@@ -58,6 +60,7 @@ maven
 meson
 mesonlsp
 most
+nasm
 neofetch
 neovim
 network-manager-applet
@@ -83,6 +86,7 @@ otf-hermit-nerd
 otf-monaspace-nerd
 otf-opendyslexic-nerd
 otf-overpass-nerd
+p7zip
 pamixer
 pavucontrol
 pcmanfm

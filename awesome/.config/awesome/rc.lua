@@ -128,7 +128,7 @@ beautiful.font = "JetBraisMono Nerd Font 11"
 
 -- This is used later as the default terminal and editor to run.
 
-terminal = "wezterm"
+terminal = "ghostty"
 editor = os.getenv("EDITOR") or "nvim"
 editor_cmd = terminal .. " -e " .. editor
 

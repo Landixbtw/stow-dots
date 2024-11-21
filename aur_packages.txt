@@ -1,6 +1,8 @@
 ansifilter
 ast-firmware
 enlighten-git-debug
+ghostty-git
+ghostty-git-debug
 glib
 glib-debug
 gtk

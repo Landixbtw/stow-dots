@@ -1,0 +1,9 @@
+font-size = 15
+
+font-family = "Iosevka Nerd Font Mono"
+font-style = "Bold"
+
+cursor-style = block
+confirm-close-surface = false
+gtk-titlebar = false
+
