@@ -1,7 +1,10 @@
-font-size = 15
+font-size = 14
 
-font-family = "Iosevka Nerd Font Mono"
-font-style = "Bold"
+# font-family = "Iosevka Nerd Font Mono"
+# font-style = "Bold"
+
+font-family = "Nono Sans Mono"
+font-style = "Regular"
 
 cursor-style = block
 confirm-close-surface = false
