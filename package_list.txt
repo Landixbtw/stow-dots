@@ -106,6 +106,7 @@ ripgrep
 rofi
 rpi-imager
 rust
+sasm
 sh-manpager
 sof-firmware
 stow

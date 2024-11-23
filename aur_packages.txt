@@ -11,6 +11,8 @@ jetbrains-toolbox
 light
 light-debug
 marp-cli
+sasm
+sasm-debug
 sh-manpager
 ttf-gentium-basic
 vesktop
