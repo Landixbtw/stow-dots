@@ -41,16 +41,9 @@ return {
     },
     {
         enabled = false,
-        "bartekjaszczak/finale-nvim",
-        config = function ()
-            vim.cmd.colorscheme("finale")
-        end
-    },
-    {
-        enabled = false,
         "2giosangmitom/nightfall.nvim",
         config = function()
-            vim.cmd.colorscheme("nightfall")
+            vim.cmd.colorscheme("maron")
         end,
     },
     {
@@ -60,6 +53,15 @@ return {
             vim.cmd.colorscheme("lavish")
         end,
     },
+    {
+        enabled = false,
+        "cvusmo/blackbeard-nvim",
+        config = function()
+            require("blackbeard").setup({
+                theme = "dark", -- Change to "dark" or "light"
+            })
+        end,
+    }
 
 }
 

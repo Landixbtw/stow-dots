@@ -1,12 +1,15 @@
-font-size = 14
+font-size = 15
 
-# font-family = "Iosevka Nerd Font Mono"
-# font-style = "Bold"
+# font-family = "Nono Sans Mono"
+# font-style = "Regular"
 
-font-family = "Nono Sans Mono"
+# font-family = "Hack Nerd Font Mono"
+# font-style = "Regular"
+
+font-family = "Hurmit Nerd Font"
 font-style = "Regular"
 
-cursor-style = block
+# cursor-style = block
 confirm-close-surface = false
 gtk-titlebar = false
 
