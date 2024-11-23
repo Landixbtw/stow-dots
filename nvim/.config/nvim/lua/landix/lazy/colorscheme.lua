@@ -19,7 +19,7 @@ return {
 	},
     {
         -- block cursor is white on white theme
-        enabled = true,
+        enabled = false,
         "LunarVim/templeos.nvim",
         config = function ()
             vim.cmd.colorscheme("templeos")
@@ -39,5 +39,27 @@ return {
             vim.cmd.colorscheme("zenburn")
         end
     },
+    {
+        enabled = false,
+        "bartekjaszczak/finale-nvim",
+        config = function ()
+            vim.cmd.colorscheme("finale")
+        end
+    },
+    {
+        enabled = false,
+        "2giosangmitom/nightfall.nvim",
+        config = function()
+            vim.cmd.colorscheme("nightfall")
+        end,
+    },
+    {
+        enabled = true,
+        "ferdinandrau/lavish.nvim",
+        config = function ()
+            vim.cmd.colorscheme("lavish")
+        end,
+    },
+
 }
 
