@@ -19,18 +19,11 @@ return {
 	},
     {
         -- block cursor is white on white theme
-        enabled = false,
+        enabled = true,
         "LunarVim/templeos.nvim",
         config = function ()
             vim.cmd.colorscheme("templeos")
         end,
-    },
-    {
-        enabled = false,
-        "vague2k/vague.nvim",
-        config = function ()
-            vim.cmd.colorscheme("vague")
-        end
     },
     {
         enabled = false,
@@ -46,19 +39,5 @@ return {
             vim.cmd.colorscheme("zenburn")
         end
     },
-    {
-        enabled = true,
-        "cpwrs/americano.nvim",
-        config = function()
-            vim.cmd.colorscheme("americano")
-        end
-    },
-    {
-        enabled = false,
-        "nuvic/flexoki-nvim",
-        config = function ()
-            vim.cmd.colorscheme("flexoki")
-        end
-    }
 }
 
