@@ -3,6 +3,7 @@ acpi_call
 acpilight
 adobe-source-sans-fonts
 adobe-source-serif-fonts
+alacritty
 ast-firmware
 awesome
 base
@@ -31,6 +32,10 @@ git
 github-cli
 gradle
 grub
+gst-libav
+gst-plugins-bad
+gst-plugins-good
+gst-plugins-ugly
 gtk
 highlight
 htop
@@ -49,7 +54,6 @@ lightdm-gtk-greeter
 links
 linux
 linux-firmware
-lsp-plugins
 lua-lgi
 lxappearance
 man-db
@@ -95,6 +99,8 @@ pipewire
 pipewire-alsa
 pipewire-jack
 pipewire-pulse
+pipewire-v4l2
+pipewire-zeroconf
 plasma-meta
 plocate
 powertop
@@ -245,4 +251,5 @@ zathura
 zathura-pdf-poppler
 zip
 zotero-bin
+zoxide
 zsh

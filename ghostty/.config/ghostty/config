@@ -1,13 +1,10 @@
 font-size = 15
 
-# font-family = "Nono Sans Mono"
-# font-style = "Regular"
+font-family = "Nono Sans Mono"
+font-style = "Regular"
 
 # font-family = "Hack Nerd Font Mono"
 # font-style = "Regular"
-
-font-family = "Hurmit Nerd Font"
-font-style = "Regular"
 
 # cursor-style = block
 confirm-close-surface = false

@@ -1,6 +1,38 @@
+# Dunst configuration file
+# Relaxed color scheme inspired by Nord
+
+
+[global]
+# Global settings
+font = "Geist Mono 10"
+separator_height = 1
+separator_color = "#4C566A"  # Separator color
+padding = 10
+alignment = center
+timeout = 5
+# Frame settings
+frame_width = 2
+frame_color = "#4C566A"  # Muted gray
+
+transparency = 5
+
+icon_folders = /usr/share/icons/Papirus/48x48/status/:/usr/share/icons/Papirus/48x48/devices
 
 [urgency_low]
-    format = "%s"
-    timeout = 1500
-    background = "#222222"
-    foreground = "#ffffff"
+# Low urgency notifications
+background = "#2E3440"  # Deep gray-blue
+foreground = "#D8DEE9"  # Soft white
+frame_color = "#4C566A"  # Muted gray
+
+[urgency_normal]
+# Normal urgency notifications
+background = "#3B4252"  # Slate gray
+foreground = "#ECEFF4"  # Bright white
+frame_color = "#81A1C1"  # Light blue
+
+[urgency_critical]
+# Critical urgency notifications
+background = "#BF616A"  # Soft red
+foreground = "#ECEFF4"  # Bright white
+frame_color = "#D08770"  # Muted orange
+
