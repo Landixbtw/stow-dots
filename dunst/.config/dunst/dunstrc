@@ -14,9 +14,10 @@ timeout = 5
 frame_width = 2
 frame_color = "#4C566A"  # Muted gray
 
-transparency = 5
-
 icon_folders = /usr/share/icons/Papirus/48x48/status/:/usr/share/icons/Papirus/48x48/devices
+
+corner_radius = 10
+
 
 [urgency_low]
 # Low urgency notifications
@@ -35,4 +36,5 @@ frame_color = "#81A1C1"  # Light blue
 background = "#BF616A"  # Soft red
 foreground = "#ECEFF4"  # Bright white
 frame_color = "#D08770"  # Muted orange
+
 

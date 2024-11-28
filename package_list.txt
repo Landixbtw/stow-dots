@@ -48,6 +48,7 @@ kitty
 lazygit
 ldoc
 libreoffice-still
+libsixel
 light
 lightdm
 lightdm-gtk-greeter
@@ -106,6 +107,9 @@ plocate
 powertop
 pulseaudio
 pulseaudio-alsa
+pulseaudio-bluetooth
+pulseaudio-equalizer
+pulseaudio-jack
 python-pip
 python-pipx
 python-pywal
