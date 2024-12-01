@@ -40,14 +40,17 @@ return {
         end
     },
     {
-        enabled = false,
         "2giosangmitom/nightfall.nvim",
-        config = function()
+        opts = {
+        -- Your custom config here
+        },
+        config = function(_, opts)
+            require("nightfall").setup(opts)
             vim.cmd.colorscheme("maron")
         end,
     },
     {
-        enabled = true,
+        enabled = false,
         "ferdinandrau/lavish.nvim",
         config = function ()
             vim.cmd.colorscheme("lavish")

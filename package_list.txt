@@ -9,7 +9,9 @@ awesome
 base
 base-devel
 bat
+blueberry
 bluez
+bluez-deprecated-tools
 bluez-utils
 brightnessctl
 btop
@@ -131,6 +133,7 @@ thunderbird
 tk
 tlp
 tlp-rdw
+tmux
 tp_smapi
 tree
 ttf-0xproto-nerd
