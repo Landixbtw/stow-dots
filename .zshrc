@@ -13,6 +13,8 @@ export PATH="$HOME/usr/bin/rg:$PATH"
 # doom emacs
 export PATH="$HOME/.config/emacs/bin:$PATH"
 
+export VCPKG_ROOT="/usr/bin/vcpkg"
+
 # Cross compiler 
 export PREFIX="$HOME/opt/cross"
 export TARGET=i686-elf
@@ -38,12 +40,10 @@ DISABLE_UNTRACKED_FILES_DIRTY="true"
 
 HIST_STAMPS="mm/dd/yyyy"
 
-plugins=(git 
+plugins=(
+        git 
         colored-man-pages 
-        colorize
         command-not-found
-        sudo 
-        git-flow 
         z 
         fancy-ctrl-z
     )
@@ -59,6 +59,7 @@ alias view="live-server --no-css-inject"
 alias oo="nvim ~/Dokumente/ole/obsidian-ole/vault-ole/"
 alias yz="yazi"
 alias connect="ssh rocky@hostrocky"
+
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 

@@ -1,3 +1,11 @@
+android-emulator
+android-emulator-debug
+android-platform
+android-sdk-build-tools
+android-sdk-cmdline-tools-latest
+android-sdk-platform-tools
+android-sdk-platform-tools-debug
+android-studio
 ansifilter
 ast-firmware
 enlighten-git-debug

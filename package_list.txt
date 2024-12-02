@@ -4,6 +4,12 @@ acpilight
 adobe-source-sans-fonts
 adobe-source-serif-fonts
 alacritty
+android-emulator
+android-platform
+android-sdk-build-tools
+android-sdk-cmdline-tools-latest
+android-sdk-platform-tools
+android-studio
 ast-firmware
 awesome
 base

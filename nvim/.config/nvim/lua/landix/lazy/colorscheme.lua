@@ -8,8 +8,8 @@ return {
 		end,
 	},
 	{
-        -- vcsode but better
-		enabled = false,
+        -- vcsode but better 
+        enabled = false,
 		'rockyzhang24/arctic.nvim',
 		branch = 'v2',
 		dependencies = { 'rktjmp/lush.nvim' },
@@ -19,6 +19,7 @@ return {
 	},
     {
         -- block cursor is white on white theme
+        -- only usable on white terminal background
         enabled = false,
         "LunarVim/templeos.nvim",
         config = function ()
@@ -40,6 +41,7 @@ return {
         end
     },
     {
+        enabled = true,
         "2giosangmitom/nightfall.nvim",
         opts = {
         -- Your custom config here

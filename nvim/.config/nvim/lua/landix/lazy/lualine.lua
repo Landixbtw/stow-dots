@@ -3,6 +3,7 @@
 --
 return {
 	{
+        enabled = false,
 		'nvim-lualine/lualine.nvim',
 		event = 'VeryLazy',
 		config = function()
@@ -45,7 +46,7 @@ return {
 			require('lualine').setup {
 				options = {
 					-- theme = "",
-					globalstatus = true,
+					globalstatus = false,
 					-- component_separators = { left = '', right = '' },
 					component_separators = { left = '|', right = '' },
 					section_separators = { left = '█', right = '█' },
@@ -53,13 +54,13 @@ return {
 				sections = {
 					lualine_b = {
 						{ 'branch', icon = '\u{f418}', fmt = truncate_branch_name },
-						--  🌲
+						 -- 🌲
 						-- harpoon_component,
 						'diff',
 						'diagnostics',
 					},
 					lualine_c = {
-						{ 'filename', path = 1 },
+						{ 'filename', path = 0 },
 					},
 					lualine_x = {
 						'filetype',
