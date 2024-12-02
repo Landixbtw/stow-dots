@@ -1,22 +1,22 @@
 return {
-	{
+    {
         -- tsoding emacs theme
-		enabled = false,
-		'blazkowolf/gruber-darker.nvim',
-		config = function()
-			vim.cmd.colorscheme 'gruber-darker'
-		end,
-	},
-	{
+        enabled = false,
+        'blazkowolf/gruber-darker.nvim',
+        config = function()
+            vim.cmd.colorscheme 'gruber-darker'
+        end,
+    },
+    {
         -- vcsode but better 
         enabled = false,
-		'rockyzhang24/arctic.nvim',
-		branch = 'v2',
-		dependencies = { 'rktjmp/lush.nvim' },
-		config = function()
-			vim.cmd.colorscheme 'arctic'
-		end,
-	},
+        'rockyzhang24/arctic.nvim',
+        branch = 'v2',
+        dependencies = { 'rktjmp/lush.nvim' },
+        config = function()
+            vim.cmd.colorscheme 'arctic'
+        end,
+    },
     {
         -- block cursor is white on white theme
         -- only usable on white terminal background
@@ -41,7 +41,7 @@ return {
         end
     },
     {
-        enabled = true,
+        enabled = false,
         "2giosangmitom/nightfall.nvim",
         opts = {
         -- Your custom config here
@@ -66,7 +66,18 @@ return {
                 theme = "dark", -- Change to "dark" or "light"
             })
         end,
-    }
-
+    },
+    {
+        enabled = true,
+        "tjdevries/gruvbuddy.nvim",
+        dependencies = {
+            "tjdevries/colorbuddy.nvim",
+        },
+        lazy = false,
+        priority = 1000,
+        config = function()
+            require("custom.gruvbuddy")
+            require("colorbuddy").colorscheme("gruvbuddy")
+        end,
+    },
 }
-
