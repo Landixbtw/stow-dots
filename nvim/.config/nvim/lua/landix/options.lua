@@ -12,7 +12,8 @@ vim.opt.number = true
 --  Experiment for yourself to see if you like it!
 vim.opt.relativenumber = true
 
--- Set tabs to 1 tab
+
+-- Set tab to use 4 spaces
 vim.opt.tabstop = 4
 vim.opt.softtabstop = 4
 vim.opt.expandtab = true
@@ -22,7 +23,9 @@ vim.opt.cinoptions = "true"
 vim.opt.shiftwidth = 4
 
 -- Enable smart indenting (see https://stackoverflow.com/questions/1204149/smart-wrap-in-vim)
-vim.opt.breakindent = false
+vim.opt.breakindent = true
+
+vim.opt.wrap = false
 
 
 -- Enable mouse mode, can be useful for resizing splits for example!
