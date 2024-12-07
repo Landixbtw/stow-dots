@@ -52,4 +52,4 @@ style = "bright-black"
 format = 'via [$name ✨$version]($style)'
 
 
-command_timeout = 1000
+command_timeout = 10000
