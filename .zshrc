@@ -13,13 +13,17 @@ export PATH="$HOME/usr/bin/rg:$PATH"
 # doom emacs
 export PATH="$HOME/.config/emacs/bin:$PATH"
 
-export VCPKG_ROOT="/usr/bin/vcpkg"
 
 # Cross compiler 
 export PREFIX="$HOME/opt/cross"
 export TARGET=i686-elf
 export PATH="$PREFIX/bin:$PATH"
 export PATH="$HOME/opt/cross/bin:$PATH"
+
+# path to jdk
+export JAVA_HOME=/usr/bin/java
+export PATH=$JAVA_HOME/bin:$PATH
+
 
 #Path to your oh-my-zsh installation.
 export ZSH="$HOME/.oh-my-zsh"
@@ -54,6 +58,7 @@ export ARCHFLAGS="-arch x86_64"
 
 alias nv="nvim"
 alias nf="neofetch"
+alias nvk="NVIM_APPNAME=nvim-kickstart nvim"
 alias update="sudo pacman -Syyuw --noconfirm && yay --save  -Syyu "
 alias view="live-server --no-css-inject"
 alias oo="nvim ~/Dokumente/ole/obsidian-ole/vault-ole/"
@@ -73,8 +78,6 @@ export INFOPATH="/usr/local/texlive/2024/texmf-dist/doc/info:$INFOPATH"
 
 # update tex with this
 # sudo /usr/local/texlive/2024/bin/x86_64-linux/tlmgr update --self -all
-
-
 
 # tat: tmux attach
 function tat {

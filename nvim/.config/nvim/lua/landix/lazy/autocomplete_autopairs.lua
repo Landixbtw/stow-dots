@@ -98,8 +98,8 @@ return {
         sources = {
           { name = 'nvim_lsp' },
           { name = 'luasnip' },
-          { name = 'path', max_item_count = 3 }, -- file system paths
-          { name = 'buffer', max_item_count = 5 }, -- text within current buffer
+          { name = 'path', max_item_count = 5 }, -- file system paths
+          { name = 'buffer', max_item_count = 10 }, -- text within current buffer
           { name = 'emoji' }, -- this enables the emojis autocompletion
         },
       }
