@@ -1,12 +1,12 @@
+# font-family = "Nono Sans Mono"
+# font-family = "Hack Nerd Font Mono"
+font-family = "SFMono Nerd Font Mono"
+
 font-size = 15
 
-# font-family = "Nono Sans Mono"
-# font-style = "Regular"
+theme = Dracula+
 
-font-family = "Hack Nerd Font Mono"
-font-style = "Regular"
-
-# cursor-style = block
+window-save-state = always
 confirm-close-surface = false
 gtk-titlebar = false
 
