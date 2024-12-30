@@ -1,4 +1,5 @@
-Redid the kickstart.nvim config to be my very own
+This config is based on the kickstart config provided my nvim
+
 
 Only need to add dap for c and stuff
 

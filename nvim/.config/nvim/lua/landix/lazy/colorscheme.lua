@@ -8,16 +8,6 @@ return {
         end,
     },
     {
-        -- vcsode but better 
-        enabled = false,
-        'rockyzhang24/arctic.nvim',
-        branch = 'v2',
-        dependencies = { 'rktjmp/lush.nvim' },
-        config = function()
-            vim.cmd.colorscheme 'arctic'
-        end,
-    },
-    {
         -- block cursor is white on white theme
         -- only usable on white terminal background
         enabled = false,
@@ -42,33 +32,6 @@ return {
     },
     {
         enabled = false,
-        "2giosangmitom/nightfall.nvim",
-        opts = {
-        -- Your custom config here
-        },
-        config = function(_, opts)
-            require("nightfall").setup(opts)
-            vim.cmd.colorscheme("maron")
-        end,
-    },
-    {
-        enabled = false,
-        "ferdinandrau/lavish.nvim",
-        config = function ()
-            vim.cmd.colorscheme("lavish")
-        end,
-    },
-    {
-        enabled = false,
-        "cvusmo/blackbeard-nvim",
-        config = function()
-            require("blackbeard").setup({
-                theme = "dark", -- Change to "dark" or "light"
-            })
-        end,
-    },
-    {
-        enabled = true,
         "tjdevries/gruvbuddy.nvim",
         dependencies = {
             "tjdevries/colorbuddy.nvim",
@@ -80,4 +43,13 @@ return {
             require("colorbuddy").colorscheme("gruvbuddy")
         end,
     },
+    {
+        enabled = true,
+        "folke/tokyonight.nvim",
+        lazy = false,
+        priority = 1000,
+        config = function()
+            vim.cmd.colorscheme("tokyonight-moon")
+        end
+    }
 }
