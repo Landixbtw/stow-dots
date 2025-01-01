@@ -44,12 +44,19 @@ return {
         end,
     },
     {
-        enabled = true,
+        enabled = false,
         "folke/tokyonight.nvim",
         lazy = false,
         priority = 1000,
         config = function()
             vim.cmd.colorscheme("tokyonight-moon")
         end
-    }
+    },
+    {
+        enabled = true,
+        "projekt0n/github-nvim-theme",
+        config = function ()
+            vim.cmd.colorscheme("github_dark_high_contrast")
+        end
+    },
 }
