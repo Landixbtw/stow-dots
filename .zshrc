@@ -12,13 +12,15 @@ export PATH="$HOME/usr/bin/rg:$PATH"
 
 # doom emacs
 export PATH="$HOME/.config/emacs/bin:$PATH"
+export DOOMDIR=~/.config/doom
 
 
 # Cross compiler 
 export PREFIX="$HOME/opt/cross"
 export TARGET=i686-elf
-export PATH="$PREFIX/bin:$PATH"
 export PATH="$HOME/opt/cross/bin:$PATH"
+export PATH="$PREFIX/bin:$PATH"
+
 
 # path to jdk
 export JAVA_HOME=/usr/bin/java

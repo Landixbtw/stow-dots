@@ -53,10 +53,17 @@ return {
         end
     },
     {
-        enabled = true,
-        "projekt0n/github-nvim-theme",
+        enabled = false,
+        "nickkadutskyi/jb.nvim",
         config = function ()
-            vim.cmd.colorscheme("github_dark_high_contrast")
+            vim.cmd.colorscheme("jb")
+        end
+    },
+    {
+        enabled = true,
+        "ferdinandrau/carbide.nvim",
+        config = function ()
+            vim.cmd.colorscheme("carbide")
         end
     },
 }

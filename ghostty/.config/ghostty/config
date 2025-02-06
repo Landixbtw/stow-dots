@@ -4,7 +4,8 @@ font-family = "SFMono Nerd Font Mono"
 
 font-size = 15
 
-theme = Dracula+
+# theme = Dracula+
+theme = mellow
 
 window-save-state = always
 confirm-close-surface = false
