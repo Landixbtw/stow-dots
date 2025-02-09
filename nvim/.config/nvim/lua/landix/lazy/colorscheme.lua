@@ -60,10 +60,17 @@ return {
         end
     },
     {
-        enabled = true,
+        enabled = false,
         "ferdinandrau/carbide.nvim",
         config = function ()
             vim.cmd.colorscheme("carbide")
+        end
+    },
+    {
+        enabled = true,
+        "oonamo/ef-themes.nvim",
+        config = function ()
+            vim.cmd.colorscheme("ef-dream")
         end
     },
 }
