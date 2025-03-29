@@ -12,6 +12,7 @@ return {
         -- only usable on white terminal background
         enabled = false,
         "LunarVim/templeos.nvim",
+        -- "Landixbtw/templeos.nvim",
         config = function ()
             vim.cmd.colorscheme("templeos")
         end,
@@ -53,21 +54,21 @@ return {
         end
     },
     {
-        enabled = false,
+        enabled = true,
         "nickkadutskyi/jb.nvim",
         config = function ()
             vim.cmd.colorscheme("jb")
         end
     },
     {
-        enabled = false,
+        enabled = true,
         "ferdinandrau/carbide.nvim",
         config = function ()
             vim.cmd.colorscheme("carbide")
         end
     },
     {
-        enabled = true,
+        enabled = false,
         "oonamo/ef-themes.nvim",
         config = function ()
             vim.cmd.colorscheme("ef-dream")

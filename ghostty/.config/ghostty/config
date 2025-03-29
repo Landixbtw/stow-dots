@@ -1,11 +1,15 @@
-# font-family = "Nono Sans Mono"
+font-family = "Mono Sans Mono"
 # font-family = "Hack Nerd Font Mono"
-font-family = "SFMono Nerd Font Mono"
+# font-family = "SFMono Nerd Font Mono"
 
-font-size = 15
+# font-family = "CaskaydiaCove Nerd Font"
+# font-family = "TempleOS"
+
+font-size = 18 
+font-style-bold = false 
 
 # theme = Dracula+
-theme = mellow
+theme = 3024 Day
 
 window-save-state = always
 confirm-close-surface = false
