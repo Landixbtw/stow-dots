@@ -1,0 +1,105 @@
+;;; auctex.el --- AUCTeX configuration for LaTeX workflow -*- lexical-binding: t; -*-
+
+(use-package tex
+  :straight auctex
+  :defer t
+  :mode ("\\.tex\\'" . latex-mode)
+  :config
+  ;; Basic AUCTeX configuration
+  (setq TeX-auto-save t
+        TeX-parse-self t
+        TeX-save-query nil
+        TeX-PDF-mode t
+        TeX-source-correlate-mode t
+        TeX-source-correlate-method 'synctex
+        TeX-view-program-selection '((output-pdf "Zathura")))
+
+;; Enable LaTeX math mode by default
+(add-hook 'LaTeX-mode-hook 'LaTeX-math-mode)
+
+;; Configure latexmk for compilation
+(setq TeX-command-default "latexmk"
+      TeX-show-compilation t
+      TeX-command-extra-options "-shell-escape")
+
+(add-to-list 'TeX-command-list
+             '("latexmk"
+               "latexmk -pdflatex='pdflatex -file-line-error -synctex=1 -interaction=nonstopmode -shell-escape' -pdf %s"
+               TeX-run-TeX nil t :help "Run latexmk"))
+
+;; PDF Tools configuration
+(use-package pdf-tools
+  :straight t
+  :config
+  (pdf-tools-install)
+  (setq TeX-view-program-list '(("PDF Tools" TeX-pdf-tools-sync-view))
+        TeX-view-program-selection '((output-pdf "PDF Tools"))))
+
+;; RefTeX configuration
+(use-package reftex
+  :after tex
+  :config
+  (add-hook 'LaTeX-mode-hook 'turn-on-reftex)
+  (setq reftex-plug-into-AUCTeX t
+        reftex-ref-macro-prompt nil
+        reftex-cite-prompt-optional-args t))
+
+;; Company mode completion
+(use-package company-auctex
+  :straight t
+  :after (tex company)
+  :config
+  (company-auctex-init))
+
+;; Yasnippet configuration
+(use-package yasnippet
+  :straight t
+  :config
+  (yas-global-mode 1))
+
+(use-package yasnippet-snippets
+  :straight t
+  :after yasnippet)
+
+;; Latexmk integration
+(use-package auctex-latexmk
+  :straight t
+  :after tex
+  :config
+  (auctex-latexmk-setup)
+  (setq auctex-latexmk-inherit-TeX-PDF-mode t
+        auctex-latexmk-tex-command "latexmk"))
+
+;; CDLaTeX for math editing
+(use-package cdlatex
+  :straight t
+  :after tex
+  :hook (LaTeX-mode . turn-on-cdlatex)
+  :config
+  (setq cdlatex-math-symbol-alist
+        '((?b ("\\mathbb" nil))
+          (?c ("\\mathcal" nil))
+          (?f ("\\mathfrak" nil))
+          (?n ("\\mathnormal" nil))
+          (?r ("\\mathrm" nil))
+          (?s ("\\mathscr" nil)))))
+
+;; Keybindings
+(with-eval-after-load 'tex
+  (define-key LaTeX-mode-map (kbd "C-c C-e") 'LaTeX-environment)
+  (define-key LaTeX-mode-map (kbd "C-c C-s") 'LaTeX-section)
+  (define-key LaTeX-mode-map (kbd "C-c C-m") 'LaTeX-insert-math))
+
+;; Zathura configuration
+(setq TeX-view-program-list
+      '(("Zathura" "zathura %o"
+         (mode-io-correlate "--synctex-forward %n:0:%b -x \"emacsclient +%{line} %{input}\""))))
+
+;; Electric pairs for math
+(add-hook 'LaTeX-mode-hook
+          (lambda ()
+            (setq-local electric-pair-pairs
+                        (append '((?$ . ?$)) electric-pair-pairs))))
+
+(provide 'auctex)
+;;; auctex.el ends here

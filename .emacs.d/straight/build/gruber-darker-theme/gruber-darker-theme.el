@@ -1,0 +1,1 @@
+/home/ole/.emacs.d/straight/repos/gruber-darker-theme/gruber-darker-theme.el

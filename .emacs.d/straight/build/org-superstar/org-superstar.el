@@ -1,0 +1,1 @@
+/home/ole/.emacs.d/straight/repos/org-superstar-mode/org-superstar.el

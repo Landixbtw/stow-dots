@@ -1,0 +1,1 @@
+/home/ole/.emacs.d/straight/repos/yaml.el/yaml.el

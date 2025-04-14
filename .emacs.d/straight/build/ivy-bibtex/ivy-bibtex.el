@@ -1,0 +1,1 @@
+/home/ole/.emacs.d/straight/repos/helm-bibtex/ivy-bibtex.el

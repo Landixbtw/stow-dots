@@ -1,0 +1,1 @@
+/home/ole/.emacs.d/straight/repos/auctex/style/slides.el

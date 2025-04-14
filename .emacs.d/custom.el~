@@ -1,0 +1,32 @@
+;;; -*- lexical-binding: t -*-
+(custom-set-variables
+ ;; custom-set-variables was added by Custom.
+ ;; If you edit it by hand, you could mess it up, so be careful.
+ ;; Your init file should contain only one such instance.
+ ;; If there is more than one, they won't work right.
+ '(custom-enabled-themes '(gruber-darker))
+ '(custom-safe-themes
+   '("01a9797244146bbae39b18ef37e6f2ca5bebded90d9fe3a2f342a9e863aaa4fd"
+     default))
+ '(package-selected-packages
+   '(company dap-mode dash-functional evil flycheck gruber-darker-theme
+	     helm-lsp helm-xref helpful magit marginalia projectile
+	     vertico yasnippet)))
+(custom-set-faces
+ ;; custom-set-faces was added by Custom.
+ ;; If you edit it by hand, you could mess it up, so be careful.
+ ;; Your init file should contain only one such instance.
+ ;; If there is more than one, they won't work right.
+ )
+
+;; change modline fontsize
+(set-face-attribute 'mode-line nil :height 200 :box '(:line-width 6 :style nil))
+
+;; make the modeline zoom with C-x-+ ...
+(defadvice text-scale-increase (after update-modeline activate)
+  "Also scale the mode line when text is scaled."
+  (let ((height (expt text-scale-mode-step text-scale-mode-amount)))
+    (set-face-attribute 'mode-line nil :height (* height (face-attribute 'default :height)))))
+
+(provide 'custom)
+;; custom.el ends here

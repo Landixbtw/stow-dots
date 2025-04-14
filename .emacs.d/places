@@ -1,0 +1,23 @@
+;;; -*- coding: utf-8; mode: lisp-data -*-
+(("/home/ole/LaTeX/Mathe/LineareAlgebra/main.tex" . 5109)
+ ("/home/ole/LaTeX/Mathe/LineareAlgebra/Kapitel/06_Lineare Algebra.tex"
+  . 15798)
+ ("/home/ole/.emacs.d/auctex.el" . 1303)
+ ("/home/ole/.emacs.d/init.el" . 1608)
+ ("/home/ole/.emacs.d/packages.el" . 2969)
+ ("/home/ole/LaTeX/Mathe/LineareAlgebra/.dir-locals.el" . 68)
+ ("/home/ole/Dokumente/Projekte/c/oshell/src/main.c" . 1235)
+ ("/home/ole/LaTeX/Mathe/LineareAlgebra/Kapitel/"
+  (dired-filename
+   . "/home/ole/LaTeX/Mathe/LineareAlgebra/Kapitel/06_Lineare Algebra.fdb_latexmk"))
+ ("/home/ole/.emacs.d/custom.el" . 3447)
+ ("/home/ole/LaTeX/Mathe/LineareAlgebra/Kapitel/06_Lineare Algebra.fls"
+  . 345)
+ ("/home/ole/.emacs.d/" . 128)
+ ("/home/ole/.emacs.d/modeline.el" . 1190)
+ ("/home/ole/.emacs.d/org.el" . 5)
+ ("/home/ole/.emacs.d/package-install.el" . 458)
+ ("/home/ole/org/PROG2/test.org" . 42) ("/home/ole/org/PROG2/" . 232)
+ ("/home/ole/org/" (dired-filename . "/home/ole/org/notes.org"))
+ ("/home/ole/Dokumente/org/org-basics.org" . 194)
+ ("/home/ole/org/notes.org" . 134))

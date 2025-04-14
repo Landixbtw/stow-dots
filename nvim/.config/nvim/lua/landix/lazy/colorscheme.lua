@@ -10,7 +10,7 @@ return {
     {
         -- block cursor is white on white theme
         -- only usable on white terminal background
-        enabled = false,
+        enabled = true,
         "LunarVim/templeos.nvim",
         -- "Landixbtw/templeos.nvim",
         config = function ()
@@ -54,14 +54,14 @@ return {
         end
     },
     {
-        enabled = true,
+        enabled = false,
         "nickkadutskyi/jb.nvim",
         config = function ()
             vim.cmd.colorscheme("jb")
         end
     },
     {
-        enabled = true,
+        enabled = false,
         "ferdinandrau/carbide.nvim",
         config = function ()
             vim.cmd.colorscheme("carbide")

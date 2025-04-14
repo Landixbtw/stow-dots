@@ -1,0 +1,127 @@
+;;; packages.el --- Package declarations -*- lexical-binding: t; -*-
+
+
+;; UI and Themes
+(use-package gruber-darker-theme
+  :config
+  (load-theme 'gruber-darker t))
+
+;; Vim emulation (uncomment if you want Vim keybindings)
+(use-package evil
+  :init
+  (setq evil-want-integration t)
+  (setq evil-want-keybinding nil)
+  :config
+  (evil-mode 1))
+
+;; Better help
+(use-package helpful
+  :bind (("C-h f" . helpful-callable)
+         ("C-h v" . helpful-variable)
+         ("C-h k" . helpful-key)
+         ("C-c C-d" . helpful-at-point)
+         ("C-h F" . helpful-function)
+         ("C-h C" . helpful-command)))
+
+;; Git
+(use-package magit
+  :config
+  (setq magit-auto-revert-mode nil)
+  :bind (("C-c m s" . magit-status)
+         ("C-c m l" . magit-log)))
+
+;; Completion and Navigation
+(use-package vertico
+  :custom
+  (vertico-cycle t)
+  (read-buffer-completion-ignore-case t)
+  (read-file-name-completion-ignore-case t)
+  (completion-styles '(basic substring partial-completion flex))
+  :config
+  (vertico-mode))
+
+(use-package marginalia
+  :config
+  (marginalia-mode))
+
+;; Development tools
+(use-package which-key
+  :config
+  (which-key-mode))
+
+(use-package lsp-mode
+  :hook ((c-mode . lsp)
+         (c++-mode . lsp))
+  :custom
+  (lsp-idle-delay 0.1)
+  :config
+  (add-hook 'lsp-mode-hook #'lsp-enable-which-key-integration))
+
+(use-package company
+  :custom
+  (company-idle-delay 0.0)
+  (company-minimum-prefix-length 1)
+  :config
+  (global-company-mode))
+
+(use-package yasnippet
+  :config
+  (yas-global-mode 1))
+
+(use-package flycheck
+  :config
+  (global-flycheck-mode))
+
+(use-package lsp-treemacs)
+
+(use-package projectile
+  :config
+  (projectile-mode +1))
+
+(use-package dap-mode
+  :config
+  (require 'dap-cpptools))
+
+(use-package vterm
+   :ensure t
+   :config
+   (setq vterm-shell (executable-find "zsh")) ; Or "bash", "fish", etc.
+   (setq vterm-max-scrollback 10000) ; Adjust as needed
+
+   (defun my-vterm-hook ()
+     "Customizations to apply when vterm opens."
+     (setq-local display-line-numbers-mode nil))  ; Disable line numbers in vterm buffers
+
+   (add-hook 'vterm-mode-hook 'my-vterm-hook)
+
+   ;; Optional keybinding
+   (global-set-key (kbd "C-c t") 'vterm) ; Change "C-c t" to your preferred key
+ )
+
+
+(use-package org
+  :flags '(+pretty)   ; <----- Add :flags '(+pretty)
+  :init
+  (setq org-directory "~/org/") ; Or your org directory
+  :config
+  (setq org-ellipsis " ▼ ")
+  (setq org-hide-emphasis-markers t)
+  )
+
+;; Org Mode Enhancements
+(use-package org-superstar
+  :hook (org-mode . org-superstar-mode))
+
+(use-package org-super-agenda
+  :ensure t
+  :config (org-super-agenda-mode))
+
+(use-package org-roam
+  :ensure t
+  :custom
+  (org-roam-directory "~/org")
+  :config
+  (org-roam-db-autosync-mode))
+
+
+(provide 'packages)

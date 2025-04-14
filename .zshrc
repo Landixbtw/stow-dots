@@ -45,3 +45,34 @@ function tat {
   fi
 }
 
+
+
+open() {
+  if [ -z "$1" ]; then
+    echo "Usage: open <file or directory>"
+    return 1
+  fi
+
+  target=$(realpath "$1")
+
+  if [ -f "$target" ]; then
+    case "$target" in
+      *.pdf)
+        nohup zathura "$target" >/dev/null 2>&1 &
+        ;;
+      *)
+        nohup xdg-open "$target" >/dev/null 2>&1 &
+        ;;
+    esac
+  elif [ -d "$target" ]; then
+    nohup xdg-open "$target" >/dev/null 2>&1 &
+  else
+    echo "File or directory not found: $target"
+    return 1
+  fi
+
+  disown
+  exit
+}
+
+

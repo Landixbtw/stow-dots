@@ -1,0 +1,1 @@
+("~/LaTeX/" "~/" "~/Dokumente/Projekte/c/oshell/")
