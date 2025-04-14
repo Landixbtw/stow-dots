@@ -1,1 +1,1 @@
-("~/LaTeX/" "~/" "~/Dokumente/Projekte/c/oshell/")
+("~/stow-dots/" "~/LaTeX/" "~/Dokumente/Projekte/c/oshell/" "~/")
