@@ -1,1 +1,0 @@
-/home/ole/.emacs.d/straight/repos/company-math/company-math.el

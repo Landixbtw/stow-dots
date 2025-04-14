@@ -1,1 +1,0 @@
-/home/ole/.emacs.d/straight/repos/let-alist/.github/PULL_REQUEST_TEMPLATE.md

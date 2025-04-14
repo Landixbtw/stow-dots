@@ -1,1 +1,0 @@
-/home/ole/.emacs.d/straight/repos/auctex/style/l3doc.el

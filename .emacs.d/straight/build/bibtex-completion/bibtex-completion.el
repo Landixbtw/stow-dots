@@ -1,1 +1,0 @@
-/home/ole/.emacs.d/straight/repos/helm-bibtex/bibtex-completion.el
