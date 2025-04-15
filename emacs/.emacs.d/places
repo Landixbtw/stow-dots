@@ -1,11 +1,10 @@
 ;;; -*- coding: utf-8; mode: lisp-data -*-
-(("/home/ole/Dokumente/Projekte/c/oshell/src/envvars.c" . 139)
- ("/home/ole/Dokumente/Projekte/c/oshell/src/execute_command.c" . 2113)
- ("/home/ole/LaTeX/Mathe/LineareAlgebra/main.tex" . 5032)
+(("/home/ole/LaTeX/Mathe/LineareAlgebra/main.tex" . 5079)
  ("/home/ole/LaTeX/Mathe/LineareAlgebra/Kapitel/06_Lineare Algebra.tex"
   . 17265)
- ("/home/ole/stow-dots/emacs/.emacs.d/auctex.el" . 1926)
- ("/home/ole/.emacs.d/init.el" . 606)
+ ("/home/ole/stow-dots/emacs/.emacs.d/auctex.el" . 2707)
+ ("/home/ole/Dokumente/Projekte/c/oshell/src/envvars.c" . 139)
+ ("/home/ole/Dokumente/Projekte/c/oshell/src/execute_command.c" . 2113)
  ("/home/ole/.emacs.d/packages.el" . 2969)
  ("/home/ole/LaTeX/Mathe/LineareAlgebra/.dir-locals.el" . 68)
  ("/home/ole/Dokumente/Projekte/c/oshell/src/main.c" . 1235)
