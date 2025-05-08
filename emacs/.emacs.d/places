@@ -1,19 +1,32 @@
 ;;; -*- coding: utf-8; mode: lisp-data -*-
-(("/home/ole/LaTeX/Mathe/LineareAlgebra/main.tex" . 5079)
+(("/home/ole/LaTeX/Mathe/LineareAlgebra/Kapitel/07_Linear_unabhaengige.tex"
+  . 9933)
+ ("/home/ole/LaTeX/Mathe/LineareAlgebra/main.tex" . 4532)
  ("/home/ole/LaTeX/Mathe/LineareAlgebra/Kapitel/06_Lineare Algebra.tex"
-  . 17265)
+  . 27285)
+ ("/home/ole/LaTeX/Mathe/LineareAlgebra/Kapitel/08_LGS_Matrizen_Determinanten.tex"
+  . 1294)
+ ("/home/ole/stow-dots/emacs/.emacs.d/init.el" . 798)
+ ("/home/ole/org/BWL/6.Internes_Rechnungswesen.org" . 1832)
+ ("/home/ole/LaTeX/Mathe/LineareAlgebra/Kapitel/05_Beweistechniken.tex"
+  . 8752)
+ ("/home/ole/LaTeX/Mathe/LineareAlgebra/Kapitel/01_Mengen.tex" . 2991)
+ ("/home/ole/LaTeX/Mathe/LineareAlgebra/Kapitel/02_Summen und Produktschreibweise.tex"
+  . 183)
+ ("/home/ole/org/BWL/4.Organisation.org" . 261)
+ ("/home/ole/org/BWL/5.Externes_Rechnungswesen.org" . 2947)
+ ("/home/ole/Dokumente/Projekte/c/oshell/src/execute_command.c" . 2194)
+ ("/home/ole/Dokumente/Projekte/c/oshell/src/main.c" . 1235)
+ ("/home/ole/stow-dots/emacs/.emacs.d/custom.el" . 859)
+ ("/home/ole/LaTeX/Mathe/LineareAlgebra/Kapitel/03_Binomialkoeffizienten und der binomische Lehrsatz.tex"
+  . 2835)
  ("/home/ole/stow-dots/emacs/.emacs.d/auctex.el" . 2707)
  ("/home/ole/Dokumente/Projekte/c/oshell/src/envvars.c" . 139)
- ("/home/ole/Dokumente/Projekte/c/oshell/src/execute_command.c" . 2113)
  ("/home/ole/.emacs.d/packages.el" . 2969)
  ("/home/ole/LaTeX/Mathe/LineareAlgebra/.dir-locals.el" . 68)
- ("/home/ole/Dokumente/Projekte/c/oshell/src/main.c" . 1235)
  ("/home/ole/LaTeX/Mathe/LineareAlgebra/Kapitel/"
   (dired-filename
    . "/home/ole/LaTeX/Mathe/LineareAlgebra/Kapitel/06_Lineare Algebra.fdb_latexmk"))
- ("/home/ole/.emacs.d/custom.el" . 3447)
- ("/home/ole/LaTeX/Mathe/LineareAlgebra/Kapitel/06_Lineare Algebra.fls"
-  . 345)
  ("/home/ole/.emacs.d/" . 128)
  ("/home/ole/.emacs.d/modeline.el" . 1190)
  ("/home/ole/.emacs.d/org.el" . 5)

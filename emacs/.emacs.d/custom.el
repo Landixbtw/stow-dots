@@ -19,12 +19,6 @@
  ;; If there is more than one, they won't work right.
  )
 
-;; make the modeline zoom with C-x-+ ...
-(defadvice text-scale-increase (after update-modeline activate)
-  "Also scale the mode line when text is scaled."
-  (let ((height (expt text-scale-mode-step text-scale-mode-amount)))
-    (set-face-attribute 'mode-line nil :height (* height (face-attribute 'default :height)))))
-
 (defun try/TeX-command-save-buffer-and-run-all ()
     "Save the buffer and run TeX-command-run-all"
     (interactive)

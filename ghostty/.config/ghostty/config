@@ -1,9 +1,12 @@
-font-family = "Mono Sans Mono"
+# font-family = "Mono Sans Mono"
 # font-family = "Hack Nerd Font Mono"
 # font-family = "SFMono Nerd Font Mono"
 
 # font-family = "CaskaydiaCove Nerd Font"
 # font-family = "TempleOS"
+
+font-family = "MonaspaceNeon"
+font-style = "SemiWide Regular"
 
 font-size = 18 
 font-style-bold = false 
