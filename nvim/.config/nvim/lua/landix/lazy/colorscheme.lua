@@ -10,7 +10,7 @@ return {
     {
         -- block cursor is white on white theme
         -- only usable on white terminal background
-        enabled = true,
+        enabled = false,
         "LunarVim/templeos.nvim",
         -- "Landixbtw/templeos.nvim",
         config = function ()
@@ -32,7 +32,7 @@ return {
         end
     },
     {
-        enabled = false,
+        enabled = true,
         "tjdevries/gruvbuddy.nvim",
         dependencies = {
             "tjdevries/colorbuddy.nvim",
@@ -71,7 +71,7 @@ return {
         enabled = false,
         "oonamo/ef-themes.nvim",
         config = function ()
-            vim.cmd.colorscheme("ef-dream")
+            vim.cmd.colorscheme("ef-cyprus")
         end
     },
 }

@@ -1,13 +1,18 @@
 ;;; -*- coding: utf-8; mode: lisp-data -*-
-(("/home/ole/LaTeX/Mathe/LineareAlgebra/Kapitel/07_Linear_unabhaengige.tex"
-  . 9933)
+(("/home/ole/Dokumente/Projekte/c/oshell/src/utils.c" . 3447)
+ ("/home/ole/org/RNET/9.Personalwirtschaft.org" . 179)
+ ("/home/ole/org/RNET/6.Cybersicherheit&Kryptografie.org" . 532)
+ ("/home/ole/org/BWL/8.Marketing.org" . 964)
+ ("/home/ole/stow-dots/emacs/.emacs.d/init.el" . 877)
+ ("/home/ole/stow-dots/emacs/.emacs.d/packages.el" . 2118)
+ ("/home/ole/org/BWL/6.Internes_Rechnungswesen.org" . 1440)
  ("/home/ole/LaTeX/Mathe/LineareAlgebra/main.tex" . 4532)
  ("/home/ole/LaTeX/Mathe/LineareAlgebra/Kapitel/06_Lineare Algebra.tex"
-  . 27285)
+  . 14987)
  ("/home/ole/LaTeX/Mathe/LineareAlgebra/Kapitel/08_LGS_Matrizen_Determinanten.tex"
-  . 1294)
- ("/home/ole/stow-dots/emacs/.emacs.d/init.el" . 798)
- ("/home/ole/org/BWL/6.Internes_Rechnungswesen.org" . 1832)
+  . 1810)
+ ("/home/ole/LaTeX/Mathe/LineareAlgebra/Kapitel/07_Linear_unabhaengige.tex"
+  . 11743)
  ("/home/ole/LaTeX/Mathe/LineareAlgebra/Kapitel/05_Beweistechniken.tex"
   . 8752)
  ("/home/ole/LaTeX/Mathe/LineareAlgebra/Kapitel/01_Mengen.tex" . 2991)
@@ -21,8 +26,6 @@
  ("/home/ole/LaTeX/Mathe/LineareAlgebra/Kapitel/03_Binomialkoeffizienten und der binomische Lehrsatz.tex"
   . 2835)
  ("/home/ole/stow-dots/emacs/.emacs.d/auctex.el" . 2707)
- ("/home/ole/Dokumente/Projekte/c/oshell/src/envvars.c" . 139)
- ("/home/ole/.emacs.d/packages.el" . 2969)
  ("/home/ole/LaTeX/Mathe/LineareAlgebra/.dir-locals.el" . 68)
  ("/home/ole/LaTeX/Mathe/LineareAlgebra/Kapitel/"
   (dired-filename

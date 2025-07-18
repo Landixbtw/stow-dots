@@ -31,7 +31,7 @@ alias connect="ssh rocky@hostrocky"
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 
 # Starship prompt (if you use it)
-eval "$(starship init zsh)"
+# eval "$(starship init zsh)"
 
 # Function to attach to tmux session if it exists or create a new one
 function tat {
@@ -76,3 +76,5 @@ open() {
 }
 
 
+
+export PATH=$PATH:/home/ole/.spicetify

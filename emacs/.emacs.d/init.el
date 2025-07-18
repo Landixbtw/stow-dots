@@ -22,7 +22,7 @@
 (tool-bar-mode 0)
 (scroll-bar-mode 0)
 (global-display-line-numbers-mode)
-;; (set-face-attribute 'default nil :family "JetBrainsMono NFM" :height 160)
+(set-face-attribute 'default nil :family "JetBrainsMono Nerd Font Mono" :height 180)
 
 ;; General Settings
 (electric-pair-mode 1)

@@ -92,3 +92,7 @@ vim.opt.hlsearch = true
 vim.keymap.set('n', '<Esc>', '<cmd>nohlsearch<CR>')
 
 vim.opt.conceallevel = 1
+
+if vim.fn.filereadable("build/build.ninja") == 1 then
+    vim.opt.makeprg = "ninja -C build"
+end
