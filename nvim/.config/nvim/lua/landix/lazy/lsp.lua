@@ -232,6 +232,8 @@ return {
 
                 asm_lsp = {};
 
+                gopls = {};
+
                 texlab = {},
 				lua_ls = {
 					-- cmd = {...},

@@ -1,11 +1,14 @@
 ;;; -*- coding: utf-8; mode: lisp-data -*-
-(("/home/ole/Dokumente/Projekte/c/oshell/src/utils.c" . 3447)
- ("/home/ole/org/RNET/9.Personalwirtschaft.org" . 179)
- ("/home/ole/org/RNET/6.Cybersicherheit&Kryptografie.org" . 532)
- ("/home/ole/org/BWL/8.Marketing.org" . 964)
+(("/home/ole/LaTeX/oshellReport/main.tex" . 520)
+ ("/home/ole/LaTeX/oshellReport/main.toc" . 502)
+ ("/home/ole/LaTeX/oshellReport/_minted/B8F964FFDA8A2D419B326A334F819676.highlight.minted"
+  . 90)
+ ("/home/ole/LaTeX/oshellReport/_minted/2229209975B4D95B95F44119C1A1F4A8.highlight.minted"
+  . 303)
+ ("/home/ole/LaTeX/oshellReport/main.log" . 55760)
+ ("/home/ole/Dokumente/Projekte/c/oshell/src/utils.c" . 3447)
  ("/home/ole/stow-dots/emacs/.emacs.d/init.el" . 877)
  ("/home/ole/stow-dots/emacs/.emacs.d/packages.el" . 2118)
- ("/home/ole/org/BWL/6.Internes_Rechnungswesen.org" . 1440)
  ("/home/ole/LaTeX/Mathe/LineareAlgebra/main.tex" . 4532)
  ("/home/ole/LaTeX/Mathe/LineareAlgebra/Kapitel/06_Lineare Algebra.tex"
   . 14987)
@@ -18,8 +21,6 @@
  ("/home/ole/LaTeX/Mathe/LineareAlgebra/Kapitel/01_Mengen.tex" . 2991)
  ("/home/ole/LaTeX/Mathe/LineareAlgebra/Kapitel/02_Summen und Produktschreibweise.tex"
   . 183)
- ("/home/ole/org/BWL/4.Organisation.org" . 261)
- ("/home/ole/org/BWL/5.Externes_Rechnungswesen.org" . 2947)
  ("/home/ole/Dokumente/Projekte/c/oshell/src/execute_command.c" . 2194)
  ("/home/ole/Dokumente/Projekte/c/oshell/src/main.c" . 1235)
  ("/home/ole/stow-dots/emacs/.emacs.d/custom.el" . 859)
@@ -33,8 +34,4 @@
  ("/home/ole/.emacs.d/" . 128)
  ("/home/ole/.emacs.d/modeline.el" . 1190)
  ("/home/ole/.emacs.d/org.el" . 5)
- ("/home/ole/.emacs.d/package-install.el" . 458)
- ("/home/ole/org/PROG2/test.org" . 42) ("/home/ole/org/PROG2/" . 232)
- ("/home/ole/org/" (dired-filename . "/home/ole/org/notes.org"))
- ("/home/ole/Dokumente/org/org-basics.org" . 194)
- ("/home/ole/org/notes.org" . 134))
+ ("/home/ole/.emacs.d/package-install.el" . 458))

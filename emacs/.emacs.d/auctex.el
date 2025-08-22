@@ -22,6 +22,7 @@
   :ensure auctex
   :defer t
   :custom
+  (TeX-engine 'luatex)
   (olivetti-body-width 100)
   (cdlatex-simplify-sub-super-scripts nil)
   (reftex-default-bibliography

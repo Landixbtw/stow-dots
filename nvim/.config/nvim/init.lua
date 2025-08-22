@@ -14,4 +14,4 @@ package.path = custom_lua_pattern .. ';' .. package.path
 require("landix")
 require("lsp.setup")
 
-vim.lsp.enable({'clangd', 'luals', 'jdtls'})
+vim.lsp.enable({'clangd', 'luals', 'jdtls', 'gopls'})

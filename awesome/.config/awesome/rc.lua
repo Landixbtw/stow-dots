@@ -128,7 +128,7 @@ beautiful.font = "JetBraisMono Nerd Font 11"
 
 -- This is used later as the default terminal and editor to run.
 
-terminal = "ghostty"
+terminal = "alacritty"
 editor = os.getenv("EDITOR") or "nvim"
 editor_cmd = terminal .. " -e " .. editor
 
@@ -783,5 +783,5 @@ end)
 -- awful.spawn.with_shell("wal -R")
 
 -- set screens 
-awful.spawn.with_shell("xrandr --output DP-4 --mode 1920x1080 --rate 164.92 --pos 0x0 --primary")
-awful.spawn.with_shell("xrandr --output DP-2 --mode 1920x1080 --rate 164.92 --pos 1920x0")
+awful.spawn.with_shell("xrandr --output DP-2 --mode 1920x1080 --rate 164.92 --pos 0x0 --primary")
+awful.spawn.with_shell("xrandr --output DP-4 --mode 1920x1080 --rate 164.92 --pos 1920x0")
