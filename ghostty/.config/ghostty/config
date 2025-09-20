@@ -2,11 +2,11 @@
 # font-family = "Hack Nerd Font Mono"
 # font-family = "SFMono Nerd Font Mono"
 
-# font-family = "CaskaydiaCove Nerd Font"
+font-family = "CaskaydiaCove Nerd Font"
 # font-family = "TempleOS"
 
-font-family = "MonaspaceNeon"
-font-style = "SemiWide Regular"
+# font-family = "MonaspaceNeon"
+# font-style = "SemiWide Regular"
 
 # font-family = "JetBrainsMono Nerd Font Mono"
 font-style = "Regular"
@@ -14,8 +14,8 @@ font-size = 18
 
 font-style-bold = false 
 
-# theme = Dracula+
-theme = 3024 Day
+theme = Dracula+
+# theme = 3024 Day
 
 window-save-state = always
 confirm-close-surface = false

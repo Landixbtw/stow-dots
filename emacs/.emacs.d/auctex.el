@@ -23,6 +23,7 @@
   :defer t
   :custom
   (TeX-engine 'luatex)
+
   (olivetti-body-width 100)
   (cdlatex-simplify-sub-super-scripts nil)
   (reftex-default-bibliography
@@ -72,7 +73,7 @@
   (require 'auctex-latexmk)
   (auctex-latexmk-setup)
   (setq auctex-latexmk-inherit-TeX-PDF-mode t)
-  
+  (setq TeX-command-extra-options "--shell-escape")
   ;; Custom function to reliably view PDFs in multifile projects
   (defun my-view-tex-file ()
     "View the PDF corresponding to the master file of the current buffer."
