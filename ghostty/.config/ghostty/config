@@ -1,8 +1,8 @@
 # font-family = "Mono Sans Mono"
-# font-family = "Hack Nerd Font Mono"
+font-family = "Hack Nerd Font Mono"
 # font-family = "SFMono Nerd Font Mono"
 
-font-family = "CaskaydiaCove Nerd Font"
+# font-family = "CaskaydiaCove Nerd Font"
 # font-family = "TempleOS"
 
 # font-family = "MonaspaceNeon"

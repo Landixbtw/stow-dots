@@ -6,12 +6,12 @@
   (load-theme 'gruber-darker t))
 
 ;; Evil mode
-(use-package evil
-  :init
-  (setq evil-want-integration t)
-  (setq evil-want-keybinding nil)
-  :config
-  (evil-mode 1))
+;; (use-package evil
+;;   :init
+;;   (setq evil-want-integration t)
+;;   (setq evil-want-keybinding nil)
+;;   :config
+;;   (evil-mode 1))
 
 (use-package evil-nerd-commenter
   :bind ("M-/" . evilnc-comment-or-uncomment-lines))
@@ -60,6 +60,7 @@
 ;; LSP & Tools
 (use-package which-key
   :config
+  (setq which-key-idle-delay 0.3)
   (which-key-mode))
 
 (use-package lsp-mode

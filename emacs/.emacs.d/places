@@ -1,6 +1,49 @@
 ;;; -*- coding: utf-8; mode: lisp-data -*-
-(("/home/ole/LaTeX/oshellReport/main.tex" . 9048)
- ("/home/ole/LaTeX/oshellReport/main.toc" . 699)
+(("/home/ole/Dokumente/Uni/RNET/myTCP/myTCPServer.java" . 464)
+ ("/home/ole/Dokumente/Projekte/c/websocket/src/client.c" . 6604)
+ ("/home/ole/Dokumente/Projekte/c/websocket/src/server.c" . 7672)
+ ("/home/ole/Dokumente/Projekte/c/oshell/"
+  (dired-filename . "/home/ole/Dokumente/Projekte/c/oshell/buildDir"))
+ ("/home/ole/Dokumente/Projekte/c/oshell/src/main.c" . 1235)
+ ("/home/ole/Dokumente/Uni/RNET/myTCP/myTCPClient.java" . 901)
+ ("/home/ole/stow-dots/emacs/.emacs.d/packages.el" . 1378)
+ ("/home/ole/Dokumente/Projekte/c/websocket/"
+  (dired-filename
+   . "/home/ole/Dokumente/Projekte/c/websocket/buildDir"))
+ ("/home/ole/stow-dots/emacs/.emacs.d/init.el" . 755)
+ ("/home/ole/Dokumente/Projekte/c/websocket/src/"
+  (dired-filename
+   . "/home/ole/Dokumente/Projekte/c/websocket/src/client.c"))
+ ("/home/ole/LaTeX/oshellReport/main.tex" . 12346)
+ ("/home/ole/LaTeX/oshellReport/oshell.bib" . 882)
+ ("/home/ole/LaTeX/oshellReport/_minted/8CA722B9E81E9A70EC79F923BFB2A140.highlight.minted"
+  . 828)
+ ("/home/ole/LaTeX/oshellReport/_minted/D76A4A5CEE77CA751048DDDCB36F6F1D.highlight.minted"
+  . 258)
+ ("/home/ole/LaTeX/oshellReport/_minted/9834A62808218976CDA332437523ED47.highlight.minted"
+  . 122)
+ ("/home/ole/LaTeX/Bewerbungen/BewerbungVSULM/" . 208)
+ ("/home/ole/LaTeX/Bewerbungen/MotiviationsSchreibenVSULM/"
+  (dired-filename
+   . "/home/ole/LaTeX/Bewerbungen/MotiviationsSchreibenVSULM/main.tex"))
+ ("/home/ole/LaTeX/Bewerbungen/MotiviationsSchreibenVSULM/main.tex"
+  . 1685)
+ ("/home/ole/LaTeX/oshellReport/_minted/8493A623BCDFC3640484C5C9FC0F0D86.highlight.minted"
+  . 465)
+ ("/home/ole/Dokumente/Uni/RNET/2Laborbericht/main.tex" . 827)
+ ("/home/ole/Dokumente/Uni/RNET/4Laborbericht/"
+  (dired-filename
+   . "/home/ole/Dokumente/Uni/RNET/4Laborbericht/main.toc"))
+ ("/home/ole/LaTeX/oshellReport/_minted/8C5831C5A2A2E4A186E61D9BABF8349B.highlight.minted"
+  . 702)
+ ("/home/ole/Dokumente/Uni/RNET/1Laborbericht/"
+  (dired-filename
+   . "/home/ole/Dokumente/Uni/RNET/1Laborbericht/RNET.bib"))
+ ("/home/ole/Dokumente/Projekte/c/oshell/projectReport/"
+  (dired-filename
+   . "/home/ole/Dokumente/Projekte/c/oshell/projectReport/oshellReport"))
+ ("/home/ole/LaTeX/oshellReport/_minted/C4EBCB202ADA32ADF75E7EFEBD8ABCDD.highlight.minted"
+  . 1161)
  ("/home/ole/LaTeX/oshellReport/svg-inkscape/multiPipe.drawio_svg-tex.pdf_tex"
   . 2063)
  ("/home/ole/LaTeX/oshellReport/"
@@ -9,13 +52,10 @@
   . 405)
  ("/home/ole/Dokumente/Projekte/c/oshell/src/piping.c" . 2536)
  ("/home/ole/LaTeX/oshellReport/main.bcf" . 108038)
- ("/home/ole/LaTeX/oshellReport/oshell.bib" . 882)
  ("/home/ole/Dokumente/Projekte/c/oshell/src/utils.c" . 3447)
  ("/home/ole/org/RNET/9.Personalwirtschaft.org" . 179)
  ("/home/ole/org/RNET/6.Cybersicherheit&Kryptografie.org" . 532)
  ("/home/ole/org/BWL/8.Marketing.org" . 964)
- ("/home/ole/stow-dots/emacs/.emacs.d/init.el" . 877)
- ("/home/ole/stow-dots/emacs/.emacs.d/packages.el" . 2118)
  ("/home/ole/org/BWL/6.Internes_Rechnungswesen.org" . 1440)
  ("/home/ole/LaTeX/Mathe/LineareAlgebra/main.tex" . 4532)
  ("/home/ole/LaTeX/Mathe/LineareAlgebra/Kapitel/06_Lineare Algebra.tex"
@@ -32,8 +72,6 @@
  ("/home/ole/org/BWL/4.Organisation.org" . 261)
  ("/home/ole/org/BWL/5.Externes_Rechnungswesen.org" . 2947)
  ("/home/ole/Dokumente/Projekte/c/oshell/src/execute_command.c" . 2194)
- ("/home/ole/Dokumente/Projekte/c/oshell/src/main.c" . 1235)
- ("/home/ole/stow-dots/emacs/.emacs.d/custom.el" . 859)
  ("/home/ole/LaTeX/Mathe/LineareAlgebra/Kapitel/03_Binomialkoeffizienten und der binomische Lehrsatz.tex"
   . 2835)
  ("/home/ole/stow-dots/emacs/.emacs.d/auctex.el" . 2707)
