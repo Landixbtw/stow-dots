@@ -141,6 +141,28 @@
     (setq olivetti-body-width 120)
 )
 
+					; help with context and commands
+(use-package marginalia
+  :ensure t
+  :config
+  (marginalia-mode))
 
+(use-package embark
+  :ensure t
+
+  :bind
+  (("C-." . embark-act)
+   ("C-;" . embark-dwim)
+   ("C-h B" . embark-bindings )) ;; alternative for 'describe-bindings'
+
+  (add-hook 'eldoc-documentation-functions #'embark-eldoc-first-target)
+  (setq eldoc-documentation-strategy #'eldoc-documentation-compose-eagerly)
+  
+  :config
+  ;; Hide the mode line of the Embark live/completions buffers
+    (add-to-list 'display-buffer-alist
+               '("\\`\\*Embark Collect \\(Live\\|Completions\\)\\*"
+                 nil
+                 (window-parameters (mode-line-format . none)))))
 (provide 'packages)
 ;;; packages.el ends here

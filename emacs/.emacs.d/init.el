@@ -58,6 +58,13 @@
 
 (setq enable-local-eval t)
 
+;; Disable the annoying bell sound
+(setq ring-bell-function 'ignore)
+
+;; Set the prefix for LSP commands to C-c l
+;; to mimic nvim K C-c l h h
+(setq lsp-keymap-prefix "C-c l")
+
 (provide 'init)
 ;;; init.el ends here
 
