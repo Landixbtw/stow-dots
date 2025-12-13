@@ -1,6 +1,6 @@
-;;; Init.el --- Main initialization file for Emacs -*- lexical-binding: t; -*-
+;;; init.el --- main initialization for emacs -*- lexical-binding: t; -*-
 
-;; Bootstrap straight.el properly
+;; Bootstrap the package manager straight.el
 (defvar bootstrap-version)
 (let ((bootstrap-file
        (expand-file-name "straight/repos/straight.el/bootstrap.el" user-emacs-directory))
@@ -17,47 +17,61 @@
 (straight-use-package 'use-package)
 (setq straight-use-package-by-default t)
 
+(add-to-list 'load-path user-emacs-directory)
+
+(require 'packages)
+;; (require 'auctex)
+;; (require 'modeline)
+(require 'org)
+
 (setq custom-file (expand-file-name "custom.el" user-emacs-directory))
 
-;; UI Configuration
+(use-package project
+  :straight (:type built-in))
+
+
+
+;; UI config
 (menu-bar-mode 0)
 (tool-bar-mode 0)
 (scroll-bar-mode 0)
-(global-display-line-numbers-mode)
-(set-face-attribute 'default nil :family "JetBrainsMono Nerd Font Mono" :height 180)
 
-;; General Settings
+(setq display-line-numbers-type 'relative)
+(global-display-line-numbers-mode +1)
+
+(set-face-attribute 'default nil :family "CaskaydiaCove Nerd Font" :height 170)
+
 (electric-pair-mode 1)
 (save-place-mode t)
 (global-auto-revert-mode t)
 (setq make-backup-files nil)
 
-;; Indentation
+;; indentation
 (setq-default indent-tabs-mode t)
 (setq backward-delete-char-untabify-method nil)
 (setq tab-width 4
       c-basic-offset tab-width)
-
-;; Here should be dired
-
 
 ;; LSP performance tuning
 (setq gc-cons-threshold (* 100 1024 1024)
       read-process-output-max (* 1024 1024)
       treemacs-space-between-root-nodes nil)
 
-;; Load external config files after everything is set up
-(dolist (file '("auctex.el" "packages.el" "custom.el" "modeline.el" "org.el"))
-  (let ((path (expand-file-name file user-emacs-directory)))
-    (if (file-exists-p path)
-        (condition-case err
-            (load path)
-          (error
-           (message "⚠️ Error loading %s: %s" file err)))
-      (message "⚠️ File not found: %s" file))))
 
-(setq enable-local-eval t)
+;; compilation buffer setup
+;; t scroll constantly , 'first-error' would until first error.
+(setq compilation-scroll-output t)
+;; compilation window apears at bottom
+(add-to-list 'display-buffer-alist
+             '("\\*compilation\\*"
+               (display-buffer-at-bottom)
+               (window-height . 10) ; Set height to 10 lines
+               (reusable-frames . t)))
 
-(provide 'init)
+(setq compilation-auto-jump-to-first-error t)
+
+(global-font-lock-mode t)
+
+
+;; (provide 'init)
 ;;; init.el ends here
-

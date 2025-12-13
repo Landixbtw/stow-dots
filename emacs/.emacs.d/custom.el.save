@@ -6,7 +6,9 @@
  ;; If there is more than one, they won't work right.
  '(custom-enabled-themes '(gruber-darker))
  '(custom-safe-themes
-   '("01a9797244146bbae39b18ef37e6f2ca5bebded90d9fe3a2f342a9e863aaa4fd"
+   '("4622f003fd51adc9a4817aacce66b6ea9ba6ba9fc4c9108772e392f7cb06e30a"
+     "1185283fa4e0604861821c6b3539d39dd7544f0a28d7d3915539bfb2f8d1528a"
+     "01a9797244146bbae39b18ef37e6f2ca5bebded90d9fe3a2f342a9e863aaa4fd"
      default))
  '(package-selected-packages
    '(company dap-mode dash-functional evil flycheck gruber-darker-theme

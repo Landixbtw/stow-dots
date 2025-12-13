@@ -92,7 +92,6 @@
 ;; Load required TeX modules
 (with-eval-after-load 'latex
   (require 'tex)
-  (require 'tex-buf)
   (require 'tex-style)
   (require 'tex-site)
   (require 'tex-mik)

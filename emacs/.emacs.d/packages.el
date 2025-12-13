@@ -1,38 +1,28 @@
-;;; packages.el --- Package declarations -*- lexical-binding: t; -*-
+ ;;; packages.el --- Package declarations -*- lexical-binding: t; -*-
 
-;; Theme
-(use-package gruber-darker-theme
-  :config
-  (load-theme 'gruber-darker t))
+;; Themes
+;; tsoding
 
-;; Evil mode
-;; (use-package evil
-;;   :init
-;;   (setq evil-want-integration t)
-;;   (setq evil-want-keybinding nil)
+;; (use-package gruber-darker-theme
 ;;   :config
-;;   (evil-mode 1))
+;;   (load-theme 'gruber-darker t))
 
-(use-package evil-nerd-commenter
-  :bind ("M-/" . evilnc-comment-or-uncomment-lines))
+(use-package temple-os-theme
+  :straight
+  (:host github :repo "Senka07/temple-os-emacs-theme")
+  :config
+  (load-theme 'temple-os t))
+(custom-set-variables)
 
-;; Helpful
-(use-package helpful
-  :bind (("C-h f" . helpful-callable)
-         ("C-h v" . helpful-variable)
-         ("C-h k" . helpful-key)
-         ("C-c C-d" . helpful-at-point)
-         ("C-h F" . helpful-function)
-         ("C-h C" . helpful-command)))
+;; helpful used to be here, but I did not really use it
 
-;; Magit
 (use-package magit
-  :bind (("C-c m s" . magit-status)
-         ("C-c m l" . magit-log))
+  :bind(("C-c m s" . magit-status)
+	("C-c m l" . magit-log))
   :config
   (setq magit-auto-revert-mode nil))
 
-;; Completion
+;; completion for emacs, not for code
 (use-package vertico
   :custom
   (vertico-cycle t)
@@ -42,8 +32,9 @@
   :config
   (vertico-mode))
 
+;; add explanations to ie M-x eval-buffer
 (use-package marginalia
-  :config (marginalia-mode))
+  :config(marginalia-mode))
 
 (use-package company
   :custom
@@ -52,68 +43,61 @@
   :config
   (global-company-mode))
 
-;; Snippets
-(use-package yasnippet
-  :config
-  (yas-global-mode 1))
-
-;; LSP & Tools
 (use-package which-key
   :config
-  (setq which-key-idle-delay 0.3)
+  (setq which-key-idle-delay 0.2)
   (which-key-mode))
 
-(use-package lsp-mode
-  :hook ((c-mode . lsp)
-         (c++-mode . lsp))
-  :custom
-  (lsp-idle-delay 0.1)
-  :config
-  (add-hook 'lsp-mode-hook #'lsp-enable-which-key-integration))
-
+;; this is suposedly more modern then flymake, which is built-in to emacs
 (use-package flycheck
-    :straight t
   :config
   (global-flycheck-mode))
 
-(use-package lsp-treemacs)
+;; I dont think I have ever used vterm, do I need it?
 
-(use-package dap-mode
-  :config
-  (require 'dap-cpptools))
+(use-package all-the-icons
+  :ensure t
+  :if (display-graphic-p))
 
-(use-package projectile
-  :config
-  (projectile-mode +1))
+;; extras for dired
 
-;; Terminal
-(use-package vterm
-  :custom
-  (vterm-shell (executable-find "zsh"))
-  (vterm-max-scrollback 10000)
-  :hook (vterm-mode . (lambda () (setq-local display-line-numbers-mode nil)))
-  :bind (("C-c t" . vterm)))
-
-;; Org Mode
-(use-package org-superstar
-  :hook (org-mode . org-superstar-mode))
-
-(use-package org-super-agenda
-  :config (org-super-agenda-mode))
-
-(use-package org-roam
-  :custom
-  (org-roam-directory "~/org")
-  :config
-  (org-roam-db-autosync-mode))
-
-;; Dired extras
 (use-package all-the-icons-dired
   :hook (dired-mode . all-the-icons-dired-mode))
 
+;; colorfull dired
 (use-package diredfl
   :config
-  (diredfl-global-mode 1))
+  (diredfl-global-mode))
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+;;; LSP eglot, is apparently standard and better
+(setq read-process-output-max (* 1024 1024))
+
+(use-package eglot
+  :ensure t
+  :hook
+  ;; Hooks to automatically start Eglot for these major modes
+  ((c-mode . eglot-ensure)
+   (c++-mode . eglot-ensure))
+  :config
+  ;; Tell Eglot to use 'clangd' for C and C++ buffers
+  (add-to-list 'eglot-server-programs
+               '((c++-mode c-mode) . ("clangd" "--header-insertion=never --clang-tidy --background-index"))))
+
+
+;; --- Eglot for Java ---
+;; This uses the recommended 'eglot-java' package to manage the complex JDTLS server
+(use-package eglot-java
+  :ensure t
+  :hook (java-mode . eglot-java-mode))
+
+(use-package project
+  :ensure t)
+
+;;;;;;;;;;;;;;;;;;;;;;
+
+;; org mode and bibtex
 
 (use-package ivy-bibtex
   :custom
@@ -134,13 +118,18 @@
 (require 'doi-utils)
 )
 
+;; nicer writing env ie for LaTeX
 (use-package olivetti
     :diminish
     :hook (text-mode . olivetti-mode)
     :config
     (setq olivetti-body-width 120)
 )
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
+;; all hooks for the packages
+(add-hook 'prog-mode-hook 'global-company-mode)
+(add-hook 'prog-mode-hook 'global-flycheck-mode)
 
 (provide 'packages)
-;;; packages.el ends here
+
