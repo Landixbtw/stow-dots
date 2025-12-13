@@ -1,0 +1,1 @@
+("~/Dokumente/Projekte/c/webserver/" "~/stow-dots/" "~/Dokumente/Projekte/c/oshell/" "~/Dokumente/Projekte/c/websocket/" "~/" "~/LaTeX/" "~/Dokumente/Uni/java/PROG2/")

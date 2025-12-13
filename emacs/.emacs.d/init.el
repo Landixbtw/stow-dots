@@ -68,10 +68,21 @@
                (window-height . 10) ; Set height to 10 lines
                (reusable-frames . t)))
 
+<<<<<<< HEAD
 (setq compilation-auto-jump-to-first-error t)
 
 (global-font-lock-mode t)
 
 
 ;; (provide 'init)
+=======
+;; Disable the annoying bell sound
+(setq ring-bell-function 'ignore)
+
+;; Set the prefix for LSP commands to C-c l
+;; to mimic nvim K C-c l h h
+(setq lsp-keymap-prefix "C-c l")
+
+(provide 'init)
+>>>>>>> fa8f0e636b550fbec71864bbd2107e5077c7ee45
 ;;; init.el ends here

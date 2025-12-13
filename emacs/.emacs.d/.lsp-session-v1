@@ -1,0 +1,1 @@
+#s(lsp-session ("/home/ole/Dokumente/Projekte/c/webserver/src" "/home/ole/Dokumente/Projekte/c/websocket" "/home/ole/Dokumente/Projekte/c/oshell" "/home/ole/LaTeX") ("/home/ole/Dokumente/Projekte/c/webserver/") #s(hash-table test equal) #s(hash-table test equal) #s(hash-table test equal))
