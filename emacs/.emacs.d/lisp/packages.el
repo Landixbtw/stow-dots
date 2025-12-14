@@ -100,6 +100,7 @@
 ;; org mode and bibtex
 
 (use-package ivy-bibtex
+  :after org
   :custom
   (bibtex-completion-bibliography
         '("~/ref.bib"))
@@ -127,26 +128,26 @@
 )
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
-<<<<<<< HEAD
 ;; all hooks for the packages
 (add-hook 'prog-mode-hook 'global-company-mode)
 (add-hook 'prog-mode-hook 'global-flycheck-mode)
-=======
-					; help with context and commands
+(add-hook 'prog-mode-hook 'global-font-lock-mode)
+
+;; help with context and commands
 (use-package marginalia
   :ensure t
   :config
   (marginalia-mode))
->>>>>>> fa8f0e636b550fbec71864bbd2107e5077c7ee45
+
 
 (use-package embark
   :ensure t
-
   :bind
   (("C-." . embark-act)
    ("C-;" . embark-dwim)
    ("C-h B" . embark-bindings )) ;; alternative for 'describe-bindings'
 
+  :init
   (add-hook 'eldoc-documentation-functions #'embark-eldoc-first-target)
   (setq eldoc-documentation-strategy #'eldoc-documentation-compose-eagerly)
   
@@ -156,5 +157,6 @@
                '("\\`\\*Embark Collect \\(Live\\|Completions\\)\\*"
                  nil
                  (window-parameters (mode-line-format . none)))))
+
 (provide 'packages)
 

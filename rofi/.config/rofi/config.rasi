@@ -1,1 +1,20 @@
-@theme "/usr/share/rofi/themes/Monokai.rasi"
+configuration {
+  modes: [ combi ];
+  combi-modes: [ window, drun, run ];
+}
+
+entry { 
+  placeholder: "Type here";
+  cursor: pointer;
+}
+
+element {
+  orientation: horizontal;
+  children: [ element-text, element-icon ];
+  spacing: 5px;
+}
+
+
+//@theme "gruvbox-dark-soft"
+
+@theme "/usr/share/rofi/themes/c64.rasi"

@@ -1,0 +1,9 @@
+\.git
+\.gitignore
+.*\.md
+.*\.txt
+.*\.sh
+package_list.txt
+aur_packages.txt
+auto-save-list
+*\.sh

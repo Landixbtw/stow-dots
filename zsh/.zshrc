@@ -26,6 +26,10 @@ alias view="live-server --no-css-inject"
 alias oo="nvim ~/Dokumente/ole/obsidian-ole/vault-ole/"
 alias yz="yazi"
 alias connect="ssh rocky@hostrocky"
+alias adef="cd ~/adehome/autonomous-system-26/ && ade start -f --enter"
+alias adefc="cd ~/adehome/autonomous-system-26/ && ade start -f --enter && source install/setup.bash && clion"
+alias cb="colcon build --cmake-args -DCMAKE_BUILD_TYPE=Release && source install/setup.bash"
+
 
 # FZF (Fuzzy Finder)
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh

@@ -1,4 +1,4 @@
-;;; init.el --- main initialization for emacs -*- lexical-binding: t; -*-
+;;; init.el: --- main initialization for emacs -*- lexical-binding: t; -*-
 
 ;; Bootstrap the package manager straight.el
 (defvar bootstrap-version)
@@ -17,7 +17,7 @@
 (straight-use-package 'use-package)
 (setq straight-use-package-by-default t)
 
-(add-to-list 'load-path user-emacs-directory)
+(add-to-list 'load-path(expand-file-name "lisp"  user-emacs-directory))
 
 (require 'packages)
 ;; (require 'auctex)
@@ -29,8 +29,6 @@
 (use-package project
   :straight (:type built-in))
 
-
-
 ;; UI config
 (menu-bar-mode 0)
 (tool-bar-mode 0)
@@ -39,7 +37,7 @@
 (setq display-line-numbers-type 'relative)
 (global-display-line-numbers-mode +1)
 
-(set-face-attribute 'default nil :family "CaskaydiaCove Nerd Font" :height 170)
+(set-face-attribute 'default nil :family "CaskaydiaMono Nerd Font" :height 170)
 
 (electric-pair-mode 1)
 (save-place-mode t)
@@ -67,15 +65,8 @@
                (display-buffer-at-bottom)
                (window-height . 10) ; Set height to 10 lines
                (reusable-frames . t)))
-
-<<<<<<< HEAD
 (setq compilation-auto-jump-to-first-error t)
 
-(global-font-lock-mode t)
-
-
-;; (provide 'init)
-=======
 ;; Disable the annoying bell sound
 (setq ring-bell-function 'ignore)
 
@@ -84,5 +75,4 @@
 (setq lsp-keymap-prefix "C-c l")
 
 (provide 'init)
->>>>>>> fa8f0e636b550fbec71864bbd2107e5077c7ee45
 ;;; init.el ends here

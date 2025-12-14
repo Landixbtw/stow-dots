@@ -44,3 +44,8 @@ export MANPATH="/usr/local/texlive/2024/texmf-dist/doc/man:$MANPATH"
 export INFOPATH="/usr/local/texlive/2024/texmf-dist/doc/info:$INFOPATH"
 
 
+export PATH_TO_FX=~/Dokumente/Uni/javafx-sdk-24.0.1/lib/
+export JAVA_HOME=/usr/lib/jvm/java-24-openjdk/
+export PATH="$JAVA_HOME/bin:$PATH"
+. "/home/ole/.local/share/bob/env/env.sh"
+alias adef="cd ~/adehome/autonomous-system-26/ && ade start -f --enter"

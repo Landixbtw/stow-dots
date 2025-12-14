@@ -1,56 +1,8 @@
 ;;; -*- coding: utf-8; mode: lisp-data -*-
-<<<<<<< HEAD
-nil
-=======
-(("/usr/include/netdb.h" . 21904)
- ("/home/ole/Dokumente/Projekte/c/webserver/src/server.c" . 144)
- ("/usr/include/stdio.h" . 11477)
- ("/home/ole/Dokumente/Projekte/c/webserver/meson.build" . 307)
- ("/home/ole/Dokumente/Projekte/c/webserver/README.md" . 58)
- ("/home/ole/stow-dots/emacs/.emacs.d/packages.el" . 3447)
- ("/home/ole/Dokumente/Projekte/c/webserver/"
-  (dired-filename . "/home/ole/Dokumente/Projekte/c/webserver/src"))
- ("/home/ole/Dokumente/Projekte/c/webserver/src/"
-  (dired-filename
-   . "/home/ole/Dokumente/Projekte/c/webserver/src/server.c"))
- ("/home/ole/stow-dots/emacs/.emacs.d/init.el" . 336)
- ("/home/ole/.emacs.d/"
-  (dired-filename . "/home/ole/.emacs.d/auctex.el"))
- ("/home/ole/LaTeX/oshellReport/main.tex" . 14168)
- ("/home/ole/LaTeX/oshellReport/_minted/98C89AB96E11C4C127D2AEB3D1F80E6E.highlight.minted"
-  . 800)
- ("/home/ole/LaTeX/oshellReport/main.toc" . 699)
- ("/home/ole/LaTeX/oshellReport/svg-inkscape/multiPipe.drawio_svg-tex.pdf_tex"
-  . 2063)
- ("/home/ole/LaTeX/oshellReport/"
-  (dired-filename . "/home/ole/LaTeX/oshellReport/figures"))
- ("/home/ole/Dokumente/Projekte/c/oshell/src/piping.c" . 2536)
- ("/home/ole/LaTeX/oshellReport/main.bcf" . 108038)
- ("/home/ole/LaTeX/oshellReport/oshell.bib" . 882)
- ("/home/ole/Dokumente/Projekte/c/oshell/src/utils.c" . 3447)
- ("/home/ole/LaTeX/Mathe/LineareAlgebra/main.tex" . 4532)
- ("/home/ole/LaTeX/Mathe/LineareAlgebra/Kapitel/06_Lineare Algebra.tex"
-  . 14987)
- ("/home/ole/LaTeX/Mathe/LineareAlgebra/Kapitel/08_LGS_Matrizen_Determinanten.tex"
-  . 1810)
- ("/home/ole/LaTeX/Mathe/LineareAlgebra/Kapitel/07_Linear_unabhaengige.tex"
-  . 11743)
- ("/home/ole/LaTeX/Mathe/LineareAlgebra/Kapitel/05_Beweistechniken.tex"
-  . 8752)
- ("/home/ole/LaTeX/Mathe/LineareAlgebra/Kapitel/01_Mengen.tex" . 2991)
- ("/home/ole/LaTeX/Mathe/LineareAlgebra/Kapitel/02_Summen und Produktschreibweise.tex"
-  . 183)
- ("/home/ole/Dokumente/Projekte/c/oshell/src/execute_command.c" . 2194)
- ("/home/ole/Dokumente/Projekte/c/oshell/src/main.c" . 1235)
- ("/home/ole/stow-dots/emacs/.emacs.d/custom.el" . 859)
- ("/home/ole/LaTeX/Mathe/LineareAlgebra/Kapitel/03_Binomialkoeffizienten und der binomische Lehrsatz.tex"
-  . 2835)
- ("/home/ole/stow-dots/emacs/.emacs.d/auctex.el" . 2707)
- ("/home/ole/LaTeX/Mathe/LineareAlgebra/.dir-locals.el" . 68)
- ("/home/ole/LaTeX/Mathe/LineareAlgebra/Kapitel/"
-  (dired-filename
-   . "/home/ole/LaTeX/Mathe/LineareAlgebra/Kapitel/06_Lineare Algebra.fdb_latexmk"))
- ("/home/ole/.emacs.d/modeline.el" . 1190)
- ("/home/ole/.emacs.d/org.el" . 5)
- ("/home/ole/.emacs.d/package-install.el" . 458))
->>>>>>> fa8f0e636b550fbec71864bbd2107e5077c7ee45
+(("/home/ole/Dokumente/Projekte/c/bridgeos/kernel.c" . 4)
+ ("/home/ole/Dokumente/Projekte/c/bitshift-multiply/bitshift.c" . 1023)
+ ("/home/ole/Dokumente/Projekte/c/bitshift-multiply/diff.cpp" . 448)
+ ("/home/ole/stow-dots/emacs/.emacs.d/lisp/packages.el" . 3006)
+ ("/home/ole/stow-dots/emacs/.emacs.d/init.el" . 968)
+ ("/home/ole/.emacs.d/lisp/packages.el" . 3377)
+ ("/home/ole/.emacs.d/early-init.el" . 38))
