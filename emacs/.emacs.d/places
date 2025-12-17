@@ -1,8 +1,20 @@
 ;;; -*- coding: utf-8; mode: lisp-data -*-
-(("/home/ole/Dokumente/Projekte/c/bridgeos/kernel.c" . 4)
+(("/home/ole/Dokumente/Projekte/c/mario" . 893)
+ ("/home/ole/Dokumente/Projekte/c/mario.c" . 200)
+ ("/home/ole/Dokumente/Uni/java/PROG2/PROG2Hasbargen/rekursion/rekursion.java"
+  . 426)
+ ("/home/ole/Dokumente/Projekte/c/memalloc/include/"
+  (dired-filename . "/home/ole/Dokumente/Projekte/c/memalloc"))
+ ("/home/ole/Dokumente/Projekte/c/memalloc/"
+  (dired-filename . "/home/ole/Dokumente/Projekte/c/memalloc/makefile"))
+ ("/home/ole/Dokumente/Projekte/c/memalloc/makefile" . 42)
+ ("/home/ole/Dokumente/Projekte/c/memalloc/include/utils.h" . 577)
+ ("/home/ole/Dokumente/Projekte/c/memalloc/src/test.c" . 951)
+ ("/home/ole/Dokumente/Projekte/c/memalloc/include/free.h" . 2616)
+ ("/home/ole/stow-dots/emacs/.emacs.d/init.el" . 2105)
+ ("/home/ole/Dokumente/Projekte/c/bridgeos/kernel.c" . 4)
  ("/home/ole/Dokumente/Projekte/c/bitshift-multiply/bitshift.c" . 1023)
  ("/home/ole/Dokumente/Projekte/c/bitshift-multiply/diff.cpp" . 448)
  ("/home/ole/stow-dots/emacs/.emacs.d/lisp/packages.el" . 3006)
- ("/home/ole/stow-dots/emacs/.emacs.d/init.el" . 968)
  ("/home/ole/.emacs.d/lisp/packages.el" . 3377)
  ("/home/ole/.emacs.d/early-init.el" . 38))

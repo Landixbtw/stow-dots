@@ -22,7 +22,7 @@
 (require 'packages)
 ;; (require 'auctex)
 ;; (require 'modeline)
-(require 'org)
+;; (require 'org)
 
 (setq custom-file (expand-file-name "custom.el" user-emacs-directory))
 
@@ -34,8 +34,9 @@
 (tool-bar-mode 0)
 (scroll-bar-mode 0)
 
+
 (setq display-line-numbers-type 'relative)
-(global-display-line-numbers-mode +1)
+(global-display-line-numbers-mode)
 
 (set-face-attribute 'default nil :family "CaskaydiaMono Nerd Font" :height 170)
 
