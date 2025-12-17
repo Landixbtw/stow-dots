@@ -7,7 +7,6 @@ COMPLETION_WAITING_DOTS="true"
 DISABLE_UNTRACKED_FILES_DIRTY="true"
 HIST_STAMPS="mm/dd/yyyy"
 
-# Plugins for Zsh (feel free to add more)
 plugins=(
     git
     colored-man-pages
@@ -87,5 +86,3 @@ if ! ssh-add -l > /dev/null 2>&1; then
     # Add the custom SourceHut key
     ssh-add ~/.ssh/id_ed25519sh
 fi
-
-export PATH=$PATH:/home/ole/.spicetify
