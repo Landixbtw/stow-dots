@@ -3,16 +3,16 @@
 ;; Themes
 ;; tsoding
 
-;; (use-package gruber-darker-theme
-;;   :config
-;;   (load-theme 'gruber-darker t))
-
-(use-package temple-os-theme
-  :straight
-  (:host github :repo "Senka07/temple-os-emacs-theme")
+(use-package gruber-darker-theme
   :config
-  (load-theme 'temple-os t))
-(custom-set-variables)
+  (load-theme 'gruber-darker t))
+
+;; (use-package temple-os-theme
+;;   :straight
+;;   (:host github :repo "Senka07/temple-os-emacs-theme")
+;;   :config
+;;   (load-theme 'temple-os t))
+;; (custom-set-variables)
 
 ;; helpful used to be here, but I did not really use it
 
@@ -21,6 +21,29 @@
 	("C-c m l" . magit-log))
   :config
   (setq magit-auto-revert-mode nil))
+
+(use-package hl-todo
+  :ensure t
+  :hook ((prog-mode . hl-todo-mode)
+	 (yaml-ts-mode . hl-todo-mode))
+  :config
+  (setq hl-todo-keyword-faces
+	'(("TODO"   . "#ffff00")
+          ("FIXME"  . "#FF0000")
+          ("DEBUG"  . "#A020F0")
+          ("GOTCHA" . "#FF4500")
+          ("STUB"   . "#1E90FF")
+
+          ("NOTE"   . "#008000")
+          ("PERF"   . "#A020F0"))))
+
+(use-package magit-todos
+  :ensure t
+  :after magit
+  :config
+  (magit-todos-mode 1)
+  (setq magit-todos-keywords (mapcar #'car hl-todo-keyword-faces)))
+
 
 ;; completion for emacs, not for code
 (use-package vertico

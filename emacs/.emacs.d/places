@@ -1,20 +1,41 @@
 ;;; -*- coding: utf-8; mode: lisp-data -*-
-(("/home/ole/Dokumente/Projekte/c/mario" . 893)
- ("/home/ole/Dokumente/Projekte/c/mario.c" . 200)
- ("/home/ole/Dokumente/Uni/java/PROG2/PROG2Hasbargen/rekursion/rekursion.java"
-  . 426)
+(("/home/ole/Dokumente/Projekte/c/memalloc/"
+  (dired-filename . "/home/ole/Dokumente/Projekte/c/memalloc/include"))
  ("/home/ole/Dokumente/Projekte/c/memalloc/include/"
+  (dired-filename
+   . "/home/ole/Dokumente/Projekte/c/memalloc/include/malloc.h"))
+ ("/home/ole/Dokumente/Projekte/c/memalloc/include/malloc.h" . 1354)
+ ("/home/ole/stow-dots/emacs/.emacs.d/init.el" . 910)
+ ("/home/ole/stow-dots/emacs/.emacs.d/lisp/packages.el" . 1221)
+ ("/home/ole/Dokumente/Projekte/c/memalloc/src/test.c" . 345)
+ ("/home/ole/Dokumente/Projekte/c/memalloc/include/utils.h" . 951)
+ ("/home/ole/Dokumente/Projekte/c/oshell/src/execute_command.c" . 6588)
+ ("/home/ole/Dokumente/Projekte/c/memalloc/README.md" . 155)
+ ("/home/ole/Dokumente/Projekte/c/oshell/src/chaining.c" . 2495)
+ ("/home/ole/Dokumente/Projekte/c/oshell/scripts/run-clang-format.py"
+  . 723)
+ ("/home/ole/Dokumente/Projekte/c/oshell/makefile" . 816)
+ ("/home/ole/Dokumente/Projekte/c/oshell/src/main.c" . 747)
+ ("/home/ole/Dokumente/Projekte/c/oshell/build/"
+  (dired-filename . "/home/ole/Dokumente/Projekte/c/oshell"))
+ ("/home/ole/Dokumente/Projekte/c/oshell/" . 932)
+ ("/home/ole/stow-dots/emacs/.emacs.d/lisp/auctex.el" . 2769)
+ ("/home/ole/LaTeX/memalloc/.latexmkrc" . 44)
+ ("/home/ole/LaTeX/oshellReport/main.tex" . 6464)
+ ("/home/ole/LaTeX/memalloc/main.tex" . 4819)
+ ("/home/ole/Dokumente/Projekte/c/memalloc/makefile" . 577)
+ ("/usr/share/texlive/texmf-dist/tex/latex/base/fontenc.sty" . 4464)
+ ("/home/ole/Dokumente/Projekte/c/coinTossGame/"
+  (dired-filename . "/home/ole/Dokumente/Projekte/c"))
+ ("/home/ole/Dokumente/Projekte/c/"
   (dired-filename . "/home/ole/Dokumente/Projekte/c/memalloc"))
- ("/home/ole/Dokumente/Projekte/c/memalloc/"
-  (dired-filename . "/home/ole/Dokumente/Projekte/c/memalloc/makefile"))
- ("/home/ole/Dokumente/Projekte/c/memalloc/makefile" . 42)
- ("/home/ole/Dokumente/Projekte/c/memalloc/include/utils.h" . 577)
- ("/home/ole/Dokumente/Projekte/c/memalloc/src/test.c" . 951)
- ("/home/ole/Dokumente/Projekte/c/memalloc/include/free.h" . 2616)
- ("/home/ole/stow-dots/emacs/.emacs.d/init.el" . 2105)
+ ("/home/ole/Dokumente/Projekte/c/memalloc/src/"
+  (dired-filename . "/home/ole/Dokumente/Projekte/c/memalloc"))
+ ("/home/ole/.ssh/" (dired-filename . "/home/ole/.ssh/agent"))
+ ("/home/ole/.ssh/config" . 279)
+ ("/home/ole/stow-dots/zsh/.zshrc" . 854)
+ ("/home/ole/stow-dots/ghostty/.config/ghostty/config" . 375)
  ("/home/ole/Dokumente/Projekte/c/bridgeos/kernel.c" . 4)
  ("/home/ole/Dokumente/Projekte/c/bitshift-multiply/bitshift.c" . 1023)
  ("/home/ole/Dokumente/Projekte/c/bitshift-multiply/diff.cpp" . 448)
- ("/home/ole/stow-dots/emacs/.emacs.d/lisp/packages.el" . 3006)
- ("/home/ole/.emacs.d/lisp/packages.el" . 3377)
  ("/home/ole/.emacs.d/early-init.el" . 38))
