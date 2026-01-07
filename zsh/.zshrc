@@ -79,10 +79,12 @@ open() {
 }
 
 # Check if the SSH agent is already running
-if ! ssh-add -l > /dev/null 2>&1; then
-    # Start the agent if it's not running or not connected
-    eval "$(ssh-agent -s)"
-    
-    # Add the custom SourceHut key
-    ssh-add ~/.ssh/id_ed25519sh
-fi
+#if ! ssh-add -l > /dev/null 2>&1; then
+#    # Start the agent if it's not running or not connected
+#    eval "$(ssh-agent -s)"
+#    
+#    # Add the custom SourceHut key
+#    ssh-add ~/.ssh/id_ed25519sh
+#fi
+export PATH="$HOME/.local/bin:$PATH"
+export PATH="$HOME/.local/bin:$PATH"

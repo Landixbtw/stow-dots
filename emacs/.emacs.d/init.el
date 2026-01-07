@@ -23,6 +23,7 @@
 (require 'auctex)
 ;; (require 'modeline)
 ;; (require 'org)
+(require 'mail)
 
 (setq custom-file (expand-file-name "custom.el" user-emacs-directory))
 
@@ -66,7 +67,7 @@
                (display-buffer-at-bottom)
                (window-height . 10) ; Set height to 10 lines
                (reusable-frames . t)))
-(setq compilation-auto-jump-to-first-error t)
+(setq compilation-auto-jump-to-first-error t) 
 
 ;; Disable the annoying bell sound
 (setq ring-bell-function 'ignore)
