@@ -1,72 +1,42 @@
 ;;; -*- coding: utf-8; mode: lisp-data -*-
-(("/home/ole/Dokumente/Projekte/c/memalloc/src/test.c" . 390)
- ("/home/ole/Dokumente/Projekte/c/memalloc/include/free.h" . 1194)
- ("/home/ole/Dokumente/Projekte/c/memalloc/include/utils.h" . 556)
- ("/home/ole/Dokumente/Projekte/c/memalloc/lib/utils.c" . 433)
- ("/home/ole/Dokumente/Projekte/c/memalloc/lib/free.c" . 1055)
- ("/home/ole/Dokumente/Projekte/c/memalloc/lib/malloc.c" . 3277)
- ("/home/ole/LaTeX/VSDCBeamer/main.tex" . 6434)
- ("/home/ole/stow-dots/emacs/.emacs.d/lisp/org.el" . 5587)
- ("/home/ole/stow-dots/emacs/.emacs.d/lisp/mail.el" . 73)
- ("/home/ole/stow-dots/emacs/.emacs.d/elpa/"
-  (dired-filename . "/home/ole/stow-dots/emacs/.emacs.d/elpa/archives"))
- ("/home/ole/stow-dots/emacs/.emacs.d/lisp/packages.el" . 4615)
- ("/home/ole/stow-dots/emacs/.emacs.d/init.el" . 985)
- ("/home/ole/Mail/[Gmail]/Drafts/cur/1767610163.2a4acde261a937e4.fedora:2,DS"
-  . 278)
- ("/home/ole/.emacs.d/lisp/mail.el" . 409)
- ("/home/ole/LaTeX/oshellReport/main.tex" . 3816)
- ("/home/ole/LaTeX/VSDCBeamer/main.log" . 51226)
- ("/home/ole/LaTeX/VSDCBeamer/README.md" . 117)
- ("/home/ole/Dokumente/Projekte/python/verification-bot/src/"
-  (dired-filename
-   . "/home/ole/Dokumente/Projekte/python/verification-bot/src/main.py"))
- ("/home/ole/Dokumente/Projekte/python/verification-bot/src/main.py"
-  . 817)
- ("/home/ole/LaTeX/EMS/steering-actuator-calibration/main.log" . 59331)
- ("/home/ole/LaTeX/EMS/steering-actuator-calibration/main.tex" . 886)
- ("/home/ole/Dokumente/Projekte/c/memalloc/LICENSE" . 912)
- ("/home/ole/Dokumente/Projekte/c/memalloc/makefile" . 289)
- ("/home/ole/Dokumente/Projekte/c/memalloc/lib/"
-  (dired-filename
-   . "/home/ole/Dokumente/Projekte/c/memalloc/lib/malloc.c"))
+(("/home/ole/stow-dots/emacs/.emacs.d/lisp/packages.el" . 5374)
+ ("/home/ole/stow-dots/emacs/.emacs.d/init.el" . 802)
+ ("/home/ole/Dokumente/Projekte/c/memalloc/lib/malloc.c" . 1116)
+ ("/home/ole/.mbsyncrc" . 416)
+ ("/home/ole/stow-dots/emacs/.emacs.d/lisp/org.el" . 155)
  ("/home/ole/Dokumente/Projekte/c/memalloc/"
-  (dired-filename . "/home/ole/Dokumente/Projekte/c/memalloc/include"))
- ("/home/ole/Dokumente/Projekte/c/memalloc/include/" . 357)
- ("/home/ole/Dokumente/Projekte/c/memalloc/include/my_malloc.h" . 218)
- ("/home/ole/Downloads/migrate_github_to_codeberg.sh" . 2532)
- ("/home/ole/Dokumente/Projekte/c/memalloc/.clang-format-ignore" . 68)
- ("/home/ole/Dokumente/Projekte/c/memalloc/sfl-malloc/mdriver.c"
-  . 8003)
- ("/home/ole/Dokumente/Projekte/c/memalloc/sfl-malloc/Makefile" . 95)
- ("/home/ole/Dokumente/Projekte/c/memalloc/build/test" . 462)
- ("/home/ole/Dokumente/Projekte/c/memalloc/build/"
-  (dired-filename
-   . "/home/ole/Dokumente/Projekte/c/memalloc/build/test"))
- ("/home/ole/Dokumente/Projekte/c/oshell/src/execute_command.c" . 6588)
- ("/home/ole/Dokumente/Projekte/c/memalloc/README.md" . 155)
- ("/home/ole/Dokumente/Projekte/c/oshell/src/chaining.c" . 2495)
- ("/home/ole/Dokumente/Projekte/c/oshell/scripts/run-clang-format.py"
-  . 723)
- ("/home/ole/Dokumente/Projekte/c/oshell/makefile" . 816)
- ("/home/ole/Dokumente/Projekte/c/oshell/src/main.c" . 747)
- ("/home/ole/Dokumente/Projekte/c/oshell/build/"
-  (dired-filename . "/home/ole/Dokumente/Projekte/c/oshell"))
- ("/home/ole/Dokumente/Projekte/c/oshell/" . 932)
- ("/home/ole/stow-dots/emacs/.emacs.d/lisp/auctex.el" . 2769)
- ("/home/ole/LaTeX/memalloc/.latexmkrc" . 44)
- ("/home/ole/LaTeX/memalloc/main.tex" . 4819)
- ("/usr/share/texlive/texmf-dist/tex/latex/base/fontenc.sty" . 4464)
- ("/home/ole/Dokumente/Projekte/c/coinTossGame/"
-  (dired-filename . "/home/ole/Dokumente/Projekte/c"))
- ("/home/ole/Dokumente/Projekte/c/"
-  (dired-filename . "/home/ole/Dokumente/Projekte/c/memalloc"))
+  (dired-filename . "/home/ole/Dokumente/Projekte/c/memalloc/src"))
  ("/home/ole/Dokumente/Projekte/c/memalloc/src/"
+  (dired-filename
+   . "/home/ole/Dokumente/Projekte/c/memalloc/src/test.c"))
+ ("/home/ole/Dokumente/Projekte/c/memalloc/include/free.h" . 770)
+ ("/home/ole/Dokumente/Projekte/c/memalloc/include/utils.h" . 2738)
+ ("/home/ole/stow-dots/ghostty/.config/ghostty/config" . 525)
+ ("/home/ole/Dokumente/Projekte/c/"
+  (dired-filename . "/home/ole/Dokumente/Projekte/c/mario.c"))
+ ("/home/ole/Dokumente/Projekte/c/mario.c" . 232)
+ ("/home/ole/Dokumente/Uni/java/PROG2/PROG2Hasbargen/rekursion/rekursion.java"
+  . 740)
+ ("/home/ole/Dokumente/Uni/java/PROG2/PROG2Hasbargen/zeichenprogram/"
+  (dired-filename
+   . "/home/ole/Dokumente/Uni/java/PROG2/PROG2Hasbargen"))
+ ("/home/ole/Dokumente/Uni/java/PROG2/PROG2Hasbargen/"
+  (dired-filename
+   . "/home/ole/Dokumente/Uni/java/PROG2/PROG2Hasbargen/zeichenprogram"))
+ ("/home/ole/Dokumente/Projekte/c/memalloc/scripts/"
+  (dired-filename
+   . "/home/ole/Dokumente/Projekte/c/memalloc/scripts/format.py"))
+ ("/home/ole/Dokumente/Projekte/c/oshell/makefile" . 797)
+ ("/home/ole/Dokumente/Projekte/c/memalloc/makefile" . 215)
+ ("/home/ole/Dokumente/Projekte/c/mario" . 12116)
+ ("/home/ole/LaTeX/" (dired-filename . "/home/ole/LaTeX/.gitignore"))
+ ("/home/ole/stow-dots/emacs/.emacs.d/lisp/auctex.el" . 936)
+ ("/home/ole/.xinitrc" . 109)
+ ("/home/ole/LaTeX/oshellReport/main.tex" . 35716)
+ ("/home/ole/LaTeX/oshellReport/_minted/A9CAC8CF304C66BE9FA23DA2330D6446.highlight.minted"
+  . 114)
+ ("/home/ole/Dokumente/Projekte/c/memalloc/include/"
   (dired-filename . "/home/ole/Dokumente/Projekte/c/memalloc"))
- ("/home/ole/.ssh/" (dired-filename . "/home/ole/.ssh/agent"))
- ("/home/ole/.ssh/config" . 279)
- ("/home/ole/stow-dots/zsh/.zshrc" . 854)
- ("/home/ole/stow-dots/ghostty/.config/ghostty/config" . 375)
  ("/home/ole/Dokumente/Projekte/c/bridgeos/kernel.c" . 4)
  ("/home/ole/Dokumente/Projekte/c/bitshift-multiply/bitshift.c" . 1023)
  ("/home/ole/Dokumente/Projekte/c/bitshift-multiply/diff.cpp" . 448)

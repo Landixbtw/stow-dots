@@ -20,4 +20,4 @@ theme = Dracula+
 window-save-state = always
 confirm-close-surface = false
 # change  to false on dwm or tiling window managers
-gtk-titlebar = true 
+gtk-titlebar = false
