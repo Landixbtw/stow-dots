@@ -1,0 +1,100 @@
+!SESSION 2026-01-28 15:21:08.731 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=25.0.2
+java.vendor=Arch Linux
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=de_DE
+Framework arguments:  -jar /home/ole/.emacs.d/share/eclipse.jdt.ls/plugins/org.eclipse.equinox.launcher_1.7.100.v20251111-0406.jar
+Command-line arguments:  -data /home/ole/.emacs.d/eglot-java-eclipse-jdt-cache/21281404a4e4d896768c87e471fbc463 -jar /home/ole/.emacs.d/share/eclipse.jdt.ls/plugins/org.eclipse.equinox.launcher_1.7.100.v20251111-0406.jar -data /home/ole/.emacs.d/eglot-java-eclipse-jdt-cache/8f71da45b65d3b5ce38fb83d729cf72a
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-01-28 15:21:10.863
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is started
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-01-28 15:21:10.939
+!MESSAGE Started org.eclipse.buildship.core 54ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-01-28 15:21:10.940
+!MESSAGE Started org.eclipse.m2e.core 0ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-01-28 15:21:11.171
+!MESSAGE Main thread is waiting
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-01-28 15:21:11.247
+!MESSAGE >> initialize
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-01-28 15:21:11.251
+!MESSAGE Initializing Java Language Server 1.55.0.202601131729
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-01-28 15:21:11.872
+!MESSAGE ProjectRegistryRefreshJob finished 931ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-01-28 15:21:11.977
+!MESSAGE java.home /usr/lib/jvm/java-24-openjdk is not a directory
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-01-28 15:21:12.008
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-01-28 15:21:12.009
+!MESSAGE Non-Static Commands: [java.project.import, java.project.changeImportedProjects, java.navigate.openTypeHierarchy, java.project.resolveStackTraceLocation, java.edit.handlePasteEvent, java.edit.stringFormatting, java.project.getSettings, java.project.resolveWorkspaceSymbol, java.project.upgradeGradle, java.project.createModuleInfo, java.vm.getAllInstalls, java.edit.organizeImports, java.project.refreshDiagnostics, java.project.removeFromSourcePath, java.project.listSourcePaths, java.project.updateSettings, java.project.getAll, java.reloadBundles, java.project.isTestFile, java.project.resolveText, java.project.getClasspaths, java.navigate.resolveTypeHierarchy, java.getTroubleshootingInfo, java.edit.smartSemicolonDetection, java.project.updateSourceAttachment, java.project.updateClassPaths, java.decompile, java.protobuf.generateSources, java.project.resolveSourceAttachment, java.project.updateJdk, java.project.addToSourcePath, java.completion.onDidSelect]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-01-28 15:21:12.030
+!MESSAGE RepositoryRegistryUpdateJob finished 0ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-01-28 15:21:12.043
+!MESSAGE >> initialized
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-01-28 15:21:12.055
+!MESSAGE Importers: GradleProjectImporter, MavenProjectImporter, EclipseProjectImporter, InvisibleProjectImporter
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-01-28 15:21:12.207
+!MESSAGE Importing Maven project(s)
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-01-28 15:21:14.329
+!MESSAGE Workspace initialized in 2300ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-01-28 15:21:14.375
+!MESSAGE >> initialization job finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-01-28 15:21:14.390
+!MESSAGE Creating the Java project jdt.ls-java-project
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-01-28 15:21:15.359
+!MESSAGE >> build jobs finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-01-28 15:21:15.360
+!MESSAGE >> registerWatchers'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-01-28 15:21:15.362
+!MESSAGE Finished creating the Java project jdt.ls-java-project
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-01-28 15:21:15.364
+!MESSAGE >> registerFeature 'workspace/didChangeWatchedFiles'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-01-28 15:21:15.837
+!MESSAGE java.home /usr/lib/jvm/java-24-openjdk is not a directory
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-01-28 15:21:15.877
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-01-28 15:21:16.574
+!MESSAGE begin problem for /sumRekursion.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-01-28 15:21:16.577
+!MESSAGE This method must return a result of type int is of type ShouldReturnValue
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-01-28 15:21:16.579
+!MESSAGE 2 problems reported for /sumRekursion.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-01-28 15:21:16.581
+!MESSAGE Validated 1. Took 50 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-01-28 15:21:18.430
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-01-28 15:21:18.874
+!MESSAGE begin problem for /rekursion.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-01-28 15:21:18.875
+!MESSAGE 1 problems reported for /rekursion.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-01-28 15:21:18.875
+!MESSAGE Validated 1. Took 44 ms

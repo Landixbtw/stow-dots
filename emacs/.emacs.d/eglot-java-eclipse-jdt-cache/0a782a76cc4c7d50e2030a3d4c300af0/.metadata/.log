@@ -1,0 +1,134 @@
+!SESSION 2026-01-29 15:19:08.895 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=25.0.2
+java.vendor=Arch Linux
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=de_DE
+Framework arguments:  -jar /home/ole/.emacs.d/share/eclipse.jdt.ls/plugins/org.eclipse.equinox.launcher_1.7.100.v20251111-0406.jar
+Command-line arguments:  -data /home/ole/.emacs.d/eglot-java-eclipse-jdt-cache/21281404a4e4d896768c87e471fbc463 -jar /home/ole/.emacs.d/share/eclipse.jdt.ls/plugins/org.eclipse.equinox.launcher_1.7.100.v20251111-0406.jar -data /home/ole/.emacs.d/eglot-java-eclipse-jdt-cache/0a782a76cc4c7d50e2030a3d4c300af0
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-01-29 15:19:10.858
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is started
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-01-29 15:19:10.923
+!MESSAGE Started org.eclipse.buildship.core 46ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-01-29 15:19:10.924
+!MESSAGE Started org.eclipse.m2e.core 0ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-01-29 15:19:11.131
+!MESSAGE Main thread is waiting
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-01-29 15:19:11.213
+!MESSAGE >> initialize
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-01-29 15:19:11.216
+!MESSAGE Initializing Java Language Server 1.55.0.202601131729
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-01-29 15:19:11.966
+!MESSAGE ProjectRegistryRefreshJob finished 1042ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-01-29 15:19:12.085
+!MESSAGE Setting java.home /usr/lib/jvm/default as default global VM
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-01-29 15:19:12.100
+!MESSAGE Default VM Install changed from  1769696352059-/usr/lib/jvm/java-25-openjdk to 1769696352085-/usr/lib/jvm/default
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-01-29 15:19:12.125
+!MESSAGE JVM Runtimes changed, saving new configuration
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-01-29 15:19:12.169
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-01-29 15:19:12.170
+!MESSAGE Non-Static Commands: [java.project.import, java.project.changeImportedProjects, java.navigate.openTypeHierarchy, java.project.resolveStackTraceLocation, java.edit.handlePasteEvent, java.edit.stringFormatting, java.project.getSettings, java.project.resolveWorkspaceSymbol, java.project.upgradeGradle, java.project.createModuleInfo, java.vm.getAllInstalls, java.edit.organizeImports, java.project.refreshDiagnostics, java.project.removeFromSourcePath, java.project.listSourcePaths, java.project.updateSettings, java.project.getAll, java.reloadBundles, java.project.isTestFile, java.project.resolveText, java.project.getClasspaths, java.navigate.resolveTypeHierarchy, java.getTroubleshootingInfo, java.edit.smartSemicolonDetection, java.project.updateSourceAttachment, java.project.updateClassPaths, java.decompile, java.protobuf.generateSources, java.project.resolveSourceAttachment, java.project.updateJdk, java.project.addToSourcePath, java.completion.onDidSelect]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-01-29 15:19:12.191
+!MESSAGE RepositoryRegistryUpdateJob finished 0ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-01-29 15:19:12.201
+!MESSAGE >> initialized
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-01-29 15:19:12.214
+!MESSAGE Importers: GradleProjectImporter, MavenProjectImporter, EclipseProjectImporter, InvisibleProjectImporter
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-01-29 15:19:12.221
+!MESSAGE Workspace initialized in 31ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-01-29 15:19:12.233
+!MESSAGE >> initialization job finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-01-29 15:19:12.250
+!MESSAGE >> build jobs finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-01-29 15:19:12.251
+!MESSAGE >> registerWatchers'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-01-29 15:19:12.254
+!MESSAGE Try to create an invisible project for the workspace /home/ole/Dokumente/Uni/java/WiSe26/aquarium
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-01-29 15:19:12.254
+!MESSAGE >> registerFeature 'workspace/didChangeWatchedFiles'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-01-29 15:19:12.254
+!MESSAGE Creating the Java project aquarium_2cd60589
+
+!ENTRY org.eclipse.jdt.ls.core 4 0 2026-01-29 15:19:12.269
+!MESSAGE Project 'aquarium_2cd60589' is not open.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException(/aquarium_2cd60589)[372]: java.lang.Exception: Project 'aquarium_2cd60589' is not open.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.resources.Project.checkAccessible(Project.java:192)
+	at org.eclipse.core.internal.resources.Resource.findMarkers(Resource.java:1064)
+	at org.eclipse.jdt.ls.core.internal.handlers.WorkspaceDiagnosticsHandler.getProblemMarkers(WorkspaceDiagnosticsHandler.java:274)
+	at org.eclipse.jdt.ls.core.internal.handlers.WorkspaceDiagnosticsHandler.publishDiagnostics(WorkspaceDiagnosticsHandler.java:259)
+	at org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer$2.run(JDTLanguageServer.java:340)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.core.resources 4 372 2026-01-29 15:19:12.273
+!MESSAGE Project 'aquarium_2cd60589' is not open.
+!STACK 0
+java.lang.Exception: Project 'aquarium_2cd60589' is not open.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.resources.Project.checkAccessible(Project.java:192)
+	at org.eclipse.core.internal.resources.Resource.findMarkers(Resource.java:1064)
+	at org.eclipse.jdt.ls.core.internal.handlers.WorkspaceDiagnosticsHandler.getProblemMarkers(WorkspaceDiagnosticsHandler.java:274)
+	at org.eclipse.jdt.ls.core.internal.handlers.WorkspaceDiagnosticsHandler.publishDiagnostics(WorkspaceDiagnosticsHandler.java:259)
+	at org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer$2.run(JDTLanguageServer.java:340)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-01-29 15:19:12.347
+!MESSAGE Finished creating the Java project aquarium_2cd60589
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-01-29 15:19:12.359
+!MESSAGE Successfully created a workspace invisible project aquarium_2cd60589
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-01-29 15:19:13.379
+!MESSAGE >> Updating classpath for project aquarium_2cd60589
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-01-29 15:19:13.481
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-01-29 15:19:14.035
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-01-29 15:19:14.859
+!MESSAGE begin problem for /Aquarium.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-01-29 15:19:14.872
+!MESSAGE 4 problems reported for /Aquarium.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-01-29 15:19:14.874
+!MESSAGE Validated 1. Took 187 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-01-29 15:19:15.635
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-01-29 15:19:16.184
+!MESSAGE begin problem for /AquariumPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-01-29 15:19:16.184
+!MESSAGE 1 problems reported for /AquariumPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-01-29 15:19:16.185
+!MESSAGE Validated 1. Took 99 ms

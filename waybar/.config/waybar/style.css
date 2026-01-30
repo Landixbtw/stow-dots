@@ -1,0 +1,70 @@
+* {
+    border: none;
+    border-radius: 0;
+    font-family: "JetBrainsMono Nerd Font", monospace;
+    font-size: 14px;
+}
+
+/* General bar styling */
+window#waybar {
+    background: rgba(43, 48, 59, 0.9); /* Dark semi-transparent */
+    border-bottom: 2px solid rgba(100, 114, 125, 0.5);
+    color: #ffffff;
+}
+
+/* Individual Module Coloring */
+#network {
+    color: #9ece6a; /* Green */
+}
+
+#pulseaudio {
+    color: #bb9af7; /* Purple */
+}
+
+#pulseaudio.muted {
+    color: #f7768e; /* Red when muted */
+}
+
+#battery {
+    color: #e0af68; /* Orange/Yellow */
+}
+
+#battery.critical:not(.charging) {
+    color: #f7768e; /* Bright Red when low */
+    animation-name: blink;
+    animation-duration: 0.5s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+#clock {
+    color: #7aa2f7; /* Blue */
+    font-weight: bold;
+}
+
+/* Optional: Add spacing between modules */
+#network, #pulseaudio, #battery, #clock {
+    padding: 0 10px;
+}
+
+/* Workspace styling (Left side) */
+#workspaces button {
+    padding: 0 5px;
+    color: #565f89; /* Dimmer color for inactive numbers */
+}
+
+#workspaces button.active {
+    color: #7aa2f7; /* Subtle blue for the active workspace */
+}
+
+/* All right-side modules inherit the bar style */
+#pulseaudio, #battery, #network, #clock {
+    padding: 0 5px;
+}
+
+#window {
+    color: #7aa2f7; /* Matching that subtle blue you like */
+    font-weight: bold;
+    padding: 0 10px;
+}

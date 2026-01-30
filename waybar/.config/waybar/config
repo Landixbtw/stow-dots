@@ -1,0 +1,74 @@
+{
+    "layer": "top",
+    "position": "top",
+    "height": 26,
+    "modules-left": ["hyprland/workspaces"],
+    "modules-center": ["hyprland/window"],
+    "modules-right": ["network", "pulseaudio", "battery", "clock"],
+
+    "network": {
+        "format-wifi": "  {essid}",
+        "format-ethernet": "󰈀 {ifname}",
+        "format-disconnected": "󰖪 Disconnected",
+        "tooltip-format": "{gwaddr} via {ifname}"
+    },
+
+    "pulseaudio": {
+        "format": "| {icon} {volume}%",
+        "format-muted": "| 󰝟 Muted",
+        "format-icons": {
+            "default": ["", "", ""]
+        },
+        "on-click": "amixer -q sset Master toggle"
+    },
+
+    "battery": {
+        "states": {
+            "warning": 30,
+            "critical": 15
+        },
+        "format": "| {icon} {capacity}%",
+        "format-charging": "| 󰂄 {capacity}%",
+        "format-plugged": "|  {capacity}%",
+        "format-icons": ["󰁺", "󰁻", "󰁼", "󰁽", "󰁾", "󰁿", "󰂀", "󰂁", "󰂂", "󰁹"],
+	"tooltip-format": "{timeTo} remaining\nPower draw: {power}W"
+    },
+
+"clock": {
+    "interval": 1,
+    "format": "|  {:%H:%M:%S  󰃭 %d-%m-%Y}",
+    "format-alt": " {:%A, %B %d, %Y}", 
+    "tooltip-format": "<tt><small>{calendar}</small></tt>",
+    "calendar": {
+        "mode"          : "month",
+        "mode-mon-col"  : 3,
+        "on-scroll"     : 1,
+        "format": {
+            "months":     "<span color='#ffead3'><b>{}</b></span>",
+            "days":       "<span color='#ecc6d9'><b>{}</b></span>",
+            "weeks":      "<span color='#99ffdd'><b>W{}</b></span>",
+            "weekdays":   "<span color='#ffcc66'><b>{}</b></span>",
+            "today":      "<span color='#ff6699'><b><u>{}</u></b></span>"
+        }
+    }
+},
+
+    "hyprland/workspaces": {
+        "format": "{name}",
+        "on-click": "activate",
+        "persistent-workspaces": {
+            "*": [1, 2, 3, 4, 5, 6, 7, 8, 9] 
+        }
+    },
+
+    "hyprland/window": {
+	"format": "{title}",
+	"max-length": 50,
+	"separate-outputs": true,
+	"rewrite": {
+            "(.*) — Mozilla Firefox": "󰈹 Firefox",
+            "(.*) - Visual Studio Code": "󰨞 VS Code",
+            "(.*)@(.*):(.*)": " Terminal"
+	}
+    },
+}

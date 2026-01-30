@@ -1,0 +1,31 @@
+;; -*- emacs-lisp -*- <26/01/24 15:43:18 ~/.emacs.d/tramp>
+;; Tramp connection history.  Don't change this file.
+;; Run `M-x tramp-cleanup-all-connections' instead.
+
+(((tramp-file-name "cache" nil nil nil nil nil nil)
+  ("tramp-version" "2.7.3.30.2"))
+ ((tramp-file-name "docker" "ad" nil "ade" nil nil nil) nil)
+ ((tramp-file-name "docker" nil nil nil nil nil nil) nil)
+ ((tramp-file-name "docker" "ade" nil "ade" nil nil nil) nil)
+ ((tramp-file-name "docker" "a" nil "ade" nil nil nil) nil)
+ ((tramp-file-name "docker" "o" nil "ade" nil nil nil) nil)
+ ((tramp-file-name "docker" "ol" nil "ade" nil nil nil) nil)
+ ((tramp-file-name "docker" "ole" nil "ade" nil nil nil)
+  ("null-device" "/dev/null") ("uname" "Linux 6.18.6-arch1-1")
+  ("locale" "LC_ALL=en_US.utf8") ("test" "test")
+  ("file-exists" "test -e")
+  ("remote-path"
+   ("/bin" "/usr/bin" "/sbin" "/usr/sbin" "/usr/local/bin"
+    "/usr/local/sbin"))
+  ("pipe-buf" 4096) ("remote-shell" "/bin/sh") ("~" "/home/ole")
+  ("perl-file-spec" t) ("perl-cwd-realpath" t) ("perl" "\\perl")
+  ("stat" "env QUOTING_STYLE=locale \\stat") ("id" "/bin/id")
+  ("uid-integer" 1000) ("uid-string" "ole") ("gid-integer" 1000)
+  ("gid-string" "ole") ("groups-integer" (1000 985 989))
+  ("groups-string" ("ole" "video" "render")) ("case-insensitive" nil)
+  ("readlink" "\\readlink") ("ls" "/bin/ls --color=never")
+  ("ls--dired" "--dired")
+  ("ls--quoting-style=literal --show-control-chars"
+   "--quoting-style=literal --show-control-chars")
+  ("df-blocksize" 1)
+  ("df" "\\df --block-size=1 --output=size,used,avail")))
