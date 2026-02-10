@@ -7,3 +7,4 @@ package_list.txt
 aur_packages.txt
 auto-save-list
 *\.sh
+emacs/.emacs.d/eglot-java-eclipse-jdt-cache
