@@ -1,0 +1,10 @@
+public class LaufVerwaltung.java {
+    /*
+- Läufer eingelesen werden können
+- dabei bekommt jeder Läufer eine eindeutige Startnummer zugeordnet
+- intern in einem (Vektor !!1!) gemerkt werden
+
+- auf Bedarf die bisher enthaltenen Läufer ausgedruckt werden können
+- Läufer mit einer bestimmten Startnummer wieder gelöscht werden können
+     */
+}

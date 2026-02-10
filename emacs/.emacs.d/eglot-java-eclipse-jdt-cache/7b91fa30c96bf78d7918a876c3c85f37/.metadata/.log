@@ -1,0 +1,5223 @@
+!SESSION 2026-02-04 16:14:12.093 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=25.0.2
+java.vendor=Arch Linux
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=de_DE
+Framework arguments:  -jar /home/ole/.emacs.d/share/eclipse.jdt.ls/plugins/org.eclipse.equinox.launcher_1.7.100.v20251111-0406.jar -jar /home/ole/.emacs.d/share/eclipse.jdt.ls/plugins/org.eclipse.equinox.launcher_1.7.100.v20251111-0406.jar -jar /home/ole/.emacs.d/share/eclipse.jdt.ls/plugins/org.eclipse.equinox.launcher_1.7.100.v20251111-0406.jar
+Command-line arguments:  -data /home/ole/.emacs.d/eglot-java-eclipse-jdt-cache/b32f95dd7e66d6cb7c89634f3b77a9c1 -jar /home/ole/.emacs.d/share/eclipse.jdt.ls/plugins/org.eclipse.equinox.launcher_1.7.100.v20251111-0406.jar -data /home/ole/.emacs.d/eglot-java-eclipse-jdt-cache/9849ce4cf8a5c4c868745cb2801c28c1 -jar /home/ole/.emacs.d/share/eclipse.jdt.ls/plugins/org.eclipse.equinox.launcher_1.7.100.v20251111-0406.jar -data /home/ole/.emacs.d/eglot-java-eclipse-jdt-cache/7effb40272d05e735f442a2d28a4e2b6 -jar /home/ole/.emacs.d/share/eclipse.jdt.ls/plugins/org.eclipse.equinox.launcher_1.7.100.v20251111-0406.jar -data /home/ole/.emacs.d/eglot-java-eclipse-jdt-cache/7b91fa30c96bf78d7918a876c3c85f37
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:14:13.864
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is started
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:14:13.933
+!MESSAGE Started org.eclipse.buildship.core 46ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:14:13.933
+!MESSAGE Started org.eclipse.m2e.core 0ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:14:14.100
+!MESSAGE Main thread is waiting
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:14:14.191
+!MESSAGE >> initialize
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:14:14.195
+!MESSAGE Initializing Java Language Server 1.55.0.202601131729
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:14:14.928
+!MESSAGE ProjectRegistryRefreshJob finished 993ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:14:15.057
+!MESSAGE Setting java.home /usr/lib/jvm/default as default global VM
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:14:15.068
+!MESSAGE Default VM Install changed from  1770218055020-/usr/lib/jvm/java-25-openjdk to 1770218055057-/usr/lib/jvm/default
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:14:15.087
+!MESSAGE JVM Runtimes changed, saving new configuration
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:14:15.121
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:14:15.122
+!MESSAGE Non-Static Commands: [java.project.import, java.project.changeImportedProjects, java.navigate.openTypeHierarchy, java.project.resolveStackTraceLocation, java.edit.handlePasteEvent, java.edit.stringFormatting, java.project.getSettings, java.project.resolveWorkspaceSymbol, java.project.upgradeGradle, java.project.createModuleInfo, java.vm.getAllInstalls, java.edit.organizeImports, java.project.refreshDiagnostics, java.project.removeFromSourcePath, java.project.listSourcePaths, java.project.updateSettings, java.project.getAll, java.reloadBundles, java.project.isTestFile, java.project.resolveText, java.project.getClasspaths, java.navigate.resolveTypeHierarchy, java.getTroubleshootingInfo, java.edit.smartSemicolonDetection, java.project.updateSourceAttachment, java.project.updateClassPaths, java.decompile, java.protobuf.generateSources, java.project.resolveSourceAttachment, java.project.updateJdk, java.project.addToSourcePath, java.completion.onDidSelect]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:14:15.138
+!MESSAGE RepositoryRegistryUpdateJob finished 0ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:14:15.144
+!MESSAGE >> initialized
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:14:15.163
+!MESSAGE Importers: GradleProjectImporter, MavenProjectImporter, EclipseProjectImporter, InvisibleProjectImporter
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:14:15.169
+!MESSAGE Workspace initialized in 32ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:14:15.176
+!MESSAGE >> initialization job finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:14:15.195
+!MESSAGE >> build jobs finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:14:15.196
+!MESSAGE >> registerWatchers'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:14:15.198
+!MESSAGE Try to create an invisible project for the workspace /home/ole/Dokumente/Uni/java/WiSe26/probeKlausur
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:14:15.198
+!MESSAGE >> registerFeature 'workspace/didChangeWatchedFiles'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:14:15.199
+!MESSAGE Creating the Java project probeKlausur_797741c9
+
+!ENTRY org.eclipse.jdt.ls.core 4 0 2026-02-04 16:14:15.209
+!MESSAGE Project 'probeKlausur_797741c9' is not open.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException(/probeKlausur_797741c9)[372]: java.lang.Exception: Project 'probeKlausur_797741c9' is not open.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.resources.Project.checkAccessible(Project.java:192)
+	at org.eclipse.core.internal.resources.Resource.findMarkers(Resource.java:1064)
+	at org.eclipse.jdt.ls.core.internal.handlers.WorkspaceDiagnosticsHandler.getProblemMarkers(WorkspaceDiagnosticsHandler.java:274)
+	at org.eclipse.jdt.ls.core.internal.handlers.WorkspaceDiagnosticsHandler.publishDiagnostics(WorkspaceDiagnosticsHandler.java:259)
+	at org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer$2.run(JDTLanguageServer.java:340)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.core.resources 4 372 2026-02-04 16:14:15.211
+!MESSAGE Project 'probeKlausur_797741c9' is not open.
+!STACK 0
+java.lang.Exception: Project 'probeKlausur_797741c9' is not open.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.resources.Project.checkAccessible(Project.java:192)
+	at org.eclipse.core.internal.resources.Resource.findMarkers(Resource.java:1064)
+	at org.eclipse.jdt.ls.core.internal.handlers.WorkspaceDiagnosticsHandler.getProblemMarkers(WorkspaceDiagnosticsHandler.java:274)
+	at org.eclipse.jdt.ls.core.internal.handlers.WorkspaceDiagnosticsHandler.publishDiagnostics(WorkspaceDiagnosticsHandler.java:259)
+	at org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer$2.run(JDTLanguageServer.java:340)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:14:15.278
+!MESSAGE Finished creating the Java project probeKlausur_797741c9
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:14:15.283
+!MESSAGE Successfully created a workspace invisible project probeKlausur_797741c9
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:14:16.318
+!MESSAGE >> Updating classpath for project probeKlausur_797741c9
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:14:16.424
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:14:16.622
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:14:17.350
+!MESSAGE begin problem for /AutoBestellPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:14:17.354
+!MESSAGE 85 problems reported for /AutoBestellPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:14:17.367
+!MESSAGE Validated 1. Took 144 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:14:23.230
+!MESSAGE Reconciled 1. Took 15 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:14:23.399
+!MESSAGE Reconciled 1. Took 12 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:14:23.916
+!MESSAGE begin problem for /AutoBestellPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:14:23.916
+!MESSAGE 85 problems reported for /AutoBestellPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:14:23.925
+!MESSAGE Validated 1. Took 75 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:14:24.701
+!MESSAGE Reconciled 1. Took 9 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:14:24.764
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:14:25.194
+!MESSAGE begin problem for /AutoBestellPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:14:25.195
+!MESSAGE 88 problems reported for /AutoBestellPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:14:25.198
+!MESSAGE Validated 1. Took 46 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:14:25.424
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:14:25.442
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:14:25.935
+!MESSAGE begin problem for /AutoBestellPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:14:25.936
+!MESSAGE 88 problems reported for /AutoBestellPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:14:25.960
+!MESSAGE Validated 1. Took 66 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:14:26.173
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:14:26.239
+!MESSAGE Reconciled 1. Took 7 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:14:26.408
+!MESSAGE Reconciled 1. Took 13 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:14:26.431
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:14:26.552
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:14:26.584
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:14:26.625
+!MESSAGE Reconciled 1. Took 9 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:14:27.104
+!MESSAGE begin problem for /AutoBestellPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:14:27.104
+!MESSAGE 87 problems reported for /AutoBestellPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:14:27.107
+!MESSAGE Validated 1. Took 31 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:14:27.470
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:14:27.501
+!MESSAGE Reconciled 1. Took 7 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:14:27.692
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:14:27.725
+!MESSAGE Reconciled 1. Took 4 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:14:27.899
+!MESSAGE Reconciled 1. Took 5 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:14:27.949
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:14:28.201
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:14:28.234
+!MESSAGE Reconciled 1. Took 6 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:14:28.717
+!MESSAGE begin problem for /AutoBestellPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:14:28.718
+!MESSAGE 87 problems reported for /AutoBestellPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:14:28.721
+!MESSAGE Validated 1. Took 36 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:14:29.026
+!MESSAGE Reconciled 1. Took 7 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:14:29.054
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:14:29.524
+!MESSAGE begin problem for /AutoBestellPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:14:29.524
+!MESSAGE 86 problems reported for /AutoBestellPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:14:29.526
+!MESSAGE Validated 1. Took 49 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:14:30.437
+!MESSAGE Reconciled 1. Took 7 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:14:30.962
+!MESSAGE begin problem for /AutoBestellPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:14:30.963
+!MESSAGE 63 problems reported for /AutoBestellPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:14:30.965
+!MESSAGE Validated 1. Took 77 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:14:31.331
+!MESSAGE Reconciled 1. Took 5 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:14:31.601
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:14:31.640
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:14:32.136
+!MESSAGE begin problem for /AutoBestellPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:14:32.137
+!MESSAGE 66 problems reported for /AutoBestellPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:14:32.139
+!MESSAGE Validated 1. Took 47 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:14:32.401
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:14:32.463
+!MESSAGE Reconciled 1. Took 5 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:14:32.557
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:14:32.581
+!MESSAGE Reconciled 1. Took 5 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:14:33.040
+!MESSAGE begin problem for /AutoBestellPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:14:33.041
+!MESSAGE 65 problems reported for /AutoBestellPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:14:33.043
+!MESSAGE Validated 1. Took 61 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:14:33.311
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:14:33.346
+!MESSAGE Reconciled 1. Took 5 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:14:33.468
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:14:33.502
+!MESSAGE Reconciled 1. Took 6 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:14:33.597
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:14:33.636
+!MESSAGE Reconciled 1. Took 6 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:14:33.737
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:14:33.738
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:14:34.176
+!MESSAGE begin problem for /AutoBestellPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:14:34.176
+!MESSAGE 64 problems reported for /AutoBestellPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:14:34.198
+!MESSAGE Validated 1. Took 59 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:14:34.296
+!MESSAGE Reconciled 1. Took 7 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:14:34.304
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:14:34.752
+!MESSAGE Reconciled 1. Took 5 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:14:34.773
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:14:35.250
+!MESSAGE begin problem for /AutoBestellPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:14:35.250
+!MESSAGE 64 problems reported for /AutoBestellPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:14:35.252
+!MESSAGE Validated 1. Took 49 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:14:36.010
+!MESSAGE Reconciled 1. Took 5 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:14:36.351
+!MESSAGE Reconciled 1. Took 5 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:14:36.852
+!MESSAGE begin problem for /AutoBestellPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:14:36.853
+!MESSAGE 63 problems reported for /AutoBestellPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:14:36.854
+!MESSAGE Validated 1. Took 52 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:14:36.913
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:14:36.915
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:14:37.401
+!MESSAGE begin problem for /AutoBestellPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:14:37.401
+!MESSAGE 66 problems reported for /AutoBestellPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:14:37.402
+!MESSAGE Validated 1. Took 37 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:14:37.690
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:14:37.752
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:14:38.203
+!MESSAGE begin problem for /AutoBestellPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:14:38.203
+!MESSAGE 64 problems reported for /AutoBestellPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:14:38.205
+!MESSAGE Validated 1. Took 52 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:14:39.038
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:14:39.075
+!MESSAGE Reconciled 1. Took 6 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:14:39.128
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:14:39.170
+!MESSAGE Reconciled 1. Took 5 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:14:39.232
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:14:39.270
+!MESSAGE Reconciled 1. Took 5 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:14:39.329
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:14:39.369
+!MESSAGE Reconciled 1. Took 4 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:14:39.447
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:14:39.447
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:14:39.667
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:14:39.705
+!MESSAGE Reconciled 1. Took 4 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:14:40.142
+!MESSAGE begin problem for /AutoBestellPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:14:40.142
+!MESSAGE 65 problems reported for /AutoBestellPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:14:40.143
+!MESSAGE Validated 1. Took 37 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:14:40.480
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:14:40.490
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:14:40.933
+!MESSAGE begin problem for /AutoBestellPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:14:40.933
+!MESSAGE 64 problems reported for /AutoBestellPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:14:40.934
+!MESSAGE Validated 1. Took 43 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:14:41.406
+!MESSAGE Reconciled 1. Took 4 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:14:41.888
+!MESSAGE begin problem for /AutoBestellPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:14:41.889
+!MESSAGE 63 problems reported for /AutoBestellPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:14:41.890
+!MESSAGE Validated 1. Took 33 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:14:42.183
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:14:42.618
+!MESSAGE begin problem for /AutoBestellPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:14:42.619
+!MESSAGE 63 problems reported for /AutoBestellPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:14:42.620
+!MESSAGE Validated 1. Took 36 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:14:51.338
+!MESSAGE Converting html to markdown
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:14:55.335
+!MESSAGE Reconciled 1. Took 5 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:14:55.781
+!MESSAGE begin problem for /AutoBestellPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:14:55.781
+!MESSAGE 62 problems reported for /AutoBestellPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:14:55.782
+!MESSAGE Validated 1. Took 46 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:14:57.978
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:14:57.992
+!MESSAGE Reconciled 1. Took 8 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:14:58.486
+!MESSAGE begin problem for /AutoBestellPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:14:58.487
+!MESSAGE 63 problems reported for /AutoBestellPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:14:58.488
+!MESSAGE Validated 1. Took 39 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:15:00.061
+!MESSAGE Reconciled 1. Took 5 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:15:00.545
+!MESSAGE begin problem for /AutoBestellPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:15:00.545
+!MESSAGE 65 problems reported for /AutoBestellPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:15:00.546
+!MESSAGE Validated 1. Took 34 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:15:01.026
+!MESSAGE Reconciled 1. Took 8 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:15:01.509
+!MESSAGE begin problem for /AutoBestellPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:15:01.510
+!MESSAGE 63 problems reported for /AutoBestellPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:15:01.511
+!MESSAGE Validated 1. Took 34 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:15:04.052
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:15:04.060
+!MESSAGE Reconciled 1. Took 4 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:15:04.362
+!MESSAGE Reconciled 1. Took 5 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:15:04.390
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:15:04.574
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:15:04.608
+!MESSAGE Reconciled 1. Took 6 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:15:04.684
+!MESSAGE Reconciled 1. Took 4 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:15:04.695
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:15:04.883
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:15:04.921
+!MESSAGE Reconciled 1. Took 5 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:15:05.404
+!MESSAGE begin problem for /AutoBestellPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:15:05.405
+!MESSAGE 62 problems reported for /AutoBestellPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:15:05.406
+!MESSAGE Validated 1. Took 34 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:15:05.699
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:15:06.181
+!MESSAGE begin problem for /AutoBestellPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:15:06.182
+!MESSAGE 62 problems reported for /AutoBestellPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:15:06.183
+!MESSAGE Validated 1. Took 33 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:15:06.990
+!MESSAGE Converting html to markdown
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:15:08.434
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:15:08.631
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:15:09.113
+!MESSAGE begin problem for /AutoBestellPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:15:09.113
+!MESSAGE 60 problems reported for /AutoBestellPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:15:09.114
+!MESSAGE Validated 1. Took 32 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:15:12.418
+!MESSAGE Reconciled 1. Took 4 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:15:12.903
+!MESSAGE begin problem for /AutoBestellPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:15:12.904
+!MESSAGE 59 problems reported for /AutoBestellPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:15:12.905
+!MESSAGE Validated 1. Took 37 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:15:13.063
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:15:13.502
+!MESSAGE begin problem for /AutoBestellPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:15:13.503
+!MESSAGE 59 problems reported for /AutoBestellPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:15:13.504
+!MESSAGE Validated 1. Took 40 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:15:23.411
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:15:23.450
+!MESSAGE Reconciled 1. Took 5 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:15:23.579
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:15:23.643
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:15:23.684
+!MESSAGE Reconciled 1. Took 4 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:15:23.870
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:15:23.913
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:15:24.398
+!MESSAGE begin problem for /AutoBestellPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:15:24.398
+!MESSAGE 40 problems reported for /AutoBestellPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:15:24.399
+!MESSAGE Validated 1. Took 35 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:15:24.581
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:15:24.616
+!MESSAGE Reconciled 1. Took 4 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:15:24.752
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:15:24.795
+!MESSAGE Reconciled 1. Took 4 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:15:24.830
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:15:24.838
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:15:25.260
+!MESSAGE begin problem for /AutoBestellPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:15:25.260
+!MESSAGE 40 problems reported for /AutoBestellPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:15:25.261
+!MESSAGE Validated 1. Took 30 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:15:25.289
+!MESSAGE Reconciled 1. Took 4 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:15:25.299
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:15:25.323
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:15:25.338
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:15:25.817
+!MESSAGE begin problem for /AutoBestellPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:15:25.817
+!MESSAGE 40 problems reported for /AutoBestellPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:15:25.818
+!MESSAGE Validated 1. Took 29 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:15:26.078
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:15:26.517
+!MESSAGE begin problem for /AutoBestellPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:15:26.517
+!MESSAGE 36 problems reported for /AutoBestellPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:15:26.518
+!MESSAGE Validated 1. Took 39 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:15:26.614
+!MESSAGE Reconciled 1. Took 4 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:15:27.045
+!MESSAGE begin problem for /AutoBestellPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:15:27.045
+!MESSAGE 36 problems reported for /AutoBestellPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:15:27.046
+!MESSAGE Validated 1. Took 31 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:15:28.917
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:15:29.346
+!MESSAGE begin problem for /AutoBestellPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:15:29.346
+!MESSAGE 36 problems reported for /AutoBestellPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:15:29.347
+!MESSAGE Validated 1. Took 28 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:15:30.226
+!MESSAGE Converting html to markdown
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:15:32.120
+!MESSAGE Reconciled 1. Took 4 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:15:32.192
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:15:32.196
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:15:32.625
+!MESSAGE begin problem for /AutoBestellPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:15:32.625
+!MESSAGE 36 problems reported for /AutoBestellPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:15:32.626
+!MESSAGE Validated 1. Took 29 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:15:32.897
+!MESSAGE Reconciled 1. Took 4 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:15:32.899
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:15:33.300
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:15:33.741
+!MESSAGE begin problem for /AutoBestellPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:15:33.741
+!MESSAGE 36 problems reported for /AutoBestellPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:15:33.744
+!MESSAGE Validated 1. Took 27 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:15:36.748
+!MESSAGE Reconciled 1. Took 4 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:15:36.834
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:15:37.232
+!MESSAGE begin problem for /AutoBestellPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:15:37.232
+!MESSAGE 36 problems reported for /AutoBestellPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:15:37.233
+!MESSAGE Validated 1. Took 34 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:15:39.188
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:15:39.249
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:15:39.677
+!MESSAGE begin problem for /AutoBestellPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:15:39.678
+!MESSAGE 36 problems reported for /AutoBestellPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:15:39.679
+!MESSAGE Validated 1. Took 39 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:15:43.793
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:15:44.220
+!MESSAGE begin problem for /AutoBestellPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:15:44.221
+!MESSAGE 35 problems reported for /AutoBestellPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:15:44.221
+!MESSAGE Validated 1. Took 27 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:16:02.618
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:16:02.761
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:16:03.188
+!MESSAGE begin problem for /AutoBestellPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:16:03.189
+!MESSAGE 34 problems reported for /AutoBestellPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:16:03.189
+!MESSAGE Validated 1. Took 27 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:16:11.857
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:16:11.875
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:16:12.335
+!MESSAGE begin problem for /AutoBestellPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:16:12.335
+!MESSAGE 34 problems reported for /AutoBestellPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:16:12.336
+!MESSAGE Validated 1. Took 28 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:16:12.839
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:16:12.873
+!MESSAGE Reconciled 1. Took 4 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:16:13.357
+!MESSAGE begin problem for /AutoBestellPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:16:13.358
+!MESSAGE 34 problems reported for /AutoBestellPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:16:13.359
+!MESSAGE Validated 1. Took 35 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:16:13.689
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:16:13.724
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:16:14.161
+!MESSAGE begin problem for /AutoBestellPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:16:14.161
+!MESSAGE 33 problems reported for /AutoBestellPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:16:14.163
+!MESSAGE Validated 1. Took 38 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:16:16.590
+!MESSAGE Reconciled 1. Took 4 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:16:17.022
+!MESSAGE begin problem for /AutoBestellPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:16:17.023
+!MESSAGE 32 problems reported for /AutoBestellPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:16:17.024
+!MESSAGE Validated 1. Took 33 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:16:18.814
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:16:18.848
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:16:19.325
+!MESSAGE begin problem for /AutoBestellPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:16:19.325
+!MESSAGE 32 problems reported for /AutoBestellPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:16:19.326
+!MESSAGE Validated 1. Took 26 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:16:23.938
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:16:24.021
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:16:24.366
+!MESSAGE begin problem for /AutoBestellPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:16:24.366
+!MESSAGE 31 problems reported for /AutoBestellPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:16:24.367
+!MESSAGE Validated 1. Took 28 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:16:24.959
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:16:25.435
+!MESSAGE begin problem for /AutoBestellPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:16:25.435
+!MESSAGE 31 problems reported for /AutoBestellPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:16:25.436
+!MESSAGE Validated 1. Took 26 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:16:37.316
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:16:37.367
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:16:37.814
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:16:37.876
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:16:37.914
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:16:37.970
+!MESSAGE Reconciled 1. Took 4 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:16:38.447
+!MESSAGE begin problem for /AutoBestellPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:16:38.447
+!MESSAGE 67 problems reported for /AutoBestellPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:16:38.448
+!MESSAGE Validated 1. Took 27 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:16:38.899
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:16:38.961
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:16:39.077
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:16:39.091
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:16:39.462
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:16:39.481
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:16:39.907
+!MESSAGE begin problem for /AutoBestellPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:16:39.907
+!MESSAGE 32 problems reported for /AutoBestellPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:16:39.908
+!MESSAGE Validated 1. Took 26 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:16:40.539
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:16:40.936
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:16:41.427
+!MESSAGE begin problem for /AutoBestellPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:16:41.427
+!MESSAGE 23 problems reported for /AutoBestellPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:16:41.428
+!MESSAGE Validated 1. Took 41 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:16:48.867
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:16:49.209
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:16:49.690
+!MESSAGE begin problem for /AutoBestellPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:16:49.690
+!MESSAGE 17 problems reported for /AutoBestellPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:16:49.691
+!MESSAGE Validated 1. Took 31 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:16:52.618
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:16:52.645
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:16:52.831
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:16:52.863
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:16:53.297
+!MESSAGE begin problem for /AutoBestellPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:16:53.297
+!MESSAGE 26 problems reported for /AutoBestellPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:16:53.298
+!MESSAGE Validated 1. Took 34 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:16:53.630
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:16:53.651
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:16:53.773
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:16:53.803
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:16:53.837
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:16:53.867
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:16:54.003
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:16:54.025
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:16:54.149
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:16:54.180
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:16:54.659
+!MESSAGE begin problem for /AutoBestellPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:16:54.659
+!MESSAGE 26 problems reported for /AutoBestellPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:16:54.660
+!MESSAGE Validated 1. Took 29 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:16:54.906
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:16:55.100
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:16:55.585
+!MESSAGE begin problem for /AutoBestellPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:16:55.586
+!MESSAGE 16 problems reported for /AutoBestellPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:16:55.586
+!MESSAGE Validated 1. Took 35 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:16:59.326
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:16:59.327
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:16:59.821
+!MESSAGE begin problem for /AutoBestellPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:16:59.822
+!MESSAGE 16 problems reported for /AutoBestellPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:16:59.823
+!MESSAGE Validated 1. Took 46 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:17:01.221
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:17:01.269
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:17:01.758
+!MESSAGE begin problem for /AutoBestellPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:17:01.759
+!MESSAGE 16 problems reported for /AutoBestellPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:17:01.760
+!MESSAGE Validated 1. Took 40 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:17:13.843
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:17:13.845
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:17:14.331
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:17:14.811
+!MESSAGE begin problem for /AutoBestellPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:17:14.811
+!MESSAGE 16 problems reported for /AutoBestellPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:17:14.812
+!MESSAGE Validated 1. Took 31 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:17:31.815
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:17:32.306
+!MESSAGE begin problem for /AutoBestellPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:17:32.306
+!MESSAGE 16 problems reported for /AutoBestellPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:17:32.307
+!MESSAGE Validated 1. Took 41 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:17:32.470
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:17:32.528
+!MESSAGE Reconciled 1. Took 4 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:17:32.557
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:17:32.618
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:17:32.657
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:17:32.718
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:17:32.774
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:17:32.834
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:17:33.031
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:17:33.051
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:17:33.511
+!MESSAGE begin problem for /AutoBestellPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:17:33.512
+!MESSAGE 17 problems reported for /AutoBestellPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:17:33.512
+!MESSAGE Validated 1. Took 29 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:17:34.542
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:17:35.022
+!MESSAGE begin problem for /AutoBestellPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:17:35.022
+!MESSAGE 17 problems reported for /AutoBestellPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:17:35.022
+!MESSAGE Validated 1. Took 29 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:17:35.975
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:17:36.028
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:17:36.505
+!MESSAGE begin problem for /AutoBestellPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:17:36.506
+!MESSAGE 19 problems reported for /AutoBestellPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:17:36.506
+!MESSAGE Validated 1. Took 27 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:17:36.985
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:17:36.996
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:17:37.213
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:17:37.250
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:17:37.302
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:17:37.341
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:17:37.344
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:17:37.487
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:17:37.525
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:17:37.620
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:17:37.644
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:17:37.893
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:17:37.898
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:17:38.374
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:17:38.397
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:17:38.604
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:17:38.648
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:17:39.128
+!MESSAGE begin problem for /AutoBestellPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:17:39.128
+!MESSAGE 18 problems reported for /AutoBestellPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:17:39.129
+!MESSAGE Validated 1. Took 29 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:17:39.594
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:17:40.053
+!MESSAGE begin problem for /AutoBestellPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:17:40.053
+!MESSAGE 13 problems reported for /AutoBestellPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:17:40.054
+!MESSAGE Validated 1. Took 59 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:17:40.704
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:17:41.187
+!MESSAGE begin problem for /AutoBestellPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:17:41.187
+!MESSAGE 13 problems reported for /AutoBestellPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:17:41.188
+!MESSAGE Validated 1. Took 33 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:17:48.571
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:17:48.588
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:17:48.993
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:17:49.034
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:17:49.037
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:17:49.517
+!MESSAGE begin problem for /AutoBestellPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:17:49.517
+!MESSAGE 13 problems reported for /AutoBestellPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:17:49.538
+!MESSAGE Validated 1. Took 50 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:17:50.796
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:17:50.883
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:17:50.886
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:17:51.363
+!MESSAGE begin problem for /AutoBestellPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:17:51.363
+!MESSAGE 13 problems reported for /AutoBestellPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:17:51.363
+!MESSAGE Validated 1. Took 29 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:17:52.712
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:17:52.719
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:17:52.966
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:17:53.009
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:17:53.334
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:17:53.381
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:17:53.383
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:17:53.861
+!MESSAGE begin problem for /AutoBestellPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:17:53.861
+!MESSAGE 13 problems reported for /AutoBestellPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:17:53.861
+!MESSAGE Validated 1. Took 29 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:17:54.506
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:17:54.986
+!MESSAGE begin problem for /AutoBestellPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:17:54.986
+!MESSAGE 13 problems reported for /AutoBestellPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:17:54.986
+!MESSAGE Validated 1. Took 29 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:18:03.527
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:18:03.563
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:18:03.613
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:18:04.040
+!MESSAGE begin problem for /AutoBestellPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:18:04.041
+!MESSAGE 13 problems reported for /AutoBestellPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:18:04.041
+!MESSAGE Validated 1. Took 27 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:18:04.669
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:18:05.147
+!MESSAGE begin problem for /AutoBestellPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:18:05.147
+!MESSAGE 12 problems reported for /AutoBestellPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:18:05.147
+!MESSAGE Validated 1. Took 27 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:18:07.604
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:18:07.640
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:18:08.119
+!MESSAGE begin problem for /AutoBestellPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:18:08.119
+!MESSAGE 12 problems reported for /AutoBestellPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:18:08.120
+!MESSAGE Validated 1. Took 29 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:18:08.666
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:18:09.144
+!MESSAGE begin problem for /AutoBestellPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:18:09.144
+!MESSAGE 11 problems reported for /AutoBestellPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:18:09.145
+!MESSAGE Validated 1. Took 28 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:18:10.515
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:18:10.580
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:18:10.629
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:18:10.655
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:18:10.704
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:18:11.132
+!MESSAGE begin problem for /AutoBestellPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:18:11.133
+!MESSAGE 11 problems reported for /AutoBestellPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:18:11.133
+!MESSAGE Validated 1. Took 28 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:18:11.234
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:18:11.234
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:18:11.665
+!MESSAGE begin problem for /AutoBestellPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:18:11.666
+!MESSAGE 11 problems reported for /AutoBestellPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:18:11.667
+!MESSAGE Validated 1. Took 32 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:18:12.721
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:18:12.908
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:18:12.954
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:18:13.432
+!MESSAGE begin problem for /AutoBestellPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:18:13.432
+!MESSAGE 11 problems reported for /AutoBestellPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:18:13.432
+!MESSAGE Validated 1. Took 27 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:18:13.880
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:18:13.932
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:18:14.076
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:18:14.127
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:18:14.300
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:18:14.300
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:18:14.374
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:18:14.430
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:18:14.478
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:18:14.524
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:18:14.528
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:18:14.837
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:18:14.888
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:18:15.128
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:18:15.174
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:18:15.471
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:18:15.510
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:18:15.521
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:18:15.953
+!MESSAGE begin problem for /AutoBestellPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:18:15.953
+!MESSAGE 11 problems reported for /AutoBestellPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:18:15.954
+!MESSAGE Validated 1. Took 32 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:18:18.405
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:18:18.884
+!MESSAGE begin problem for /AutoBestellPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:18:18.884
+!MESSAGE 12 problems reported for /AutoBestellPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:18:18.884
+!MESSAGE Validated 1. Took 29 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:18:19.155
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:18:19.634
+!MESSAGE begin problem for /AutoBestellPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:18:19.635
+!MESSAGE 11 problems reported for /AutoBestellPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:18:19.635
+!MESSAGE Validated 1. Took 29 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:18:19.833
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:18:20.024
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:18:20.453
+!MESSAGE begin problem for /AutoBestellPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:18:20.453
+!MESSAGE 11 problems reported for /AutoBestellPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:18:20.454
+!MESSAGE Validated 1. Took 29 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:18:50.630
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:18:50.692
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:18:51.171
+!MESSAGE begin problem for /AutoBestellPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:18:51.171
+!MESSAGE 11 problems reported for /AutoBestellPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:18:51.171
+!MESSAGE Validated 1. Took 29 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:18:52.261
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:18:52.292
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:18:52.695
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:18:53.128
+!MESSAGE begin problem for /AutoBestellPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:18:53.129
+!MESSAGE 11 problems reported for /AutoBestellPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:18:53.149
+!MESSAGE Validated 1. Took 53 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:18:53.296
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:18:53.518
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:18:53.580
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:18:53.872
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:18:53.924
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:18:54.410
+!MESSAGE begin problem for /AutoBestellPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:18:54.410
+!MESSAGE 10 problems reported for /AutoBestellPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:18:54.411
+!MESSAGE Validated 1. Took 36 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:18:54.598
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:18:55.085
+!MESSAGE begin problem for /AutoBestellPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:18:55.086
+!MESSAGE 10 problems reported for /AutoBestellPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:18:55.087
+!MESSAGE Validated 1. Took 39 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:18:55.390
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:18:55.401
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:18:55.878
+!MESSAGE begin problem for /AutoBestellPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:18:55.879
+!MESSAGE 10 problems reported for /AutoBestellPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:18:55.879
+!MESSAGE Validated 1. Took 27 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:18:56.736
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:18:56.748
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:18:56.854
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:18:56.909
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:18:57.387
+!MESSAGE begin problem for /AutoBestellPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:18:57.387
+!MESSAGE 9 problems reported for /AutoBestellPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:18:57.387
+!MESSAGE Validated 1. Took 27 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:18:57.918
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:18:57.979
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:18:58.411
+!MESSAGE begin problem for /AutoBestellPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:18:58.411
+!MESSAGE 9 problems reported for /AutoBestellPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:18:58.433
+!MESSAGE Validated 1. Took 52 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:18:58.958
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:18:59.020
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:18:59.105
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:18:59.162
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:18:59.621
+!MESSAGE begin problem for /AutoBestellPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:18:59.621
+!MESSAGE 8 problems reported for /AutoBestellPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:18:59.621
+!MESSAGE Validated 1. Took 24 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:18:59.706
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:19:00.188
+!MESSAGE begin problem for /AutoBestellPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:19:00.188
+!MESSAGE 8 problems reported for /AutoBestellPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:19:00.189
+!MESSAGE Validated 1. Took 33 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:19:19.979
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:19:20.019
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:19:20.177
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:19:20.235
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:19:20.285
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:19:20.771
+!MESSAGE begin problem for /AutoBestellPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:19:20.771
+!MESSAGE 8 problems reported for /AutoBestellPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:19:20.772
+!MESSAGE Validated 1. Took 36 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:22:57.941
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:22:57.984
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:22:58.460
+!MESSAGE begin problem for /AutoBestellPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:22:58.460
+!MESSAGE 8 problems reported for /AutoBestellPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:22:58.461
+!MESSAGE Validated 1. Took 26 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:22:58.830
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:22:59.256
+!MESSAGE begin problem for /AutoBestellPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:22:59.256
+!MESSAGE 8 problems reported for /AutoBestellPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:22:59.257
+!MESSAGE Validated 1. Took 26 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:22:59.846
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:23:00.299
+!MESSAGE begin problem for /AutoBestellPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:23:00.300
+!MESSAGE 8 problems reported for /AutoBestellPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:23:00.300
+!MESSAGE Validated 1. Took 34 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:23:00.451
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:23:00.927
+!MESSAGE begin problem for /AutoBestellPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:23:00.927
+!MESSAGE 8 problems reported for /AutoBestellPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:23:00.928
+!MESSAGE Validated 1. Took 27 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:23:01.732
+!MESSAGE Converting html to markdown
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:23:03.503
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:23:03.985
+!MESSAGE begin problem for /AutoBestellPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:23:03.985
+!MESSAGE 12 problems reported for /AutoBestellPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:23:03.985
+!MESSAGE Validated 1. Took 31 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:23:04.628
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:23:05.108
+!MESSAGE begin problem for /AutoBestellPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:23:05.108
+!MESSAGE 12 problems reported for /AutoBestellPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:23:05.108
+!MESSAGE Validated 1. Took 29 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:23:08.623
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:23:08.650
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:23:08.904
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:23:08.937
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:23:09.064
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:23:09.102
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:23:09.171
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:23:09.209
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:23:09.302
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:23:09.342
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:23:09.405
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:23:09.440
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:23:09.918
+!MESSAGE begin problem for /AutoBestellPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:23:09.918
+!MESSAGE 12 problems reported for /AutoBestellPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:23:09.919
+!MESSAGE Validated 1. Took 28 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:23:10.696
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:23:10.758
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:23:11.169
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:23:11.646
+!MESSAGE begin problem for /AutoBestellPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:23:11.647
+!MESSAGE 12 problems reported for /AutoBestellPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:23:11.647
+!MESSAGE Validated 1. Took 28 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:23:13.607
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:23:13.631
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:23:14.110
+!MESSAGE begin problem for /AutoBestellPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:23:14.110
+!MESSAGE 8 problems reported for /AutoBestellPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:23:14.111
+!MESSAGE Validated 1. Took 30 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:23:14.455
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:23:14.931
+!MESSAGE begin problem for /AutoBestellPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:23:14.931
+!MESSAGE 7 problems reported for /AutoBestellPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:23:14.931
+!MESSAGE Validated 1. Took 25 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:23:15.026
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:23:15.033
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:23:15.454
+!MESSAGE begin problem for /AutoBestellPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:23:15.454
+!MESSAGE 12 problems reported for /AutoBestellPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:23:15.455
+!MESSAGE Validated 1. Took 28 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:23:16.143
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:23:16.196
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:23:16.198
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:23:16.257
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:23:16.309
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:23:16.335
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:23:16.381
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:23:16.810
+!MESSAGE begin problem for /AutoBestellPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:23:16.810
+!MESSAGE 9 problems reported for /AutoBestellPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:23:16.810
+!MESSAGE Validated 1. Took 28 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:23:17.676
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:23:18.157
+!MESSAGE begin problem for /AutoBestellPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:23:18.157
+!MESSAGE 7 problems reported for /AutoBestellPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:23:18.158
+!MESSAGE Validated 1. Took 31 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:23:18.317
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:23:18.798
+!MESSAGE begin problem for /AutoBestellPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:23:18.799
+!MESSAGE 7 problems reported for /AutoBestellPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:23:18.799
+!MESSAGE Validated 1. Took 31 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:23:25.135
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:23:25.152
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:23:25.278
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:23:25.296
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:23:25.744
+!MESSAGE begin problem for /AutoBestellPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:23:25.744
+!MESSAGE 8 problems reported for /AutoBestellPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:23:25.745
+!MESSAGE Validated 1. Took 15 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:23:26.563
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:23:27.038
+!MESSAGE begin problem for /AutoBestellPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:23:27.038
+!MESSAGE 7 problems reported for /AutoBestellPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:23:27.038
+!MESSAGE Validated 1. Took 24 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:23:27.798
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:23:28.273
+!MESSAGE begin problem for /AutoBestellPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:23:28.274
+!MESSAGE 7 problems reported for /AutoBestellPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:23:28.274
+!MESSAGE Validated 1. Took 27 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:24:10.087
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:24:10.101
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:24:10.413
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:24:10.436
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:24:10.607
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:24:10.633
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:24:10.661
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:24:10.694
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:24:10.803
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:24:10.855
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:24:10.887
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:24:11.032
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:24:11.061
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:24:11.539
+!MESSAGE begin problem for /AutoBestellPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:24:11.539
+!MESSAGE 7 problems reported for /AutoBestellPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:24:11.540
+!MESSAGE Validated 1. Took 28 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:24:13.129
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:24:13.609
+!MESSAGE begin problem for /AutoBestellPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:24:13.610
+!MESSAGE 8 problems reported for /AutoBestellPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:24:13.610
+!MESSAGE Validated 1. Took 31 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:24:15.881
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:24:16.311
+!MESSAGE begin problem for /AutoBestellPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:24:16.312
+!MESSAGE 7 problems reported for /AutoBestellPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:24:16.312
+!MESSAGE Validated 1. Took 30 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:24:17.155
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:24:17.241
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:24:17.638
+!MESSAGE begin problem for /AutoBestellPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:24:17.638
+!MESSAGE 7 problems reported for /AutoBestellPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:24:17.638
+!MESSAGE Validated 1. Took 32 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:24:18.120
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:24:18.598
+!MESSAGE begin problem for /AutoBestellPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:24:18.598
+!MESSAGE 7 problems reported for /AutoBestellPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:24:18.599
+!MESSAGE Validated 1. Took 28 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:24:21.643
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:24:21.665
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:24:21.708
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:24:21.744
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:24:21.888
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:24:21.906
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:24:21.967
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:24:21.986
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:24:22.443
+!MESSAGE begin problem for /AutoBestellPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:24:22.444
+!MESSAGE 6 problems reported for /AutoBestellPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:24:22.444
+!MESSAGE Validated 1. Took 27 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:24:22.846
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:24:23.275
+!MESSAGE begin problem for /AutoBestellPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:24:23.275
+!MESSAGE 6 problems reported for /AutoBestellPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:24:23.276
+!MESSAGE Validated 1. Took 28 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:24:27.081
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:24:27.563
+!MESSAGE begin problem for /AutoBestellPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:24:27.563
+!MESSAGE 6 problems reported for /AutoBestellPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:24:27.563
+!MESSAGE Validated 1. Took 31 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:24:27.860
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:24:27.876
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:24:28.125
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:24:28.157
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:24:28.327
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:24:28.344
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:24:28.402
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:24:28.438
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:24:28.508
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:24:28.540
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:24:28.580
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:24:28.614
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:24:28.748
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:24:28.770
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:24:29.198
+!MESSAGE begin problem for /AutoBestellPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:24:29.198
+!MESSAGE 7 problems reported for /AutoBestellPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:24:29.198
+!MESSAGE Validated 1. Took 27 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:24:31.940
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:24:32.367
+!MESSAGE begin problem for /AutoBestellPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:24:32.367
+!MESSAGE 6 problems reported for /AutoBestellPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:24:32.367
+!MESSAGE Validated 1. Took 26 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:24:33.191
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:24:33.211
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:24:33.595
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:24:33.599
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:24:33.717
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:24:33.745
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:24:33.984
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:24:34.013
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:24:34.159
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:24:34.191
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:24:34.616
+!MESSAGE begin problem for /AutoBestellPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:24:34.616
+!MESSAGE 6 problems reported for /AutoBestellPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:24:34.617
+!MESSAGE Validated 1. Took 25 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:24:34.775
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:24:35.052
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:24:35.529
+!MESSAGE begin problem for /AutoBestellPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:24:35.529
+!MESSAGE 5 problems reported for /AutoBestellPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:24:35.529
+!MESSAGE Validated 1. Took 26 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:24:37.214
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:24:37.520
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:24:37.540
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:24:37.762
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:24:37.788
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:24:37.939
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:24:37.972
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:24:37.998
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:24:38.019
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:24:38.201
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:24:38.223
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:24:38.240
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:24:38.415
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:24:38.450
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:24:38.928
+!MESSAGE begin problem for /AutoBestellPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:24:38.928
+!MESSAGE 6 problems reported for /AutoBestellPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:24:38.929
+!MESSAGE Validated 1. Took 28 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:24:41.811
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:24:41.854
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:24:42.330
+!MESSAGE begin problem for /AutoBestellPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:24:42.331
+!MESSAGE 5 problems reported for /AutoBestellPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:24:42.331
+!MESSAGE Validated 1. Took 26 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:24:42.745
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:24:43.220
+!MESSAGE begin problem for /AutoBestellPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:24:43.220
+!MESSAGE 5 problems reported for /AutoBestellPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:24:43.221
+!MESSAGE Validated 1. Took 25 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:24:44.070
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:24:44.097
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:24:44.136
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:24:44.166
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:24:44.644
+!MESSAGE begin problem for /AutoBestellPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:24:44.644
+!MESSAGE 5 problems reported for /AutoBestellPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:24:44.645
+!MESSAGE Validated 1. Took 28 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:24:44.977
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:24:45.008
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:24:45.503
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:24:45.535
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:24:45.713
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:24:45.736
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:24:45.777
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:24:45.804
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:24:45.854
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:24:45.882
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:24:46.357
+!MESSAGE begin problem for /AutoBestellPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:24:46.358
+!MESSAGE 5 problems reported for /AutoBestellPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:24:46.358
+!MESSAGE Validated 1. Took 25 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:24:46.438
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:24:46.914
+!MESSAGE begin problem for /AutoBestellPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:24:46.915
+!MESSAGE 4 problems reported for /AutoBestellPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:24:46.915
+!MESSAGE Validated 1. Took 26 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:24:47.299
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:24:47.729
+!MESSAGE begin problem for /AutoBestellPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:24:47.729
+!MESSAGE 4 problems reported for /AutoBestellPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:24:47.729
+!MESSAGE Validated 1. Took 29 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:24:49.928
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:24:50.403
+!MESSAGE begin problem for /AutoBestellPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:24:50.403
+!MESSAGE 4 problems reported for /AutoBestellPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:24:50.404
+!MESSAGE Validated 1. Took 25 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:24:50.467
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:24:50.488
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:24:50.717
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:24:50.747
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:24:50.889
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:24:50.921
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:24:50.963
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:24:50.998
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:24:51.092
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:24:51.126
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:24:51.176
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:24:51.212
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:24:51.380
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:24:51.403
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:24:51.833
+!MESSAGE begin problem for /AutoBestellPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:24:51.834
+!MESSAGE 5 problems reported for /AutoBestellPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:24:51.834
+!MESSAGE Validated 1. Took 30 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:24:52.106
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:24:52.141
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:24:52.593
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:24:52.611
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:24:52.856
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:24:52.870
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:24:53.339
+!MESSAGE begin problem for /AutoBestellPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:24:53.339
+!MESSAGE 5 problems reported for /AutoBestellPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:24:53.339
+!MESSAGE Validated 1. Took 32 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:24:54.776
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:24:55.252
+!MESSAGE begin problem for /AutoBestellPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:24:55.253
+!MESSAGE 4 problems reported for /AutoBestellPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:24:55.253
+!MESSAGE Validated 1. Took 26 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:24:55.683
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:24:55.708
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:24:55.776
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:24:55.805
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:24:56.286
+!MESSAGE begin problem for /AutoBestellPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:24:56.286
+!MESSAGE 4 problems reported for /AutoBestellPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:24:56.287
+!MESSAGE Validated 1. Took 31 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:24:56.573
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:24:57.052
+!MESSAGE begin problem for /AutoBestellPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:24:57.053
+!MESSAGE 7 problems reported for /AutoBestellPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:24:57.053
+!MESSAGE Validated 1. Took 29 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:24:57.284
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:24:57.766
+!MESSAGE begin problem for /AutoBestellPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:24:57.766
+!MESSAGE 7 problems reported for /AutoBestellPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:24:57.766
+!MESSAGE Validated 1. Took 31 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:25:05.863
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:25:06.339
+!MESSAGE begin problem for /AutoBestellPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:25:06.339
+!MESSAGE 7 problems reported for /AutoBestellPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:25:06.359
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:25:06.359
+!MESSAGE Validated 1. Took 45 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:25:06.361
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:25:06.673
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:25:06.735
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:25:06.779
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:25:06.834
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:25:07.157
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:25:07.643
+!MESSAGE begin problem for /AutoBestellPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:25:07.643
+!MESSAGE 3 problems reported for /AutoBestellPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:25:07.644
+!MESSAGE Validated 1. Took 36 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:25:07.654
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:25:08.091
+!MESSAGE begin problem for /AutoBestellPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:25:08.091
+!MESSAGE 3 problems reported for /AutoBestellPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:25:08.092
+!MESSAGE Validated 1. Took 38 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:25:42.480
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:25:42.905
+!MESSAGE begin problem for /AutoBestellPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:25:42.905
+!MESSAGE 1 problems reported for /AutoBestellPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:25:42.905
+!MESSAGE Validated 1. Took 24 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:25:43.195
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:25:43.235
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:25:43.716
+!MESSAGE begin problem for /AutoBestellPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:25:43.717
+!MESSAGE 1 problems reported for /AutoBestellPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:25:43.717
+!MESSAGE Validated 1. Took 31 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:25:44.903
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:25:45.398
+!MESSAGE begin problem for /AutoBestellPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:25:45.398
+!MESSAGE 1 problems reported for /AutoBestellPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:25:45.398
+!MESSAGE Validated 1. Took 44 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:25:46.141
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:25:46.624
+!MESSAGE begin problem for /AutoBestellPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:25:46.625
+!MESSAGE 0 problems reported for /AutoBestellPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:25:46.625
+!MESSAGE Validated 1. Took 33 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:25:47.229
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:25:47.253
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:25:47.454
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:25:47.465
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:25:47.647
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:25:47.683
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:25:47.752
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:25:47.766
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:25:47.857
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:25:47.908
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:25:47.948
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:25:48.427
+!MESSAGE begin problem for /AutoBestellPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:25:48.427
+!MESSAGE 0 problems reported for /AutoBestellPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:25:48.427
+!MESSAGE Validated 1. Took 28 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:25:48.669
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:25:49.096
+!MESSAGE begin problem for /AutoBestellPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:25:49.096
+!MESSAGE 0 problems reported for /AutoBestellPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:25:49.097
+!MESSAGE Validated 1. Took 27 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:25:50.304
+!MESSAGE Converting html to markdown
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:26:55.895
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:26:56.094
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:26:56.571
+!MESSAGE begin problem for /AutoBestellPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:26:56.572
+!MESSAGE 0 problems reported for /AutoBestellPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:26:56.572
+!MESSAGE Validated 1. Took 27 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:26:57.333
+!MESSAGE Reconciled 1. Took 7 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:26:57.818
+!MESSAGE begin problem for /AutoBestellPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:26:57.819
+!MESSAGE 0 problems reported for /AutoBestellPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:26:57.819
+!MESSAGE Validated 1. Took 35 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:27:34.954
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:27:35.383
+!MESSAGE begin problem for /AutoBestellPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:27:35.384
+!MESSAGE 0 problems reported for /AutoBestellPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:27:35.384
+!MESSAGE Validated 1. Took 29 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:27:35.522
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:27:35.951
+!MESSAGE begin problem for /AutoBestellPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:27:35.952
+!MESSAGE 0 problems reported for /AutoBestellPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:27:35.952
+!MESSAGE Validated 1. Took 29 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:27:37.918
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:27:38.312
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:27:38.465
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:27:38.564
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:27:38.944
+!MESSAGE begin problem for /AutoBestellPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:27:38.945
+!MESSAGE 5 problems reported for /AutoBestellPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:27:38.945
+!MESSAGE Validated 1. Took 29 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:27:39.061
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:27:39.092
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:27:39.283
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:27:39.318
+!MESSAGE Reconciled 1. Took 4 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:27:39.797
+!MESSAGE begin problem for /AutoBestellPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:27:39.798
+!MESSAGE 5 problems reported for /AutoBestellPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:27:39.798
+!MESSAGE Validated 1. Took 29 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:27:40.379
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:27:40.573
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:27:41.010
+!MESSAGE begin problem for /AutoBestellPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:27:41.010
+!MESSAGE 0 problems reported for /AutoBestellPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:27:41.011
+!MESSAGE Validated 1. Took 37 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:27:41.090
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:27:41.569
+!MESSAGE begin problem for /AutoBestellPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:27:41.570
+!MESSAGE 0 problems reported for /AutoBestellPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:27:41.570
+!MESSAGE Validated 1. Took 29 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:27:42.584
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:27:42.880
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:27:42.906
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:27:43.393
+!MESSAGE begin problem for /AutoBestellPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:27:43.393
+!MESSAGE 1 problems reported for /AutoBestellPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:27:43.393
+!MESSAGE Validated 1. Took 36 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:27:44.063
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:27:44.188
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:27:44.236
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:27:44.256
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:27:44.308
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:27:44.375
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:27:44.427
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:27:44.523
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:27:44.576
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:27:44.599
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:27:44.601
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:27:44.691
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:27:44.743
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:27:44.806
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:27:44.868
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:27:44.962
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:27:44.989
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:27:45.012
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:27:45.069
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:27:45.121
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:27:45.240
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:27:45.293
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:27:45.426
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:27:45.478
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:27:45.524
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:27:45.579
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:27:45.720
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:27:45.770
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:27:46.252
+!MESSAGE begin problem for /AutoBestellPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:27:46.253
+!MESSAGE 0 problems reported for /AutoBestellPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:27:46.253
+!MESSAGE Validated 1. Took 32 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:27:53.012
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:27:53.104
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:27:53.166
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:27:53.205
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:27:53.607
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:27:53.758
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:27:53.850
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:27:53.932
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:27:53.946
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:27:53.959
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:27:53.995
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:27:54.431
+!MESSAGE begin problem for /AutoBestellPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:27:54.432
+!MESSAGE 4 problems reported for /AutoBestellPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:27:54.432
+!MESSAGE Validated 1. Took 36 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:27:54.676
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:27:54.721
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:27:55.206
+!MESSAGE begin problem for /AutoBestellPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:27:55.206
+!MESSAGE 4 problems reported for /AutoBestellPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:27:55.207
+!MESSAGE Validated 1. Took 35 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:27:55.558
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:27:56.042
+!MESSAGE begin problem for /AutoBestellPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:27:56.042
+!MESSAGE 4 problems reported for /AutoBestellPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:27:56.043
+!MESSAGE Validated 1. Took 35 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:27:57.288
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:27:57.768
+!MESSAGE begin problem for /AutoBestellPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:27:57.769
+!MESSAGE 1 problems reported for /AutoBestellPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:27:57.769
+!MESSAGE Validated 1. Took 30 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:27:57.781
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:27:57.805
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:27:57.857
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:27:57.889
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:27:58.323
+!MESSAGE begin problem for /AutoBestellPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:27:58.323
+!MESSAGE 1 problems reported for /AutoBestellPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:27:58.343
+!MESSAGE Validated 1. Took 53 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:27:58.825
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:27:59.255
+!MESSAGE begin problem for /AutoBestellPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:27:59.256
+!MESSAGE 0 problems reported for /AutoBestellPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:27:59.256
+!MESSAGE Validated 1. Took 30 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:28:22.484
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:28:22.971
+!MESSAGE begin problem for /AutoBestellPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:28:22.971
+!MESSAGE 0 problems reported for /AutoBestellPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:28:22.971
+!MESSAGE Validated 1. Took 37 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:28:28.270
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:28:28.426
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:28:28.856
+!MESSAGE begin problem for /AutoBestellPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:28:28.857
+!MESSAGE 0 problems reported for /AutoBestellPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:28:28.857
+!MESSAGE Validated 1. Took 30 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:28:28.947
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:28:29.259
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:28:29.293
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:28:29.325
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:28:29.356
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:28:29.788
+!MESSAGE begin problem for /AutoBestellPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:28:29.788
+!MESSAGE 3 problems reported for /AutoBestellPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:28:29.788
+!MESSAGE Validated 1. Took 31 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:28:30.012
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:28:30.441
+!MESSAGE begin problem for /AutoBestellPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:28:30.441
+!MESSAGE 0 problems reported for /AutoBestellPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:28:30.442
+!MESSAGE Validated 1. Took 29 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:29:50.623
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:29:50.991
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:29:51.027
+!MESSAGE Reconciled 1. Took 4 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:29:51.171
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:29:51.426
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:29:51.857
+!MESSAGE begin problem for /AutoBestellPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:29:51.857
+!MESSAGE 3 problems reported for /AutoBestellPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:29:51.858
+!MESSAGE Validated 1. Took 31 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:29:52.943
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:29:53.378
+!MESSAGE begin problem for /AutoBestellPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:29:53.379
+!MESSAGE 4 problems reported for /AutoBestellPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:29:53.379
+!MESSAGE Validated 1. Took 35 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:29:53.642
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:29:54.075
+!MESSAGE begin problem for /AutoBestellPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:29:54.075
+!MESSAGE 7 problems reported for /AutoBestellPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:29:54.075
+!MESSAGE Validated 1. Took 32 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:29:54.269
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:29:54.762
+!MESSAGE begin problem for /AutoBestellPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:29:54.762
+!MESSAGE 7 problems reported for /AutoBestellPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:29:54.762
+!MESSAGE Validated 1. Took 42 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:29:55.407
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:29:55.837
+!MESSAGE begin problem for /AutoBestellPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:29:55.837
+!MESSAGE 4 problems reported for /AutoBestellPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:29:55.840
+!MESSAGE Validated 1. Took 32 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:29:56.964
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:29:57.442
+!MESSAGE begin problem for /AutoBestellPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:29:57.443
+!MESSAGE 1 problems reported for /AutoBestellPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:29:57.443
+!MESSAGE Validated 1. Took 28 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:29:57.704
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:29:58.183
+!MESSAGE begin problem for /AutoBestellPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:29:58.183
+!MESSAGE 3 problems reported for /AutoBestellPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:29:58.183
+!MESSAGE Validated 1. Took 28 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:29:58.248
+!MESSAGE Reconciled 1. Took 4 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:29:58.727
+!MESSAGE begin problem for /AutoBestellPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:29:58.727
+!MESSAGE 3 problems reported for /AutoBestellPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:29:58.727
+!MESSAGE Validated 1. Took 28 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:29:59.336
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:29:59.815
+!MESSAGE begin problem for /AutoBestellPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:29:59.815
+!MESSAGE 3 problems reported for /AutoBestellPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:29:59.816
+!MESSAGE Validated 1. Took 29 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:30:00.111
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:30:00.591
+!MESSAGE begin problem for /AutoBestellPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:30:00.592
+!MESSAGE 6 problems reported for /AutoBestellPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:30:00.592
+!MESSAGE Validated 1. Took 30 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:30:00.660
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:30:00.882
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:30:01.374
+!MESSAGE begin problem for /AutoBestellPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:30:01.374
+!MESSAGE 11 problems reported for /AutoBestellPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:30:01.374
+!MESSAGE Validated 1. Took 41 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:30:06.270
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:30:06.698
+!MESSAGE begin problem for /AutoBestellPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:30:06.699
+!MESSAGE 11 problems reported for /AutoBestellPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:30:06.699
+!MESSAGE Validated 1. Took 29 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:30:14.719
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:30:15.117
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:30:15.173
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:30:15.399
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:30:15.427
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:30:15.615
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:30:15.646
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:30:15.675
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:30:15.709
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:30:15.821
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:30:15.858
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:30:15.872
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:30:15.963
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:30:16.025
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:30:16.165
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:30:16.207
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:30:16.556
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:30:16.608
+!MESSAGE Reconciled 1. Took 4 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:30:16.815
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:30:16.864
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:30:17.207
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:30:17.640
+!MESSAGE begin problem for /AutoBestellPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:30:17.640
+!MESSAGE 9 problems reported for /AutoBestellPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:30:17.640
+!MESSAGE Validated 1. Took 32 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:30:20.450
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:30:20.929
+!MESSAGE begin problem for /AutoBestellPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:30:20.929
+!MESSAGE 8 problems reported for /AutoBestellPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:30:20.930
+!MESSAGE Validated 1. Took 30 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:30:21.315
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:30:21.793
+!MESSAGE begin problem for /AutoBestellPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:30:21.794
+!MESSAGE 8 problems reported for /AutoBestellPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:30:21.794
+!MESSAGE Validated 1. Took 28 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:30:24.055
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:30:24.532
+!MESSAGE begin problem for /AutoBestellPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:30:24.533
+!MESSAGE 9 problems reported for /AutoBestellPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:30:24.533
+!MESSAGE Validated 1. Took 29 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:30:25.085
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:30:25.521
+!MESSAGE begin problem for /AutoBestellPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:30:25.522
+!MESSAGE 2 problems reported for /AutoBestellPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:30:25.522
+!MESSAGE Validated 1. Took 37 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:30:27.881
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:30:28.189
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:30:28.669
+!MESSAGE begin problem for /AutoBestellPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:30:28.669
+!MESSAGE 8 problems reported for /AutoBestellPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:30:28.669
+!MESSAGE Validated 1. Took 29 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:30:30.589
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:30:30.652
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:30:31.060
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:30:31.104
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:30:31.537
+!MESSAGE begin problem for /AutoBestellPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:30:31.538
+!MESSAGE 8 problems reported for /AutoBestellPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:30:31.538
+!MESSAGE Validated 1. Took 33 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:30:31.892
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:30:32.372
+!MESSAGE begin problem for /AutoBestellPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:30:32.372
+!MESSAGE 8 problems reported for /AutoBestellPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:30:32.372
+!MESSAGE Validated 1. Took 29 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:30:39.239
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:30:39.670
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:30:40.149
+!MESSAGE begin problem for /AutoBestellPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:30:40.149
+!MESSAGE 0 problems reported for /AutoBestellPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:30:40.150
+!MESSAGE Validated 1. Took 29 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:30:43.505
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:30:44.032
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:30:44.511
+!MESSAGE begin problem for /AutoBestellPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:30:44.511
+!MESSAGE 0 problems reported for /AutoBestellPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:30:44.511
+!MESSAGE Validated 1. Took 30 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:30:45.125
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:30:45.645
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:30:46.130
+!MESSAGE begin problem for /AutoBestellPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:30:46.130
+!MESSAGE 0 problems reported for /AutoBestellPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:30:46.130
+!MESSAGE Validated 1. Took 34 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:30:48.348
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:30:48.654
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:30:48.718
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:30:48.829
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:30:49.196
+!MESSAGE begin problem for /AutoBestellPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:30:49.196
+!MESSAGE 1 problems reported for /AutoBestellPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:30:49.196
+!MESSAGE Validated 1. Took 27 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:30:49.387
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:30:49.401
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:30:49.586
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:30:49.616
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:30:49.664
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:30:49.703
+!MESSAGE Reconciled 1. Took 4 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:30:49.792
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:30:49.822
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:30:50.310
+!MESSAGE begin problem for /AutoBestellPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:30:50.310
+!MESSAGE 10 problems reported for /AutoBestellPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:30:50.311
+!MESSAGE Validated 1. Took 38 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:30:51.340
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:30:51.818
+!MESSAGE begin problem for /AutoBestellPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:30:51.819
+!MESSAGE 10 problems reported for /AutoBestellPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:30:51.819
+!MESSAGE Validated 1. Took 28 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:30:54.168
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:30:54.230
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:30:54.661
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:30:54.674
+!MESSAGE Reconciled 1. Took 4 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:30:54.779
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:30:54.808
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:30:55.193
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:30:55.211
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:30:55.511
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:30:55.542
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:30:55.645
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:30:55.667
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:30:55.854
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:30:55.887
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:30:56.025
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:30:56.058
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:30:56.539
+!MESSAGE begin problem for /AutoBestellPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:30:56.539
+!MESSAGE 10 problems reported for /AutoBestellPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:30:56.539
+!MESSAGE Validated 1. Took 30 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:30:56.891
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:30:57.320
+!MESSAGE begin problem for /AutoBestellPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:30:57.320
+!MESSAGE 9 problems reported for /AutoBestellPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:30:57.321
+!MESSAGE Validated 1. Took 29 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:30:58.239
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:30:58.249
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:30:58.727
+!MESSAGE begin problem for /AutoBestellPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:30:58.727
+!MESSAGE 9 problems reported for /AutoBestellPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:30:58.728
+!MESSAGE Validated 1. Took 28 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:30:59.092
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:30:59.108
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:30:59.588
+!MESSAGE begin problem for /AutoBestellPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:30:59.588
+!MESSAGE 0 problems reported for /AutoBestellPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:30:59.588
+!MESSAGE Validated 1. Took 29 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:31:00.840
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:31:00.926
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:31:00.949
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:31:00.990
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:31:01.055
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:31:01.095
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:31:01.139
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:31:01.170
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:31:01.648
+!MESSAGE begin problem for /AutoBestellPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:31:01.648
+!MESSAGE 5 problems reported for /AutoBestellPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:31:01.649
+!MESSAGE Validated 1. Took 27 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:31:01.941
+!MESSAGE Reconciled 1. Took 4 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:31:02.376
+!MESSAGE begin problem for /AutoBestellPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:31:02.376
+!MESSAGE 4 problems reported for /AutoBestellPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:31:02.377
+!MESSAGE Validated 1. Took 35 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:31:02.761
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:31:02.821
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:31:03.082
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:31:03.142
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:31:03.577
+!MESSAGE begin problem for /AutoBestellPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:31:03.577
+!MESSAGE 4 problems reported for /AutoBestellPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:31:03.578
+!MESSAGE Validated 1. Took 35 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:31:03.800
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:31:04.069
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:31:04.123
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:31:04.279
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:31:04.284
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:31:04.750
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:31:04.805
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:31:05.237
+!MESSAGE begin problem for /AutoBestellPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:31:05.238
+!MESSAGE 4 problems reported for /AutoBestellPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:31:05.238
+!MESSAGE Validated 1. Took 32 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:31:05.761
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:31:06.239
+!MESSAGE begin problem for /AutoBestellPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:31:06.239
+!MESSAGE 4 problems reported for /AutoBestellPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:31:06.259
+!MESSAGE Validated 1. Took 47 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:31:08.030
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:31:08.510
+!MESSAGE begin problem for /AutoBestellPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:31:08.510
+!MESSAGE 4 problems reported for /AutoBestellPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:31:08.511
+!MESSAGE Validated 1. Took 30 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:31:08.793
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:31:08.846
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:31:09.149
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:31:09.203
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:31:09.218
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:31:09.271
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:31:09.698
+!MESSAGE begin problem for /AutoBestellPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:31:09.698
+!MESSAGE 4 problems reported for /AutoBestellPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:31:09.699
+!MESSAGE Validated 1. Took 26 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:31:09.945
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:31:10.423
+!MESSAGE begin problem for /AutoBestellPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:31:10.423
+!MESSAGE 4 problems reported for /AutoBestellPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:31:10.424
+!MESSAGE Validated 1. Took 28 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:31:10.758
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:31:10.820
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:31:11.305
+!MESSAGE begin problem for /AutoBestellPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:31:11.306
+!MESSAGE 4 problems reported for /AutoBestellPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:31:11.309
+!MESSAGE Validated 1. Took 39 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:31:17.086
+!MESSAGE Reconciled 1. Took 6 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:31:17.576
+!MESSAGE begin problem for /AutoBestellPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:31:17.576
+!MESSAGE 10 problems reported for /AutoBestellPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:31:17.576
+!MESSAGE Validated 1. Took 39 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:31:20.594
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:31:20.779
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:31:21.208
+!MESSAGE begin problem for /AutoBestellPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:31:21.208
+!MESSAGE 0 problems reported for /AutoBestellPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:31:21.208
+!MESSAGE Validated 1. Took 28 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:31:21.720
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:31:22.197
+!MESSAGE begin problem for /AutoBestellPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:31:22.198
+!MESSAGE 0 problems reported for /AutoBestellPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:31:22.198
+!MESSAGE Validated 1. Took 27 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:31:22.479
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:31:22.908
+!MESSAGE begin problem for /AutoBestellPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:31:22.908
+!MESSAGE 0 problems reported for /AutoBestellPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:31:22.908
+!MESSAGE Validated 1. Took 28 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:31:22.996
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:31:23.431
+!MESSAGE begin problem for /AutoBestellPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:31:23.431
+!MESSAGE 0 problems reported for /AutoBestellPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:31:23.432
+!MESSAGE Validated 1. Took 35 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:31:24.104
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:31:24.379
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:31:24.719
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:31:24.782
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:31:24.923
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:31:25.235
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:31:25.714
+!MESSAGE begin problem for /AutoBestellPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:31:25.714
+!MESSAGE 1 problems reported for /AutoBestellPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:31:25.715
+!MESSAGE Validated 1. Took 29 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:31:26.161
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:31:26.364
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:31:26.394
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:31:26.440
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:31:26.475
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:31:26.905
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:31:26.929
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:31:27.341
+!MESSAGE begin problem for /AutoBestellPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:31:27.341
+!MESSAGE 10 problems reported for /AutoBestellPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:31:27.342
+!MESSAGE Validated 1. Took 36 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:31:27.433
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:31:27.436
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:31:27.504
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:31:27.536
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:31:27.735
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:31:27.768
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:31:27.924
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:31:27.955
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:31:28.097
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:31:28.159
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:31:28.506
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:31:28.562
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:31:28.633
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:31:28.666
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:31:28.754
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:31:28.792
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:31:29.270
+!MESSAGE begin problem for /AutoBestellPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:31:29.271
+!MESSAGE 10 problems reported for /AutoBestellPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:31:29.271
+!MESSAGE Validated 1. Took 28 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:31:29.605
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:31:29.666
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:31:30.046
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:31:30.137
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:31:30.229
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:31:30.261
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:31:30.293
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:31:30.306
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:31:30.671
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:31:30.696
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:31:30.942
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:31:31.038
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:31:31.127
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:31:31.131
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:31:31.554
+!MESSAGE begin problem for /AutoBestellPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:31:31.554
+!MESSAGE 4 problems reported for /AutoBestellPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:31:31.555
+!MESSAGE Validated 1. Took 27 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:31:31.999
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:31:32.078
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:31:32.142
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:31:32.223
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:31:32.238
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:31:32.251
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:31:32.368
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:31:32.398
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:31:32.533
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:31:32.564
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:31:32.680
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:31:32.742
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:31:32.954
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:31:33.015
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:31:33.495
+!MESSAGE begin problem for /AutoBestellPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:31:33.495
+!MESSAGE 8 problems reported for /AutoBestellPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:31:33.495
+!MESSAGE Validated 1. Took 29 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:31:33.597
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:31:33.651
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:31:33.707
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:31:33.762
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:31:34.246
+!MESSAGE begin problem for /AutoBestellPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:31:34.246
+!MESSAGE 1 problems reported for /AutoBestellPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:31:34.246
+!MESSAGE Validated 1. Took 33 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:31:34.411
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:31:34.463
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:31:34.673
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:31:34.728
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:31:34.821
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:31:34.874
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:31:35.225
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:31:35.277
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:31:35.755
+!MESSAGE begin problem for /AutoBestellPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:31:35.755
+!MESSAGE 1 problems reported for /AutoBestellPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:31:35.755
+!MESSAGE Validated 1. Took 27 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:31:35.921
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:31:36.151
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:31:36.618
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:31:36.788
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:31:37.064
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:31:37.127
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:31:37.241
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:31:37.382
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:31:37.410
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:31:37.476
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:31:37.510
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:31:37.602
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:31:37.637
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:31:38.091
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:31:38.576
+!MESSAGE begin problem for /AutoBestellPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:31:38.577
+!MESSAGE 10 problems reported for /AutoBestellPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:31:38.577
+!MESSAGE Validated 1. Took 37 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:31:39.314
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:31:39.375
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:31:39.815
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:31:39.828
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:31:39.999
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:31:40.035
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:31:40.187
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:31:40.222
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:31:40.700
+!MESSAGE begin problem for /AutoBestellPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:31:40.700
+!MESSAGE 10 problems reported for /AutoBestellPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:31:40.700
+!MESSAGE Validated 1. Took 28 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:31:40.955
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:31:41.016
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:31:41.495
+!MESSAGE begin problem for /AutoBestellPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:31:41.495
+!MESSAGE 9 problems reported for /AutoBestellPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:31:41.515
+!MESSAGE Validated 1. Took 48 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:31:41.809
+!MESSAGE Reconciled 1. Took 12 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:31:41.826
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:31:42.203
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:31:42.526
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:31:42.555
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:31:42.580
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:31:42.606
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:31:42.618
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:31:43.097
+!MESSAGE begin problem for /AutoBestellPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:31:43.097
+!MESSAGE 4 problems reported for /AutoBestellPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:31:43.098
+!MESSAGE Validated 1. Took 29 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:31:43.349
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:31:43.832
+!MESSAGE begin problem for /AutoBestellPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:31:43.832
+!MESSAGE 3 problems reported for /AutoBestellPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:31:43.832
+!MESSAGE Validated 1. Took 32 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:31:44.411
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:31:44.473
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:31:44.663
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:31:44.675
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:31:45.071
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:31:45.078
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:31:45.260
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:31:45.313
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:31:45.355
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:31:45.409
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:31:45.467
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:31:45.521
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:31:45.957
+!MESSAGE begin problem for /AutoBestellPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:31:45.958
+!MESSAGE 1 problems reported for /AutoBestellPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:31:45.958
+!MESSAGE Validated 1. Took 36 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:31:46.155
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:31:46.525
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:31:47.009
+!MESSAGE begin problem for /AutoBestellPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:31:47.009
+!MESSAGE 0 problems reported for /AutoBestellPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:31:47.009
+!MESSAGE Validated 1. Took 33 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:31:47.294
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:31:47.773
+!MESSAGE begin problem for /AutoBestellPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:31:47.773
+!MESSAGE 0 problems reported for /AutoBestellPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:31:47.774
+!MESSAGE Validated 1. Took 29 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:31:58.296
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:31:58.775
+!MESSAGE begin problem for /AutoBestellPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:31:58.776
+!MESSAGE 0 problems reported for /AutoBestellPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:31:58.776
+!MESSAGE Validated 1. Took 29 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:31:59.714
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:32:00.192
+!MESSAGE begin problem for /AutoBestellPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:32:00.192
+!MESSAGE 0 problems reported for /AutoBestellPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:32:00.193
+!MESSAGE Validated 1. Took 27 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:32:03.156
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:32:03.641
+!MESSAGE begin problem for /AutoBestellPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:32:03.641
+!MESSAGE 0 problems reported for /AutoBestellPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:32:03.661
+!MESSAGE Validated 1. Took 54 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:32:04.531
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:32:05.010
+!MESSAGE begin problem for /AutoBestellPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:32:05.010
+!MESSAGE 0 problems reported for /AutoBestellPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:32:05.010
+!MESSAGE Validated 1. Took 28 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:32:06.015
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:32:06.492
+!MESSAGE begin problem for /AutoBestellPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:32:06.492
+!MESSAGE 0 problems reported for /AutoBestellPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:32:06.492
+!MESSAGE Validated 1. Took 26 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:32:06.971
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:32:06.981
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:32:07.460
+!MESSAGE begin problem for /AutoBestellPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:32:07.460
+!MESSAGE 0 problems reported for /AutoBestellPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:32:07.460
+!MESSAGE Validated 1. Took 28 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:32:07.497
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:32:07.559
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:32:08.036
+!MESSAGE begin problem for /AutoBestellPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:32:08.036
+!MESSAGE 0 problems reported for /AutoBestellPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:32:08.036
+!MESSAGE Validated 1. Took 26 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:32:08.330
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:32:08.814
+!MESSAGE begin problem for /AutoBestellPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:32:08.814
+!MESSAGE 0 problems reported for /AutoBestellPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:32:08.814
+!MESSAGE Validated 1. Took 33 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:32:10.463
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:32:10.940
+!MESSAGE begin problem for /AutoBestellPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:32:10.940
+!MESSAGE 0 problems reported for /AutoBestellPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:32:10.941
+!MESSAGE Validated 1. Took 27 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:32:14.957
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:32:15.435
+!MESSAGE begin problem for /AutoBestellPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:32:15.435
+!MESSAGE 3 problems reported for /AutoBestellPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:32:15.435
+!MESSAGE Validated 1. Took 27 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:32:16.810
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:32:16.972
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:32:17.451
+!MESSAGE begin problem for /AutoBestellPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:32:17.451
+!MESSAGE 7 problems reported for /AutoBestellPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:32:17.452
+!MESSAGE Validated 1. Took 29 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:32:17.949
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:32:18.136
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:32:18.617
+!MESSAGE begin problem for /AutoBestellPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:32:18.617
+!MESSAGE 3 problems reported for /AutoBestellPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:32:18.621
+!MESSAGE Validated 1. Took 33 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:32:19.688
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:32:19.749
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:32:20.225
+!MESSAGE begin problem for /AutoBestellPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:32:20.226
+!MESSAGE 3 problems reported for /AutoBestellPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:32:20.226
+!MESSAGE Validated 1. Took 26 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:32:20.308
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:32:20.785
+!MESSAGE begin problem for /AutoBestellPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:32:20.785
+!MESSAGE 3 problems reported for /AutoBestellPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:32:20.786
+!MESSAGE Validated 1. Took 28 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:32:21.826
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:32:22.301
+!MESSAGE begin problem for /AutoBestellPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:32:22.301
+!MESSAGE 3 problems reported for /AutoBestellPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:32:22.302
+!MESSAGE Validated 1. Took 25 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:32:24.869
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:32:25.344
+!MESSAGE begin problem for /AutoBestellPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:32:25.344
+!MESSAGE 6 problems reported for /AutoBestellPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:32:25.345
+!MESSAGE Validated 1. Took 26 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:32:26.107
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:32:26.582
+!MESSAGE begin problem for /AutoBestellPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:32:26.582
+!MESSAGE 6 problems reported for /AutoBestellPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:32:26.582
+!MESSAGE Validated 1. Took 25 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:32:28.083
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:32:28.561
+!MESSAGE begin problem for /AutoBestellPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:32:28.561
+!MESSAGE 6 problems reported for /AutoBestellPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:32:28.562
+!MESSAGE Validated 1. Took 28 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:34:33.610
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:34:34.067
+!MESSAGE begin problem for /AutoBestellPanelBetter.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:34:34.067
+!MESSAGE 0 problems reported for /AutoBestellPanelBetter.java
+
+!ENTRY org.eclipse.jdt.ls.core 4 0 2026-02-04 16:34:34.088
+!MESSAGE [Working copy] AutoBestellPanelBetter.java [in <default> [in _ [in probeKlausur_797741c9]]] does not exist
+!STACK 1
+Java Model Exception: Error in Java Model (code 969): [Working copy] AutoBestellPanelBetter.java [in <default> [in _ [in probeKlausur_797741c9]]] does not exist
+	at org.eclipse.jdt.internal.core.JavaElement.newNotPresentException(JavaElement.java:548)
+	at org.eclipse.jdt.internal.core.Openable.getUnderlyingResource(Openable.java:342)
+	at org.eclipse.jdt.internal.core.CompilationUnit.getUnderlyingResource(CompilationUnit.java:1095)
+	at org.eclipse.jdt.ls.core.internal.handlers.BaseDiagnosticsHandler.collectNonJavaProblems(BaseDiagnosticsHandler.java:198)
+	at org.eclipse.jdt.ls.core.internal.handlers.BaseDiagnosticsHandler.endReporting(BaseDiagnosticsHandler.java:149)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.reportProblems(ReconcileWorkingCopyOperation.java:157)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.executeOperation(ReconcileWorkingCopyOperation.java:126)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:751)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.runOperation(JavaModelOperation.java:816)
+	at org.eclipse.jdt.internal.core.CompilationUnit.reconcile(CompilationUnit.java:1431)
+	at org.eclipse.jdt.ls.core.internal.handlers.BaseDocumentLifeCycleHandler.publishDiagnostics(BaseDocumentLifeCycleHandler.java:338)
+	at org.eclipse.jdt.ls.core.internal.handlers.BaseDocumentLifeCycleHandler.publishDiagnostics(BaseDocumentLifeCycleHandler.java:301)
+	at org.eclipse.jdt.ls.core.internal.handlers.BaseDocumentLifeCycleHandler$PublishDiagnosticJob.run(BaseDocumentLifeCycleHandler.java:798)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.jdt.core 4 969 2026-02-04 16:34:34.089
+!MESSAGE [Working copy] AutoBestellPanelBetter.java [in <default> [in _ [in probeKlausur_797741c9]]] does not exist
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:34:34.090
+!MESSAGE Validated 1. Took 29 ms
+
+!ENTRY org.eclipse.jdt.ls.core 4 0 2026-02-04 16:34:34.418
+!MESSAGE Error while handling document save. URI: file:///home/ole/Dokumente/Uni/java/WiSe26/probeKlausur/AutoBestellPanelBetter.java
+!STACK 1
+Java Model Exception: Error in Java Model (code 969): [Working copy] AutoBestellPanelBetter.java [in <default> [in _ [in probeKlausur_797741c9]]] does not exist
+	at org.eclipse.jdt.internal.core.JavaElement.newNotPresentException(JavaElement.java:548)
+	at org.eclipse.jdt.internal.core.Openable.getUnderlyingResource(Openable.java:342)
+	at org.eclipse.jdt.internal.core.CompilationUnit.getUnderlyingResource(CompilationUnit.java:1095)
+	at org.eclipse.jdt.ls.core.internal.handlers.BaseDocumentLifeCycleHandler.handleSaved(BaseDocumentLifeCycleHandler.java:590)
+	at org.eclipse.jdt.ls.core.internal.handlers.BaseDocumentLifeCycleHandler.didSave(BaseDocumentLifeCycleHandler.java:375)
+	at org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer.didSave(JDTLanguageServer.java:947)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$recursiveFindRpcMethods$0(GenericEndpoint.java:65)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.notify(GenericEndpoint.java:160)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleNotification(RemoteEndpoint.java:231)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:198)
+	at org.eclipse.jdt.ls.core.internal.ParentProcessWatcher.lambda$1(ParentProcessWatcher.java:86)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:185)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:97)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:114)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:545)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:328)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1090)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614)
+	at java.base/java.lang.Thread.run(Thread.java:1474)
+!SUBENTRY 1 org.eclipse.jdt.core 4 969 2026-02-04 16:34:34.419
+!MESSAGE [Working copy] AutoBestellPanelBetter.java [in <default> [in _ [in probeKlausur_797741c9]]] does not exist
+
+!ENTRY org.eclipse.jdt.ls.core 4 0 2026-02-04 16:35:29.751
+!MESSAGE Error while handling document save. URI: file:///home/ole/Dokumente/Uni/java/WiSe26/probeKlausur/AutoBestellPanelBetter.java
+!STACK 1
+Java Model Exception: Error in Java Model (code 969): [Working copy] AutoBestellPanelBetter.java [in <default> [in _ [in probeKlausur_797741c9]]] does not exist
+	at org.eclipse.jdt.internal.core.JavaElement.newNotPresentException(JavaElement.java:548)
+	at org.eclipse.jdt.internal.core.Openable.getUnderlyingResource(Openable.java:342)
+	at org.eclipse.jdt.internal.core.CompilationUnit.getUnderlyingResource(CompilationUnit.java:1095)
+	at org.eclipse.jdt.ls.core.internal.handlers.BaseDocumentLifeCycleHandler.handleSaved(BaseDocumentLifeCycleHandler.java:590)
+	at org.eclipse.jdt.ls.core.internal.handlers.BaseDocumentLifeCycleHandler.didSave(BaseDocumentLifeCycleHandler.java:375)
+	at org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer.didSave(JDTLanguageServer.java:947)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$recursiveFindRpcMethods$0(GenericEndpoint.java:65)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.notify(GenericEndpoint.java:160)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleNotification(RemoteEndpoint.java:231)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:198)
+	at org.eclipse.jdt.ls.core.internal.ParentProcessWatcher.lambda$1(ParentProcessWatcher.java:86)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:185)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:97)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:114)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:545)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:328)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1090)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614)
+	at java.base/java.lang.Thread.run(Thread.java:1474)
+!SUBENTRY 1 org.eclipse.jdt.core 4 969 2026-02-04 16:35:29.751
+!MESSAGE [Working copy] AutoBestellPanelBetter.java [in <default> [in _ [in probeKlausur_797741c9]]] does not exist
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:35:29.813
+!MESSAGE Reconciled 1. Took 10 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:35:30.301
+!MESSAGE begin problem for /AutoBestellPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:35:30.301
+!MESSAGE 6 problems reported for /AutoBestellPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:35:30.326
+!MESSAGE begin problem for /AutoBestellPanelBetter.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:35:30.327
+!MESSAGE 1 problems reported for /AutoBestellPanelBetter.java
+
+!ENTRY org.eclipse.jdt.ls.core 4 0 2026-02-04 16:35:30.327
+!MESSAGE [Working copy] AutoBestellPanelBetter.java [in <default> [in _ [in probeKlausur_797741c9]]] does not exist
+!STACK 1
+Java Model Exception: Error in Java Model (code 969): [Working copy] AutoBestellPanelBetter.java [in <default> [in _ [in probeKlausur_797741c9]]] does not exist
+	at org.eclipse.jdt.internal.core.JavaElement.newNotPresentException(JavaElement.java:548)
+	at org.eclipse.jdt.internal.core.Openable.getUnderlyingResource(Openable.java:342)
+	at org.eclipse.jdt.internal.core.CompilationUnit.getUnderlyingResource(CompilationUnit.java:1095)
+	at org.eclipse.jdt.ls.core.internal.handlers.BaseDiagnosticsHandler.collectNonJavaProblems(BaseDiagnosticsHandler.java:198)
+	at org.eclipse.jdt.ls.core.internal.handlers.BaseDiagnosticsHandler.endReporting(BaseDiagnosticsHandler.java:149)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.reportProblems(ReconcileWorkingCopyOperation.java:157)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.executeOperation(ReconcileWorkingCopyOperation.java:126)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:751)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.runOperation(JavaModelOperation.java:816)
+	at org.eclipse.jdt.internal.core.CompilationUnit.reconcile(CompilationUnit.java:1431)
+	at org.eclipse.jdt.ls.core.internal.handlers.BaseDocumentLifeCycleHandler.publishDiagnostics(BaseDocumentLifeCycleHandler.java:338)
+	at org.eclipse.jdt.ls.core.internal.handlers.BaseDocumentLifeCycleHandler.publishDiagnostics(BaseDocumentLifeCycleHandler.java:301)
+	at org.eclipse.jdt.ls.core.internal.handlers.BaseDocumentLifeCycleHandler$PublishDiagnosticJob.run(BaseDocumentLifeCycleHandler.java:798)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.jdt.core 4 969 2026-02-04 16:35:30.327
+!MESSAGE [Working copy] AutoBestellPanelBetter.java [in <default> [in _ [in probeKlausur_797741c9]]] does not exist
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:35:30.327
+!MESSAGE Validated 2. Took 63 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:35:43.367
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:35:43.415
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:35:43.556
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:35:43.816
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:35:43.899
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:35:43.950
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:35:44.044
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:35:44.096
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:35:44.222
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:35:44.273
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:35:44.313
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:35:44.363
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 4 0 2026-02-04 16:35:44.835
+!MESSAGE Error while handling document save. URI: file:///home/ole/Dokumente/Uni/java/WiSe26/probeKlausur/AutoBestellPanelBetter.java
+!STACK 1
+Java Model Exception: Error in Java Model (code 969): [Working copy] AutoBestellPanelBetter.java [in <default> [in _ [in probeKlausur_797741c9]]] does not exist
+	at org.eclipse.jdt.internal.core.JavaElement.newNotPresentException(JavaElement.java:548)
+	at org.eclipse.jdt.internal.core.Openable.getUnderlyingResource(Openable.java:342)
+	at org.eclipse.jdt.internal.core.CompilationUnit.getUnderlyingResource(CompilationUnit.java:1095)
+	at org.eclipse.jdt.ls.core.internal.handlers.BaseDocumentLifeCycleHandler.handleSaved(BaseDocumentLifeCycleHandler.java:590)
+	at org.eclipse.jdt.ls.core.internal.handlers.BaseDocumentLifeCycleHandler.didSave(BaseDocumentLifeCycleHandler.java:375)
+	at org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer.didSave(JDTLanguageServer.java:947)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$recursiveFindRpcMethods$0(GenericEndpoint.java:65)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.notify(GenericEndpoint.java:160)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleNotification(RemoteEndpoint.java:231)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:198)
+	at org.eclipse.jdt.ls.core.internal.ParentProcessWatcher.lambda$1(ParentProcessWatcher.java:86)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:185)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:97)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:114)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:545)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:328)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1090)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614)
+	at java.base/java.lang.Thread.run(Thread.java:1474)
+!SUBENTRY 1 org.eclipse.jdt.core 4 969 2026-02-04 16:35:44.835
+!MESSAGE [Working copy] AutoBestellPanelBetter.java [in <default> [in _ [in probeKlausur_797741c9]]] does not exist
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:35:44.845
+!MESSAGE begin problem for /AutoBestellPanelBetter.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:35:44.845
+!MESSAGE 1 problems reported for /AutoBestellPanelBetter.java
+
+!ENTRY org.eclipse.jdt.ls.core 4 0 2026-02-04 16:35:44.845
+!MESSAGE [Working copy] AutoBestellPanelBetter.java [in <default> [in _ [in probeKlausur_797741c9]]] does not exist
+!STACK 1
+Java Model Exception: Error in Java Model (code 969): [Working copy] AutoBestellPanelBetter.java [in <default> [in _ [in probeKlausur_797741c9]]] does not exist
+	at org.eclipse.jdt.internal.core.JavaElement.newNotPresentException(JavaElement.java:548)
+	at org.eclipse.jdt.internal.core.Openable.getUnderlyingResource(Openable.java:342)
+	at org.eclipse.jdt.internal.core.CompilationUnit.getUnderlyingResource(CompilationUnit.java:1095)
+	at org.eclipse.jdt.ls.core.internal.handlers.BaseDiagnosticsHandler.collectNonJavaProblems(BaseDiagnosticsHandler.java:198)
+	at org.eclipse.jdt.ls.core.internal.handlers.BaseDiagnosticsHandler.endReporting(BaseDiagnosticsHandler.java:149)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.reportProblems(ReconcileWorkingCopyOperation.java:157)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.executeOperation(ReconcileWorkingCopyOperation.java:126)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:751)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.runOperation(JavaModelOperation.java:816)
+	at org.eclipse.jdt.internal.core.CompilationUnit.reconcile(CompilationUnit.java:1431)
+	at org.eclipse.jdt.ls.core.internal.handlers.BaseDocumentLifeCycleHandler.publishDiagnostics(BaseDocumentLifeCycleHandler.java:338)
+	at org.eclipse.jdt.ls.core.internal.handlers.BaseDocumentLifeCycleHandler.publishDiagnostics(BaseDocumentLifeCycleHandler.java:301)
+	at org.eclipse.jdt.ls.core.internal.handlers.BaseDocumentLifeCycleHandler$PublishDiagnosticJob.run(BaseDocumentLifeCycleHandler.java:798)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.jdt.core 4 969 2026-02-04 16:35:44.845
+!MESSAGE [Working copy] AutoBestellPanelBetter.java [in <default> [in _ [in probeKlausur_797741c9]]] does not exist
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:35:44.846
+!MESSAGE Validated 1. Took 32 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:35:46.632
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:35:47.110
+!MESSAGE begin problem for /AutoBestellPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:35:47.110
+!MESSAGE 6 problems reported for /AutoBestellPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:35:47.135
+!MESSAGE begin problem for /AutoBestellPanelBetter.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:35:47.135
+!MESSAGE 1 problems reported for /AutoBestellPanelBetter.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:35:47.135
+!MESSAGE Validated 2. Took 52 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:35:55.275
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:35:55.300
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:35:55.787
+!MESSAGE begin problem for /AutoBestellPanelBetter.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:35:55.787
+!MESSAGE 1 problems reported for /AutoBestellPanelBetter.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:35:55.787
+!MESSAGE Validated 1. Took 37 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:35:56.450
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:35:56.934
+!MESSAGE begin problem for /AutoBestellPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:35:56.934
+!MESSAGE 6 problems reported for /AutoBestellPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:35:56.962
+!MESSAGE begin problem for /AutoBestellPanelBetter.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:35:56.963
+!MESSAGE 0 problems reported for /AutoBestellPanelBetter.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:35:56.963
+!MESSAGE Validated 2. Took 62 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:35:57.870
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:35:58.303
+!MESSAGE begin problem for /AutoBestellPanelBetter.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:35:58.304
+!MESSAGE 0 problems reported for /AutoBestellPanelBetter.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:35:58.304
+!MESSAGE Validated 1. Took 33 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:36:15.573
+!MESSAGE Reconciled 1. Took 4 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:36:16.009
+!MESSAGE begin problem for /AutoBestellPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:36:16.009
+!MESSAGE 6 problems reported for /AutoBestellPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:36:16.037
+!MESSAGE begin problem for /AutoBestellPanelBetter.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:36:16.037
+!MESSAGE 2 problems reported for /AutoBestellPanelBetter.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:36:16.037
+!MESSAGE Validated 2. Took 63 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:36:17.352
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:36:17.412
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:36:17.894
+!MESSAGE begin problem for /AutoBestellPanelBetter.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:36:17.894
+!MESSAGE 0 problems reported for /AutoBestellPanelBetter.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:36:17.894
+!MESSAGE Validated 1. Took 31 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:36:18.733
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:36:18.945
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:36:18.956
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:36:19.433
+!MESSAGE begin problem for /AutoBestellPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:36:19.434
+!MESSAGE 6 problems reported for /AutoBestellPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:36:19.459
+!MESSAGE begin problem for /AutoBestellPanelBetter.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:36:19.460
+!MESSAGE 0 problems reported for /AutoBestellPanelBetter.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:36:19.460
+!MESSAGE Validated 2. Took 54 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:36:20.602
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:36:21.080
+!MESSAGE begin problem for /AutoBestellPanelBetter.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:36:21.080
+!MESSAGE 0 problems reported for /AutoBestellPanelBetter.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:36:21.081
+!MESSAGE Validated 1. Took 29 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:36:23.126
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:36:23.264
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:36:23.677
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:36:24.155
+!MESSAGE begin problem for /AutoBestellPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:36:24.155
+!MESSAGE 6 problems reported for /AutoBestellPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:36:24.181
+!MESSAGE begin problem for /AutoBestellPanelBetter.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:36:24.181
+!MESSAGE 0 problems reported for /AutoBestellPanelBetter.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:36:24.184
+!MESSAGE Validated 2. Took 56 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:37:37.879
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:37:37.907
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:37:38.399
+!MESSAGE begin problem for /AutoBestellPanelBetter.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:37:38.400
+!MESSAGE 1 problems reported for /AutoBestellPanelBetter.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:37:38.402
+!MESSAGE Validated 1. Took 44 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:37:39.052
+!MESSAGE Reconciled 1. Took 4 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:37:39.531
+!MESSAGE begin problem for /AutoBestellPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:37:39.531
+!MESSAGE 6 problems reported for /AutoBestellPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:37:39.559
+!MESSAGE begin problem for /AutoBestellPanelBetter.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:37:39.559
+!MESSAGE 1 problems reported for /AutoBestellPanelBetter.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:37:39.559
+!MESSAGE Validated 2. Took 56 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:37:40.937
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:37:40.963
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:37:41.395
+!MESSAGE begin problem for /AutoBestellPanelBetter.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:37:41.395
+!MESSAGE 1 problems reported for /AutoBestellPanelBetter.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:37:41.395
+!MESSAGE Validated 1. Took 32 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:37:42.145
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:37:42.572
+!MESSAGE begin problem for /AutoBestellPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:37:42.572
+!MESSAGE 6 problems reported for /AutoBestellPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:37:42.596
+!MESSAGE begin problem for /AutoBestellPanelBetter.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:37:42.597
+!MESSAGE 0 problems reported for /AutoBestellPanelBetter.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 16:37:42.597
+!MESSAGE Validated 2. Took 51 ms
+!SESSION 2026-02-05 09:33:59.023 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=25.0.2
+java.vendor=Arch Linux
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=de_DE
+Framework arguments:  -jar /home/ole/.emacs.d/share/eclipse.jdt.ls/plugins/org.eclipse.equinox.launcher_1.7.100.v20251111-0406.jar -jar /home/ole/.emacs.d/share/eclipse.jdt.ls/plugins/org.eclipse.equinox.launcher_1.7.100.v20251111-0406.jar -jar /home/ole/.emacs.d/share/eclipse.jdt.ls/plugins/org.eclipse.equinox.launcher_1.7.100.v20251111-0406.jar
+Command-line arguments:  -data /home/ole/.emacs.d/eglot-java-eclipse-jdt-cache/9849ce4cf8a5c4c868745cb2801c28c1 -jar /home/ole/.emacs.d/share/eclipse.jdt.ls/plugins/org.eclipse.equinox.launcher_1.7.100.v20251111-0406.jar -data /home/ole/.emacs.d/eglot-java-eclipse-jdt-cache/00246e0b16845537a6e551da92a3fb27 -jar /home/ole/.emacs.d/share/eclipse.jdt.ls/plugins/org.eclipse.equinox.launcher_1.7.100.v20251111-0406.jar -data /home/ole/.emacs.d/eglot-java-eclipse-jdt-cache/00246e0b16845537a6e551da92a3fb27 -jar /home/ole/.emacs.d/share/eclipse.jdt.ls/plugins/org.eclipse.equinox.launcher_1.7.100.v20251111-0406.jar -data /home/ole/.emacs.d/eglot-java-eclipse-jdt-cache/7b91fa30c96bf78d7918a876c3c85f37
+
+!ENTRY org.eclipse.core.resources 2 10035 2026-02-05 09:34:00.194
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-05 09:34:00.876
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is started
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-05 09:34:00.940
+!MESSAGE Started org.eclipse.buildship.core 43ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-05 09:34:00.941
+!MESSAGE Started org.eclipse.m2e.core 0ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-05 09:34:01.092
+!MESSAGE Main thread is waiting
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-05 09:34:01.098
+!MESSAGE >> initialize
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-05 09:34:01.101
+!MESSAGE Initializing Java Language Server 1.55.0.202601131729
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-05 09:34:02.140
+!MESSAGE ProjectRegistryRefreshJob finished 1198ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-05 09:34:02.242
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-05 09:34:02.243
+!MESSAGE Non-Static Commands: [java.project.import, java.project.changeImportedProjects, java.navigate.openTypeHierarchy, java.project.resolveStackTraceLocation, java.edit.handlePasteEvent, java.edit.stringFormatting, java.project.getSettings, java.project.resolveWorkspaceSymbol, java.project.upgradeGradle, java.project.createModuleInfo, java.vm.getAllInstalls, java.edit.organizeImports, java.project.refreshDiagnostics, java.project.removeFromSourcePath, java.project.listSourcePaths, java.project.updateSettings, java.project.getAll, java.reloadBundles, java.project.isTestFile, java.project.resolveText, java.project.getClasspaths, java.navigate.resolveTypeHierarchy, java.getTroubleshootingInfo, java.edit.smartSemicolonDetection, java.project.updateSourceAttachment, java.project.updateClassPaths, java.decompile, java.protobuf.generateSources, java.project.resolveSourceAttachment, java.project.updateJdk, java.project.addToSourcePath, java.completion.onDidSelect]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-05 09:34:02.264
+!MESSAGE RepositoryRegistryUpdateJob finished 0ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-05 09:34:02.270
+!MESSAGE >> initialized
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-05 09:34:02.282
+!MESSAGE Importers: GradleProjectImporter, MavenProjectImporter, EclipseProjectImporter, InvisibleProjectImporter
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-05 09:34:02.301
+!MESSAGE Workspace initialized in 37ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-05 09:34:02.312
+!MESSAGE >> initialization job finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-05 09:34:02.343
+!MESSAGE >> build jobs finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-05 09:34:02.343
+!MESSAGE >> registerWatchers'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-05 09:34:02.347
+!MESSAGE >> registerFeature 'workspace/didChangeWatchedFiles'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-05 09:34:02.798
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-05 09:34:03.604
+!MESSAGE begin problem for /AutoBestellPanelBetter.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-05 09:34:03.606
+!MESSAGE 0 problems reported for /AutoBestellPanelBetter.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-05 09:34:03.609
+!MESSAGE Validated 1. Took 160 ms

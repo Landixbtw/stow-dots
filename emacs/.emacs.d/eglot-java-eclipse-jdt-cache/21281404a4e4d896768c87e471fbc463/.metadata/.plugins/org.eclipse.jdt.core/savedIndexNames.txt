@@ -2,4 +2,3 @@ INDEX VERSION 1.134+/home/ole/stow-dots/emacs/.emacs.d/eglot-java-eclipse-jdt-ca
 676911311.index
 1404807301.index
 1865797976.index
-862708237.index

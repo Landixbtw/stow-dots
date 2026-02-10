@@ -1,0 +1,60 @@
+import java.io.*;
+import java.util.*;
+import java.time.LocalDate;
+
+public class Kueche {
+    /*
+      Nutzt Vector/ArrayList um Objekte "Bestellung" zu speichern
+     */
+
+    public Kueche() {
+
+    }
+
+    private static Vector<Bestellung> bestellVector = new Vector<Bestellung>();
+    public static void neueBestellung(String name, double price, int tableNumber) {
+	// this should create a new "Bestellung" and add it to the vector/arrayList
+	Bestellung bestellung = new Bestellung(name, price, tableNumber);
+	bestellVector.addElement(bestellung);
+    }
+
+    public static void tagesAbschlussSpeichern() {
+	/*
+	  This saves all the Bestellungen of the day into a txt file
+	  ie
+	  Table x: Pizza - Price€
+	  try {
+	  } catch () {
+	  }
+	 */
+	LocalDate localDate = LocalDate.now();
+	String date = localDate.toString();
+	String key = "TagesAbschluss";
+	String filename = String.format("%s-%s.txt", key, date);
+	// BufferedWriter writer;
+	try (BufferedWriter writer = new BufferedWriter(new FileWriter(filename))) {
+
+	    // build the input string
+	    Iterator<Bestellung> it = bestellVector.iterator();
+	    while(it.hasNext()) {
+		writer.write(it.next().toString());		
+	    }
+	} catch (IOException e) {
+	    System.out.println("ERROR: " + e.getStackTrace());
+	    return;
+	} 
+    }
+    
+    public static void main(String[] args) {
+	neueBestellung("Pommes", 10, 1);
+	neueBestellung("Burger", 15, 2);
+	neueBestellung("Fanta", 5, 3);
+	neueBestellung("Pizza", 13.50, 4);
+
+	Iterator<Bestellung> it = bestellVector.iterator();
+
+	while(it.hasNext()) {
+	    System.out.println(it.next().toString());
+	}
+    }
+}

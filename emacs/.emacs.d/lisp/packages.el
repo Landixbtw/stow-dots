@@ -66,6 +66,7 @@
   :init
   (add-hook 'eldoc-documentation-functions #'embark-eldoc-first-target)
   (setq eldoc-documentation-strategy #'eldoc-documentation-compose-eagerly)
+  (setq eldoc-idle-delay 1.5)
   :config
   (add-to-list 'display-buffer-alist
                '("\\`\\*Embark Collect \\(Live\\|Completions\\)\\*"

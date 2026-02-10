@@ -1,0 +1,4 @@
+INDEX VERSION 1.134+/home/ole/stow-dots/emacs/.emacs.d/eglot-java-eclipse-jdt-cache/b32f95dd7e66d6cb7c89634f3b77a9c1/.metadata/.plugins/org.eclipse.jdt.core
+676911311.index
+234619082.index
+1865797976.index

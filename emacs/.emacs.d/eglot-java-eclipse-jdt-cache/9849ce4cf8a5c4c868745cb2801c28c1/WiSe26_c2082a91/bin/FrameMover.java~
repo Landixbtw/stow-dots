@@ -1,0 +1,117 @@
+import javax.swing.*;
+
+import java.awt.Graphics.*;
+import java.awt.Graphics2D.*;
+import java.awt.event.*;
+import java.awt.*;
+
+import java.util.Random;
+
+import java.util.*;
+import java.lang.Thread;
+
+import java.util.Iterator;
+
+
+public class FrameMover extends JFrame {
+
+    /*
+      This should:
+      - Create a frame 100x100
+      - Give each frame a random background color
+      - Display said frame
+      - Move the frame every 3-5 seconds at random
+      -- setLocation();
+      - Make 200 FrameMover Objects start the all parallel
+     */
+
+    public static int[]  getRandomScreenCoord () {
+	int[] screenDim = new int[2];
+	Dimension screenSize = Toolkit.getDefaultToolkit().getScreenSize();
+	int screenWidth = (int)screenSize.getWidth();
+	int screenHeight  = (int)screenSize.getHeight();
+
+	Random rand = new Random();
+	
+	screenDim[0] = rand.nextInt(screenWidth);
+	screenDim[1] = rand.nextInt(screenHeight);
+	return screenDim;
+    }
+
+    /*
+      Create new Frame
+      Fixed size
+      Random coords
+      Random color
+     */
+    
+    private static JFrame createFrame() {
+	JFrame frame = new JFrame("FrameMover");
+	
+	frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+
+	frame.setSize(1000,1000);
+	frame.setLayout(new FlowLayout());
+
+	Random rand = new Random();
+	
+	float r = rand.nextFloat();
+	float g = rand.nextFloat();
+	float b = rand.nextFloat();
+
+	Color randomColor = new Color(r, g, b);
+
+	frame.getContentPane().setBackground(randomColor);
+
+	int[] randomCoords = getRandomScreenCoord();
+
+	frame.setLocation(randomCoords[0], randomCoords[1]);
+	
+	frame.setMinimumSize(new Dimension(100, 100));
+	frame.pack();
+	frame.setResizable(false);
+        frame.setVisible(true);
+
+	return frame;
+    }
+
+    public static void moveFrame(JFrame frame) {
+	int[] coords = getRandomScreenCoord();
+
+	frame.setLocation(coords[0], coords[1]);
+    }
+    
+
+    public static void main(String[] args) {
+	Vector<JFrame> frameVec = new Vector<JFrame>();
+	frameVec.ensureCapacity(200);
+	javax.swing.SwingUtilities.invokeLater(() -> {
+		Thread backgroundThread = new Thread(() -> {
+			Random rand = new Random();
+			int frameCounter = 0;
+			while(frameCounter < 200) {
+			    frameVec.addElement(createFrame());
+			    frameCounter++;
+			}
+
+			while (true) {
+			    try {
+				Thread.sleep(rand.nextInt(3,6));
+			    } catch (InterruptedException e) {
+				System.err.println(e);
+				break;
+			    }
+
+			    SwingUtilities.invokeLater(() -> {
+				    for(JFrame frame : frameVec) {
+					moveFrame(frame);
+				    }
+				});
+			}
+		});
+
+		backgroundThread.start();
+	    });
+    }
+
+}

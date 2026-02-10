@@ -132,3 +132,91 @@ java.lang.Exception: Project 'aquarium_2cd60589' is not open.
 
 !ENTRY org.eclipse.jdt.ls.core 1 0 2026-01-29 15:19:16.185
 !MESSAGE Validated 1. Took 99 ms
+!SESSION 2026-02-03 10:30:56.076 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=25.0.2
+java.vendor=Arch Linux
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=de_DE
+Framework arguments:  -jar /home/ole/.emacs.d/share/eclipse.jdt.ls/plugins/org.eclipse.equinox.launcher_1.7.100.v20251111-0406.jar -jar /home/ole/.emacs.d/share/eclipse.jdt.ls/plugins/org.eclipse.equinox.launcher_1.7.100.v20251111-0406.jar
+Command-line arguments:  -data /home/ole/.emacs.d/eglot-java-eclipse-jdt-cache/74a72b36278c02ac924dad39415f8bad -jar /home/ole/.emacs.d/share/eclipse.jdt.ls/plugins/org.eclipse.equinox.launcher_1.7.100.v20251111-0406.jar -data /home/ole/.emacs.d/eglot-java-eclipse-jdt-cache/b32f95dd7e66d6cb7c89634f3b77a9c1 -jar /home/ole/.emacs.d/share/eclipse.jdt.ls/plugins/org.eclipse.equinox.launcher_1.7.100.v20251111-0406.jar -data /home/ole/.emacs.d/eglot-java-eclipse-jdt-cache/0a782a76cc4c7d50e2030a3d4c300af0
+
+!ENTRY org.eclipse.core.resources 2 10035 2026-02-03 10:30:57.106
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-03 10:30:58.024
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is started
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-03 10:30:58.105
+!MESSAGE Started org.eclipse.buildship.core 57ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-03 10:30:58.106
+!MESSAGE Started org.eclipse.m2e.core 0ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-03 10:30:58.338
+!MESSAGE Main thread is waiting
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-03 10:30:58.398
+!MESSAGE >> initialize
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-03 10:30:58.402
+!MESSAGE Initializing Java Language Server 1.55.0.202601131729
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-03 10:30:59.132
+!MESSAGE ProjectRegistryRefreshJob finished 1024ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-03 10:30:59.306
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-03 10:30:59.307
+!MESSAGE Non-Static Commands: [java.project.import, java.project.changeImportedProjects, java.navigate.openTypeHierarchy, java.project.resolveStackTraceLocation, java.edit.handlePasteEvent, java.edit.stringFormatting, java.project.getSettings, java.project.resolveWorkspaceSymbol, java.project.upgradeGradle, java.project.createModuleInfo, java.vm.getAllInstalls, java.edit.organizeImports, java.project.refreshDiagnostics, java.project.removeFromSourcePath, java.project.listSourcePaths, java.project.updateSettings, java.project.getAll, java.reloadBundles, java.project.isTestFile, java.project.resolveText, java.project.getClasspaths, java.navigate.resolveTypeHierarchy, java.getTroubleshootingInfo, java.edit.smartSemicolonDetection, java.project.updateSourceAttachment, java.project.updateClassPaths, java.decompile, java.protobuf.generateSources, java.project.resolveSourceAttachment, java.project.updateJdk, java.project.addToSourcePath, java.completion.onDidSelect]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-03 10:30:59.333
+!MESSAGE RepositoryRegistryUpdateJob finished 0ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-03 10:30:59.354
+!MESSAGE >> initialized
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-03 10:30:59.360
+!MESSAGE Importers: GradleProjectImporter, MavenProjectImporter, EclipseProjectImporter, InvisibleProjectImporter
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-03 10:30:59.387
+!MESSAGE Workspace initialized in 54ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-03 10:30:59.408
+!MESSAGE >> initialization job finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-03 10:31:00.467
+!MESSAGE >> build jobs finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-03 10:31:00.468
+!MESSAGE >> registerWatchers'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-03 10:31:00.473
+!MESSAGE >> registerFeature 'workspace/didChangeWatchedFiles'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-03 10:31:00.589
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-03 10:31:01.293
+!MESSAGE begin problem for /AquariumPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-03 10:31:01.295
+!MESSAGE 1 problems reported for /AquariumPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-03 10:31:01.297
+!MESSAGE Validated 1. Took 106 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-03 11:44:58.459
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-03 11:44:58.968
+!MESSAGE begin problem for /Fish.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-03 11:44:58.969
+!MESSAGE 2 problems reported for /Fish.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-03 11:44:58.970
+!MESSAGE Validated 1. Took 60 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-03 11:49:31.657
+!MESSAGE Converting html to markdown

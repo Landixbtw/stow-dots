@@ -1,0 +1,160 @@
+\documentclass[a4paper,11pt]{article}
+
+% --- KODIERUNG (Damit Umlaute technisch funktionieren) ---
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[ngerman]{babel}
+
+% --- SCHRIFTART (Der Fix für "SS" und kaputte Zeichen) ---
+\usepackage{lmodern}          % Die beste Standard-Schriftart für LaTeX (hat echtes ß!)
+\usepackage{textcomp}         % Verbessert Sonderzeichen im Code
+
+% --- ANFÜHRUNGSZEICHEN ---
+\usepackage[babel,german=quotes]{csquotes}
+\MakeOuterQuote{"}            % Erlaubt "Text" statt komplizierter Befehle
+
+% --- LAYOUT ---
+\usepackage{geometry}
+\geometry{top=2.5cm, bottom=2.5cm, left=2.5cm, right=2.5cm}
+\usepackage{fancyhdr}
+\usepackage{parskip}
+
+% --- CODE & MATHE ---
+\usepackage{listings}
+\usepackage{xcolor}
+\usepackage{amsmath}
+
+% --- KOPFZEILE ---
+\pagestyle{fancy}
+\fancyhf{}
+\lhead{\textbf{Prog 2}\\Prüfungsvorbereitung}
+\rhead{\textbf{ZUSATZAUFGABEN}\\Set 3: Rekursion Spezial}
+\cfoot{\thepage}
+\renewcommand{\headrulewidth}{0.4pt}
+
+% --- CODE-KONFIGURATION ---
+\lstset{
+    basicstyle=\ttfamily\small, % Nutzt die Schreibmaschinenschrift von lmodern
+    frame=single,
+    breaklines=true,
+    backgroundcolor=\color{gray!10},
+    language=Java,
+    showstringspaces=false,
+    upquote=true,
+    % Zwingt LaTeX, diese Zeichen im Code korrekt darzustellen
+    literate={ö}{{\"o}}1 
+             {ä}{{\"a}}1 
+             {ü}{{\"u}}1 
+             {ß}{{\ss}}1 
+             {Ö}{{\"O}}1 
+             {Ä}{{\"A}}1 
+             {Ü}{{\"U}}1
+}
+
+\begin{document}
+
+% --- TITEL ---
+\begin{center}
+    \LARGE \textbf{Übungsblatt 3: Rekursion auf Datenstrukturen}
+\end{center}
+\vspace{0.5cm}
+
+\textbf{Hinweis:} Diese Aufgaben schließen die Lücke zwischen "einfacher Mathe-Rekursion" und "komplexer Grafik". Hier müssen Arrays und Strings verarbeitet werden.
+
+% ================= AUFGABE 1 =================
+\section*{Übungsaufgabe 1: Rekursion mit Strings (Palindrom)}
+\textit{Thema: String-Verarbeitung, Helper-Methode}
+
+Ein Palindrom ist ein Wort, das vorwärts und rückwärts gleich gelesen wird (z.B. "OTTO", "RENTNER", "A").
+
+Schreiben Sie eine rekursive Methode: \\
+\texttt{public boolean istPalindrom(String s)}
+
+\begin{itemize}
+    \item \textbf{Die Strategie:} Vergleichen Sie das erste und das letzte Zeichen des Strings.
+    \item Wenn sie gleich sind, prüfen Sie rekursiv den Rest des Wortes (ohne das erste und letzte Zeichen).
+    \item Wenn sie ungleich sind, ist es kein Palindrom (\texttt{false}).
+    \item \textbf{Abbruch:} Wenn der String Länge 0 oder 1 hat, ist er ein Palindrom (\texttt{true}).
+\end{itemize}
+
+\textbf{Tipp:} Nutzen Sie \texttt{s.charAt(0)}, \texttt{s.length()} und \texttt{s.substring(...)}.
+
+\vspace{0.5cm}
+\hrule
+\vspace{0.5cm}
+
+% ================= AUFGABE 2 =================
+\section*{Übungsaufgabe 2: Rekursion auf Arrays}
+\textit{Thema: Index-Verwaltung (Wrapper-Methode)}
+
+Schreiben Sie eine Methode, die die \textbf{Summe} aller Zahlen in einem Integer-Array berechnet, \textbf{ohne eine Schleife} zu verwenden.
+
+Vorgegeben ist die Signatur: \\
+\texttt{public int summe(int[] zahlen)}
+
+\textbf{Aufgabenstellung:}
+\begin{enumerate}
+    \item Da die Methode nur das Array als Parameter hat, fehlt uns der Index-Zähler.
+    \item Schreiben Sie eine private Hilfsmethode \texttt{summeRekursiv(int[] arr, int index)}.
+    \item \textbf{Logik:} Die Summe ab Index \texttt{i} ist der Wert an \texttt{arr[i]} plus die Summe vom Rest (Index \texttt{i+1}).
+    \item \textbf{Abbruch:} Wenn der Index gleich der Array-Länge ist, geben Sie 0 zurück.
+\end{enumerate}
+
+\vspace{0.5cm}
+\hrule
+\vspace{0.5cm}
+
+% ================= AUFGABE 3 =================
+\section*{Übungsaufgabe 3: Die "Böse" Fibonacci-Zahl}
+\textit{Thema: Verständnis von Rekursionsbäumen}
+
+Die Fibonacci-Folge ist definiert als:
+\[ fib(n) = fib(n-1) + fib(n-2) \]
+mit $fib(0)=0$ und $fib(1)=1$.
+
+Implementieren Sie die Methode \texttt{int fib(int n)}.
+\\
+\textbf{Verständnisfrage (Theorie):}
+Warum ist diese naive rekursive Implementierung für große Zahlen (z.B. $n=50$) extrem langsam, während eine Schleife (iterativ) blitzschnell wäre?
+\\
+\textit{(Hinweis: Zeichnen Sie den Baum für fib(5). Wie oft wird fib(1) berechnet?)}
+
+\vspace{0.5cm}
+\hrule
+\vspace{0.5cm}
+
+% ================= AUFGABE 4 =================
+\section*{Übungsaufgabe 4: Grafische Rekursion (Concentric Circles)}
+\textit{Thema: Graphics, Parameter-Variation}
+
+Erstellen Sie ein Panel, das in \texttt{paintComponent} eine Art "Zielscheibe" rekursiv zeichnet.
+
+Methode: \texttt{void drawCircles(Graphics g, int x, int y, int radius)}
+
+\begin{enumerate}
+    \item Zeichnen Sie einen Kreis (\texttt{drawOval}) am Mittelpunkt $(x, y)$ mit dem angegebenen Radius. \\
+    \textit{Achtung: drawOval erwartet die linke obere Ecke, nicht die Mitte! Sie müssen umrechnen: \texttt{x - radius, y - radius, radius*2, ...}}
+    \item \textbf{Abbruch:} Wenn \texttt{radius < 2}, hören Sie auf.
+    \item \textbf{Rekursion:} Rufen Sie die Methode erneut auf, aber verringern Sie den Radius um 10 Pixel.
+    \item \textbf{Zusatz (für Profis):} Ändern Sie bei jedem Aufruf die Farbe zufällig, um einen psychedelischen Effekt zu erzielen.
+\end{enumerate}
+
+\newpage
+
+% ================= HINWEISE =================
+\section*{Tipps für die Prüfung}
+
+\begin{itemize}
+    \item \textbf{Helper-Pattern (Wrapper):} \\
+    Wenn die Aufgabe eine Methode \texttt{func(Daten)} vorgibt, du aber einen Zähler brauchst $\rightarrow$ Schreibe \texttt{private func(Daten, Zähler)} und rufe sie auf.
+
+    \item \textbf{Strings zerlegen (für Aufgabe 1):} \\
+    \texttt{String rest = s.substring(1, s.length() - 1);} \\
+    Dies schneidet den ersten und letzten Buchstaben ab.
+
+    \item \textbf{Array-Rekursion (für Aufgabe 2):} \\
+    Denke immer: "Mein Ergebnis = Mein aktueller Wert + Das Ergebnis vom Rest". \\
+    \texttt{return array[i] + helper(array, i+1);}
+\end{itemize}
+
+\end{document}

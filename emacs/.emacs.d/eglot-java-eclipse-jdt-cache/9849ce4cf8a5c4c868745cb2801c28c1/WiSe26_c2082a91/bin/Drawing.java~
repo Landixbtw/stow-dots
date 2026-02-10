@@ -1,0 +1,27 @@
+import java.awt.*;
+import java.swing.*;
+import java.awt.event.*;
+
+public class Drawing {
+    /*
+      This is the main class for a simple drawing programm.
+      Specs:
+      - Inside a JFrame
+      - On a JPanel
+      - Draw with MouseClick
+      - It should draw blue cicrcle o
+      - Panel should "remember" the circles. 
+      - Panel should then repaint the whole thing. So that it actually draws
+
+      // Recommended Structure
+      - ZeichenApp / Drawing (Main class orchistrate/start everything
+      - ZeichenFrame / DrawFrame (should create the 'dumb' window - what is dumb?)
+      - ZeichenPanel / DrawPanel (this should have the logic to actually draw/repaint) - MouseListener
+      - Kreis / Circle (this should draw the blue circles and safe them in vektor)
+    */
+
+    public static void Main(String[] args) {
+
+	
+    }
+}

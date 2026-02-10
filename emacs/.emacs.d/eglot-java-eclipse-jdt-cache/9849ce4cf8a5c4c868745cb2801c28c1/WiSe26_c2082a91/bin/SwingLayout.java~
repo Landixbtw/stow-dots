@@ -1,0 +1,9 @@
+import javax.swing;
+import javax.swing.event;
+
+public class SwingLayout {
+
+    public static void main(String[] args) {
+	
+    }
+}

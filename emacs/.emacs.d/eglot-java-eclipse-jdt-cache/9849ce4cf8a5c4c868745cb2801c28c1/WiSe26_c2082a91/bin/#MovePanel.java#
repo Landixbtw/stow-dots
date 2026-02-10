@@ -1,0 +1,15 @@
+public class MovePanel extends JPanel {
+
+    
+
+
+    public void initPanel() {
+	JPanel jp = new JPanel();
+
+	
+	int randColor;
+	jp.setBackground(randColor);
+	jp.setPreferredSize
+	
+    }
+}

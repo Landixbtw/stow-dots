@@ -1,0 +1,235 @@
+!SESSION 2026-02-09 15:34:33.106 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=25.0.2
+java.vendor=Arch Linux
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=de_DE
+Command-line arguments:  -data /home/ole/.emacs.d/eglot-java-eclipse-jdt-cache/f1635e890e0c3dde5c1aafc896ab2937
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-09 15:34:35.330
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is started
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-09 15:34:35.415
+!MESSAGE Started org.eclipse.buildship.core 59ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-09 15:34:35.416
+!MESSAGE Started org.eclipse.m2e.core 0ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-09 15:34:35.576
+!MESSAGE Main thread is waiting
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-09 15:34:35.628
+!MESSAGE >> initialize
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-09 15:34:35.631
+!MESSAGE Initializing Java Language Server 1.55.0.202601131729
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-09 15:34:36.478
+!MESSAGE ProjectRegistryRefreshJob finished 1061ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-09 15:34:36.597
+!MESSAGE Setting java.home /usr/lib/jvm/default as default global VM
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-09 15:34:36.610
+!MESSAGE Default VM Install changed from  1770647676569-/usr/lib/jvm/java-25-openjdk to 1770647676596-/usr/lib/jvm/default
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-09 15:34:36.628
+!MESSAGE JVM Runtimes changed, saving new configuration
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-09 15:34:36.661
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-09 15:34:36.661
+!MESSAGE Non-Static Commands: [java.project.import, java.project.changeImportedProjects, java.navigate.openTypeHierarchy, java.project.resolveStackTraceLocation, java.edit.handlePasteEvent, java.edit.stringFormatting, java.project.getSettings, java.project.resolveWorkspaceSymbol, java.project.upgradeGradle, java.project.createModuleInfo, java.vm.getAllInstalls, java.edit.organizeImports, java.project.refreshDiagnostics, java.project.removeFromSourcePath, java.project.listSourcePaths, java.project.updateSettings, java.project.getAll, java.reloadBundles, java.project.isTestFile, java.project.resolveText, java.project.getClasspaths, java.navigate.resolveTypeHierarchy, java.getTroubleshootingInfo, java.edit.smartSemicolonDetection, java.project.updateSourceAttachment, java.project.updateClassPaths, java.decompile, java.protobuf.generateSources, java.project.resolveSourceAttachment, java.project.updateJdk, java.project.addToSourcePath, java.completion.onDidSelect]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-09 15:34:36.681
+!MESSAGE RepositoryRegistryUpdateJob finished 0ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-09 15:34:36.693
+!MESSAGE >> initialized
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-09 15:34:36.710
+!MESSAGE Importers: GradleProjectImporter, MavenProjectImporter, EclipseProjectImporter, InvisibleProjectImporter
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-09 15:34:36.719
+!MESSAGE Workspace initialized in 39ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-09 15:34:36.725
+!MESSAGE >> initialization job finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-09 15:34:36.744
+!MESSAGE >> build jobs finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-09 15:34:36.745
+!MESSAGE >> registerWatchers'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-09 15:34:36.748
+!MESSAGE >> registerFeature 'workspace/didChangeWatchedFiles'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-09 15:34:36.753
+!MESSAGE Try to create an invisible project for the workspace /home/ole/Dokumente/Uni/RNET/myTCP
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-09 15:34:36.754
+!MESSAGE Creating the Java project myTCP_32e77815
+
+!ENTRY org.eclipse.jdt.ls.core 4 0 2026-02-09 15:34:36.763
+!MESSAGE Project 'myTCP_32e77815' is not open.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException(/myTCP_32e77815)[372]: java.lang.Exception: Project 'myTCP_32e77815' is not open.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.resources.Project.checkAccessible(Project.java:192)
+	at org.eclipse.core.internal.resources.Resource.findMarkers(Resource.java:1064)
+	at org.eclipse.jdt.ls.core.internal.handlers.WorkspaceDiagnosticsHandler.getProblemMarkers(WorkspaceDiagnosticsHandler.java:274)
+	at org.eclipse.jdt.ls.core.internal.handlers.WorkspaceDiagnosticsHandler.publishDiagnostics(WorkspaceDiagnosticsHandler.java:259)
+	at org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer$2.run(JDTLanguageServer.java:340)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.core.resources 4 372 2026-02-09 15:34:36.766
+!MESSAGE Project 'myTCP_32e77815' is not open.
+!STACK 0
+java.lang.Exception: Project 'myTCP_32e77815' is not open.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.resources.Project.checkAccessible(Project.java:192)
+	at org.eclipse.core.internal.resources.Resource.findMarkers(Resource.java:1064)
+	at org.eclipse.jdt.ls.core.internal.handlers.WorkspaceDiagnosticsHandler.getProblemMarkers(WorkspaceDiagnosticsHandler.java:274)
+	at org.eclipse.jdt.ls.core.internal.handlers.WorkspaceDiagnosticsHandler.publishDiagnostics(WorkspaceDiagnosticsHandler.java:259)
+	at org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer$2.run(JDTLanguageServer.java:340)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-09 15:34:36.850
+!MESSAGE Finished creating the Java project myTCP_32e77815
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-09 15:34:36.859
+!MESSAGE Successfully created a workspace invisible project myTCP_32e77815
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-09 15:34:37.936
+!MESSAGE >> Updating classpath for project myTCP_32e77815
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-09 15:34:37.985
+!MESSAGE Reconciled 1. Took 7 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-09 15:34:38.434
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-09 15:34:39.194
+!MESSAGE begin problem for /myTCPServer.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-09 15:34:39.197
+!MESSAGE 3 problems reported for /myTCPServer.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-09 15:34:39.199
+!MESSAGE Validated 1. Took 163 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-09 15:37:43.526
+!MESSAGE Reconciled 1. Took 5 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-09 15:37:44.015
+!MESSAGE begin problem for /myTCPClient.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-09 15:37:44.015
+!MESSAGE 1 problems reported for /myTCPClient.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-09 15:37:44.016
+!MESSAGE Validated 1. Took 38 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-09 15:37:44.941
+!MESSAGE Reconciled 1. Took 21 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-09 15:37:44.962
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-09 15:37:45.465
+!MESSAGE begin problem for /myTCPServer.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-09 15:37:45.466
+!MESSAGE 3 problems reported for /myTCPServer.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-09 15:37:45.494
+!MESSAGE begin problem for /myTCPClient.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-09 15:37:45.494
+!MESSAGE 10 problems reported for /myTCPClient.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-09 15:37:45.499
+!MESSAGE Validated 2. Took 106 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-09 15:37:45.554
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-09 15:37:45.588
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-09 15:37:45.615
+!MESSAGE Reconciled 1. Took 8 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-09 15:37:45.631
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-09 15:37:45.666
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-09 15:37:45.682
+!MESSAGE Reconciled 1. Took 6 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-09 15:37:45.709
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-09 15:37:45.749
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-09 15:37:45.773
+!MESSAGE Reconciled 1. Took 4 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-09 15:37:45.793
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-09 15:37:45.857
+!MESSAGE Reconciled 1. Took 5 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-09 15:37:46.334
+!MESSAGE begin problem for /myTCPClient.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-09 15:37:46.334
+!MESSAGE 10 problems reported for /myTCPClient.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-09 15:37:46.335
+!MESSAGE Validated 1. Took 26 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-09 15:37:46.692
+!MESSAGE Reconciled 1. Took 4 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-09 15:37:47.137
+!MESSAGE begin problem for /myTCPServer.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-09 15:37:47.137
+!MESSAGE 3 problems reported for /myTCPServer.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-09 15:37:47.158
+!MESSAGE begin problem for /myTCPClient.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-09 15:37:47.159
+!MESSAGE 10 problems reported for /myTCPClient.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-09 15:37:47.159
+!MESSAGE Validated 2. Took 65 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-09 15:37:47.761
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-09 15:37:48.242
+!MESSAGE begin problem for /myTCPClient.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-09 15:37:48.242
+!MESSAGE 1 problems reported for /myTCPClient.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-09 15:37:48.243
+!MESSAGE Validated 1. Took 30 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-09 15:38:50.668
+!MESSAGE Converting html to markdown
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-09 15:38:55.634
+!MESSAGE Converting html to markdown
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-09 15:39:02.182
+!MESSAGE Converting html to markdown

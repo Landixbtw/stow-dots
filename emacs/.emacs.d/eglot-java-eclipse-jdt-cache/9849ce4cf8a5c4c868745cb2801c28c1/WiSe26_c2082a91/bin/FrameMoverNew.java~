@@ -1,0 +1,109 @@
+import javax.swing.*;
+import java.awt.*;
+import java.util.*;
+
+public class FrameMoverNew extends Thread {
+        /*
+      This should:
+      - Create a frame 100x100
+      - Give each frame a random background color
+      - Display said frame
+      - Move the frame every 3-5 seconds at random
+      -- setLocation();
+      - Make 200 FrameMover Objects start the all parallel
+     */
+
+    /*
+      Because we extend Thread everytime we call,
+      FrameMoverNew frameMover = new FrameMoverNew();
+
+      we have a new Thread.
+     */
+
+
+    private JFrame frame;
+    private Random rand;
+    
+    public FrameMoverNew() {
+
+	rand = new Random();
+	// This "makes" the thread safe
+	SwingUtilities.invokeLater(() -> {
+		frame = new JFrame();
+
+		frame.setUndecorated(true);
+		frame.setSize(100,100);
+
+		float r = rand.nextFloat();
+		float g = rand.nextFloat();
+		float b = rand.nextFloat();
+		Color randomColor = new Color(r,g,b);
+		frame.getContentPane().setBackground(randomColor);
+		moveFrame();
+
+		frame.setVisible(true);
+	    });
+
+    }
+
+    public void moveFrame() {
+	int[] screenDim = new int[2];
+	Dimension screenSize = Toolkit.getDefaultToolkit().getScreenSize();
+	int screenWidth = (int)screenSize.getWidth();
+	int screenHeight  = (int)screenSize.getHeight();
+
+	rand = new Random();
+	screenDim[0] = rand.nextInt(screenWidth);
+	screenDim[1] = rand.nextInt(screenHeight);
+
+	frame.setLocation(screenDim[0], screenDim[1]);
+    }
+
+    /*
+      While there is no valid frame we do not want to try and
+      move one, this will obv crash.
+      invokeLater acts as the "todo-list" if one is ready we move it.
+      
+     */
+
+    @Override
+    public void run() {
+	while(frame == null) {
+	    try {
+		Thread.sleep(1000);
+	    } catch (InterruptedException e) {
+		e.printStackTrace();
+		break;
+	    }
+	}
+	rand = new Random();
+	while(true) {
+	    try {
+		/*
+		  NOTE: This was the biggest error:
+		  rand.nextInt() does not return seconds but milliseconds.
+		  so it was sleeping to short. and moving to fast, CPU and prob java could not handle that.
+		  thus creating white frames, and only moving sum.
+		 */
+		
+		Thread.sleep(rand.nextInt(3,6) * 1000);
+		SwingUtilities.invokeLater(this::moveFrame);
+	    } catch (InterruptedException e) {
+		e.printStackTrace();
+		break;
+	    }
+	}
+    }
+    
+    public static void main(String[] args) {
+        // Create and start 200 independent threads
+        for (int i = 0; i < 200; i++) {
+            FrameMoverNew mover = new FrameMoverNew();
+	    if(mover != null) System.out.println("new thread " + i);
+            mover.start();
+            
+            try { Thread.sleep(50); } catch (InterruptedException e) {}
+        }
+    }
+}
+

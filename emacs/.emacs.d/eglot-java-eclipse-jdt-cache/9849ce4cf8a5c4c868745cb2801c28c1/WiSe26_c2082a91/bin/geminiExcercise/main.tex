@@ -1,0 +1,108 @@
+\documentclass[a4paper,12pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[ngerman]{babel}
+\usepackage{geometry}
+\usepackage{fancyhdr}
+\usepackage{enumitem}
+\usepackage{titlesec}
+
+% Page Layout Configuration
+\geometry{top=3cm, bottom=3cm, left=2.5cm, right=2.5cm}
+
+% Header and Footer Setup
+\pagestyle{fancy}
+\fancyhf{}
+\lhead{\textbf{Prog 2} \\ Objektorientierte Programmierung in Java}
+\rhead{\textbf{ZUSATZAUFGABEN} \\ (Zur Vorbereitung)}
+\cfoot{- \thepage \ -}
+\renewcommand{\headrulewidth}{0.4pt}
+
+% Title Formatting
+\titleformat{\section}{\large\bfseries}{}{0em}{}
+
+\begin{document}
+
+\section*{Übungsaufgabe 1: Gruppenprojekt „Das Aquarium“}
+\textbf{Thema:} GUI, Graphics, Vektoren \& Multithreading \\
+
+[cite_start]Diese Aufgabe baut auf dem „simplen Zeichenprogramm“ [cite: 110] auf, fügt aber eine dynamische Komponente hinzu.
+
+\subsection*{A: Das Aquarium}
+Erstellen Sie eine Anwendung, die ein Aquarium simuliert.
+\begin{itemize}
+    \item Es gibt einen \texttt{JFrame} mit einem \texttt{JPanel} (die Wasserfläche).
+    \item Durch einen Mausklick (Left-Click) an eine beliebige Stelle soll ein neuer „Fisch“ erzeugt werden.
+    \item Ein „Fisch“ ist grafisch einfach eine Ellipse oder ein Kreis (Farbe zufällig).
+\end{itemize}
+
+\subsection*{B: Die Logik (Threads)}
+\begin{itemize}
+    \item Jeder Fisch soll nicht nur als Daten-Objekt im Vektor existieren, sondern auch ein \textbf{eigener Thread} sein (oder von einem Timer gesteuert werden).
+    \item Die Fische sollen sich horizontal von links nach rechts bewegen.
+    \item Trifft ein Fisch auf den rechten Rand, soll er am linken Rand wieder erscheinen.
+    [cite_start]\item \textbf{Wichtig:} Das Panel muss regelmäßig \texttt{repaint()} aufrufen, damit die Bewegungen sichtbar werden[cite: 106].
+\end{itemize}
+
+\subsection*{Tipps zur Struktur}
+\begin{itemize}
+    \item Klasse \texttt{Fisch}: Speichert x, y, Farbe und Geschwindigkeit. Implementiert das Interface \texttt{Runnable}.
+    [cite_start]\item Klasse \texttt{AquariumPanel}: Besitzt den \texttt{Vector<Fisch>}[cite: 128]. Die \texttt{paintComponent} Methode iteriert über den Vektor und zeichnet alle Fische an ihren \textit{aktuellen} Positionen.
+\end{itemize}
+
+\vspace{1cm}
+\hrule
+\vspace{1cm}
+
+\section*{Übungsaufgabe 2: „Fenster-Panik“ (FrameChaos)}
+\textbf{Thema:} JFrame, Threading \& Randomization \\
+
+[cite_start]Diese Aufgabe ist das Gegenstück zum „FrameMover“[cite: 144], erfordert aber Interaktion. \\
+
+Implementieren Sie eine Klasse \texttt{PanicFrame}.
+\begin{itemize}
+    \item Das Programm startet \textbf{einen} einzigen Frame (Größe 300x300).
+    \item In diesem Frame befindet sich ein Button mit der Aufschrift „Klick mich!“.
+    \item Der Button hat einen \texttt{MouseListener}.
+\end{itemize}
+
+\textbf{Die Logik:}
+\begin{itemize}
+    \item Versucht der Nutzer, mit der Maus über den Button zu fahren (\texttt{mouseEntered}) oder ihn zu klicken, soll der \textbf{gesamte Frame} sofort an eine zufällige andere Position auf dem Bildschirm springen (\texttt{setLocation}).
+    [cite_start]\item Gleichzeitig soll sich bei jedem Sprung die Hintergrundfarbe des Panels zufällig ändern[cite: 146].
+\end{itemize}
+
+\textbf{Zusatzaufgabe (Threads):} \\
+Starten Sie im Hintergrund einen Thread, der die Größe des Fensters alle 500ms zufällig zwischen 100x100 und 400x400 verändert, um den Nutzer zusätzlich zu verwirren.
+
+\newpage
+
+\section*{Übungsaufgabe 3: Rekursion \& Fraktale}
+[cite_start]\textbf{Thema:} Rekursion und Graphics (analog zu den Aufgaben im Skript [cite: 153])
+
+\subsection*{A: Rekursives Zeichnen (Der „Möchtegern-Baum“)}
+Schreiben Sie eine Klasse \texttt{FractalPanel} (erbt von \texttt{JPanel}). \\
+Implementieren Sie eine rekursive Methode: \\
+\texttt{void drawBranch(Graphics g, int x, int y, int length, int angle)}
+
+\begin{itemize}
+    \item Die Methode zeichnet eine Linie (den Ast) der Länge \texttt{length} vom Punkt $(x,y)$ in Richtung \texttt{angle}.
+    \item Am Ende des Astes ruft sich die Methode \textbf{zweimal} selbst auf:
+    \begin{enumerate}
+        \item Einmal mit etwas kürzerer Länge und einem Winkel nach links.
+        \item Einmal mit etwas kürzerer Länge und einem Winkel nach rechts.
+    \end{enumerate}
+    \item \textbf{Abbruchbedingung:} Wenn die Länge kleiner als 2 Pixel ist, stoppt die Rekursion.
+    \item Starten Sie die Zeichnung in der \texttt{paintComponent} Methode am unteren Bildschirmrand.
+\end{itemize}
+
+\subsection*{B: Mathematische Rekursion}
+Implementieren Sie eine statische Methode: \\
+\texttt{boolean isPalindrome(String s)}
+
+\begin{itemize}
+    \item Die Methode soll \textbf{rekursiv} prüfen, ob ein String vorwärts wie rückwärts gleich ist (z.B. „Lagerregal“ oder „Rentner“).
+    \item \textit{Tipp:} Vergleichen Sie das erste und letzte Zeichen. Wenn diese gleich sind, schneiden Sie sie ab und rufen die Methode mit dem Rest-String erneut auf.
+\end{itemize}
+
+\end{document}

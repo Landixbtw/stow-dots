@@ -1,0 +1,118 @@
+!SESSION 2026-02-04 21:00:54.691 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=25.0.2
+java.vendor=Arch Linux
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=de_DE
+Command-line arguments:  -data /home/ole/.emacs.d/eglot-java-eclipse-jdt-cache/7effb40272d05e735f442a2d28a4e2b6
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 21:00:56.892
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is started
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 21:00:56.969
+!MESSAGE Started org.eclipse.buildship.core 51ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 21:00:56.970
+!MESSAGE Started org.eclipse.m2e.core 0ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 21:00:57.187
+!MESSAGE Main thread is waiting
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 21:00:57.276
+!MESSAGE >> initialize
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 21:00:57.281
+!MESSAGE Initializing Java Language Server 1.55.0.202601131729
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 21:00:57.998
+!MESSAGE ProjectRegistryRefreshJob finished 1028ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 21:00:58.148
+!MESSAGE Setting java.home /usr/lib/jvm/default as default global VM
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 21:00:58.161
+!MESSAGE Default VM Install changed from  1770235258110-/usr/lib/jvm/java-25-openjdk to 1770235258147-/usr/lib/jvm/default
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 21:00:58.192
+!MESSAGE JVM Runtimes changed, saving new configuration
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 21:00:58.239
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 21:00:58.239
+!MESSAGE Non-Static Commands: [java.project.import, java.project.changeImportedProjects, java.navigate.openTypeHierarchy, java.project.resolveStackTraceLocation, java.edit.handlePasteEvent, java.edit.stringFormatting, java.project.getSettings, java.project.resolveWorkspaceSymbol, java.project.upgradeGradle, java.project.createModuleInfo, java.vm.getAllInstalls, java.edit.organizeImports, java.project.refreshDiagnostics, java.project.removeFromSourcePath, java.project.listSourcePaths, java.project.updateSettings, java.project.getAll, java.reloadBundles, java.project.isTestFile, java.project.resolveText, java.project.getClasspaths, java.navigate.resolveTypeHierarchy, java.getTroubleshootingInfo, java.edit.smartSemicolonDetection, java.project.updateSourceAttachment, java.project.updateClassPaths, java.decompile, java.protobuf.generateSources, java.project.resolveSourceAttachment, java.project.updateJdk, java.project.addToSourcePath, java.completion.onDidSelect]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 21:00:58.257
+!MESSAGE RepositoryRegistryUpdateJob finished 0ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 21:00:58.273
+!MESSAGE >> initialized
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 21:00:58.281
+!MESSAGE Importers: GradleProjectImporter, MavenProjectImporter, EclipseProjectImporter, InvisibleProjectImporter
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 21:00:58.287
+!MESSAGE Workspace initialized in 30ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 21:00:58.295
+!MESSAGE >> initialization job finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 21:00:58.312
+!MESSAGE >> build jobs finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 21:00:58.313
+!MESSAGE >> registerWatchers'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 21:00:58.316
+!MESSAGE >> registerFeature 'workspace/didChangeWatchedFiles'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 21:00:58.320
+!MESSAGE Try to create an invisible project for the workspace /home/ole/Dokumente/Uni/java/WiSe26/GrafischeRekursion
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 21:00:58.321
+!MESSAGE Creating the Java project GrafischeRekursion_ed6b1d82
+
+!ENTRY org.eclipse.jdt.ls.core 4 0 2026-02-04 21:00:58.328
+!MESSAGE Project 'GrafischeRekursion_ed6b1d82' is not open.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException(/GrafischeRekursion_ed6b1d82)[372]: java.lang.Exception: Project 'GrafischeRekursion_ed6b1d82' is not open.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.resources.Project.checkAccessible(Project.java:192)
+	at org.eclipse.core.internal.resources.Resource.findMarkers(Resource.java:1064)
+	at org.eclipse.jdt.ls.core.internal.handlers.WorkspaceDiagnosticsHandler.getProblemMarkers(WorkspaceDiagnosticsHandler.java:274)
+	at org.eclipse.jdt.ls.core.internal.handlers.WorkspaceDiagnosticsHandler.publishDiagnostics(WorkspaceDiagnosticsHandler.java:259)
+	at org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer$2.run(JDTLanguageServer.java:340)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.core.resources 4 372 2026-02-04 21:00:58.331
+!MESSAGE Project 'GrafischeRekursion_ed6b1d82' is not open.
+!STACK 0
+java.lang.Exception: Project 'GrafischeRekursion_ed6b1d82' is not open.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.resources.Project.checkAccessible(Project.java:192)
+	at org.eclipse.core.internal.resources.Resource.findMarkers(Resource.java:1064)
+	at org.eclipse.jdt.ls.core.internal.handlers.WorkspaceDiagnosticsHandler.getProblemMarkers(WorkspaceDiagnosticsHandler.java:274)
+	at org.eclipse.jdt.ls.core.internal.handlers.WorkspaceDiagnosticsHandler.publishDiagnostics(WorkspaceDiagnosticsHandler.java:259)
+	at org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer$2.run(JDTLanguageServer.java:340)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 21:00:58.408
+!MESSAGE Finished creating the Java project GrafischeRekursion_ed6b1d82
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 21:00:58.413
+!MESSAGE Successfully created a workspace invisible project GrafischeRekursion_ed6b1d82
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 21:00:59.435
+!MESSAGE >> Updating classpath for project GrafischeRekursion_ed6b1d82
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 21:00:59.493
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 21:01:00.291
+!MESSAGE begin problem for /GraphRecursion.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 21:01:00.297
+!MESSAGE 0 problems reported for /GraphRecursion.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 21:01:00.299
+!MESSAGE Validated 1. Took 153 ms

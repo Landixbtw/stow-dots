@@ -1,0 +1,118 @@
+!SESSION 2026-02-05 06:53:20.093 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=25.0.2
+java.vendor=Arch Linux
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=de_DE
+Command-line arguments:  -data /home/ole/.emacs.d/eglot-java-eclipse-jdt-cache/4dd32b982b8970ff66db10f6c88cd8c9
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-05 06:53:22.415
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is started
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-05 06:53:22.503
+!MESSAGE Started org.eclipse.buildship.core 63ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-05 06:53:22.504
+!MESSAGE Started org.eclipse.m2e.core 1ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-05 06:53:22.715
+!MESSAGE Main thread is waiting
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-05 06:53:22.797
+!MESSAGE >> initialize
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-05 06:53:22.801
+!MESSAGE Initializing Java Language Server 1.55.0.202601131729
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-05 06:53:23.527
+!MESSAGE ProjectRegistryRefreshJob finished 1023ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-05 06:53:23.656
+!MESSAGE Setting java.home /usr/lib/jvm/default as default global VM
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-05 06:53:23.670
+!MESSAGE Default VM Install changed from  1770270803620-/usr/lib/jvm/java-25-openjdk to 1770270803656-/usr/lib/jvm/default
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-05 06:53:23.699
+!MESSAGE JVM Runtimes changed, saving new configuration
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-05 06:53:23.750
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-05 06:53:23.751
+!MESSAGE Non-Static Commands: [java.project.import, java.project.changeImportedProjects, java.navigate.openTypeHierarchy, java.project.resolveStackTraceLocation, java.edit.handlePasteEvent, java.edit.stringFormatting, java.project.getSettings, java.project.resolveWorkspaceSymbol, java.project.upgradeGradle, java.project.createModuleInfo, java.vm.getAllInstalls, java.edit.organizeImports, java.project.refreshDiagnostics, java.project.removeFromSourcePath, java.project.listSourcePaths, java.project.updateSettings, java.project.getAll, java.reloadBundles, java.project.isTestFile, java.project.resolveText, java.project.getClasspaths, java.navigate.resolveTypeHierarchy, java.getTroubleshootingInfo, java.edit.smartSemicolonDetection, java.project.updateSourceAttachment, java.project.updateClassPaths, java.decompile, java.protobuf.generateSources, java.project.resolveSourceAttachment, java.project.updateJdk, java.project.addToSourcePath, java.completion.onDidSelect]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-05 06:53:23.774
+!MESSAGE RepositoryRegistryUpdateJob finished 1ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-05 06:53:23.786
+!MESSAGE >> initialized
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-05 06:53:23.803
+!MESSAGE Importers: GradleProjectImporter, MavenProjectImporter, EclipseProjectImporter, InvisibleProjectImporter
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-05 06:53:23.808
+!MESSAGE Workspace initialized in 35ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-05 06:53:23.819
+!MESSAGE >> initialization job finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-05 06:53:23.838
+!MESSAGE >> build jobs finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-05 06:53:23.839
+!MESSAGE >> registerWatchers'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-05 06:53:23.842
+!MESSAGE >> registerFeature 'workspace/didChangeWatchedFiles'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-05 06:53:23.842
+!MESSAGE Try to create an invisible project for the workspace /home/ole/Dokumente/Uni/java/WiSe26/Palindrom
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-05 06:53:23.842
+!MESSAGE Creating the Java project Palindrom_48a07fce
+
+!ENTRY org.eclipse.jdt.ls.core 4 0 2026-02-05 06:53:23.854
+!MESSAGE Project 'Palindrom_48a07fce' is not open.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException(/Palindrom_48a07fce)[372]: java.lang.Exception: Project 'Palindrom_48a07fce' is not open.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.resources.Project.checkAccessible(Project.java:192)
+	at org.eclipse.core.internal.resources.Resource.findMarkers(Resource.java:1064)
+	at org.eclipse.jdt.ls.core.internal.handlers.WorkspaceDiagnosticsHandler.getProblemMarkers(WorkspaceDiagnosticsHandler.java:274)
+	at org.eclipse.jdt.ls.core.internal.handlers.WorkspaceDiagnosticsHandler.publishDiagnostics(WorkspaceDiagnosticsHandler.java:259)
+	at org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer$2.run(JDTLanguageServer.java:340)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.core.resources 4 372 2026-02-05 06:53:23.857
+!MESSAGE Project 'Palindrom_48a07fce' is not open.
+!STACK 0
+java.lang.Exception: Project 'Palindrom_48a07fce' is not open.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.resources.Project.checkAccessible(Project.java:192)
+	at org.eclipse.core.internal.resources.Resource.findMarkers(Resource.java:1064)
+	at org.eclipse.jdt.ls.core.internal.handlers.WorkspaceDiagnosticsHandler.getProblemMarkers(WorkspaceDiagnosticsHandler.java:274)
+	at org.eclipse.jdt.ls.core.internal.handlers.WorkspaceDiagnosticsHandler.publishDiagnostics(WorkspaceDiagnosticsHandler.java:259)
+	at org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer$2.run(JDTLanguageServer.java:340)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-05 06:53:23.910
+!MESSAGE Finished creating the Java project Palindrom_48a07fce
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-05 06:53:23.916
+!MESSAGE Successfully created a workspace invisible project Palindrom_48a07fce
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-05 06:53:24.937
+!MESSAGE >> Updating classpath for project Palindrom_48a07fce
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-05 06:53:25.015
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-05 06:53:25.764
+!MESSAGE begin problem for /Palindrom.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-05 06:53:25.768
+!MESSAGE 0 problems reported for /Palindrom.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-05 06:53:25.770
+!MESSAGE Validated 1. Took 105 ms

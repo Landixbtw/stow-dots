@@ -1,0 +1,82 @@
+import java.awt.Color;
+import java.awt.Dimension;
+import java.awt.event.MouseListener;
+import java.awt.event.MouseEvent;
+import java.awt.event.MouseMotionListener;
+import java.util.Vector;
+import java.awt.Rectangle;
+
+import javax.swing.*;
+
+public class DrawPanel extends JPanel implements MouseListener, MouseMotionListener {
+    /*
+      This panel sits on the DrawFrame. It handles all the logic ie mouseListener, and the circle/paint. It also safes the cirlces in a vector
+      
+    */
+
+    private int currentX;
+    private int currentY;
+    private final int DIAMETER = 16;
+    
+    private Vector<Circle> circleVector;
+
+    public DrawPanel() {
+	circleVector = new Vector<Circle>();
+	setup();
+
+    }
+    
+    public void setup() {
+	setOpaque(true);
+	setLayout(null);
+
+	
+	addMouseListener(this);
+	addMouseMotionListener(this);
+
+	setPreferredSize(new Dimension(800, 600));
+	setBorder(BorderFactory.createEmptyBorder(20,20,20,20));
+	
+	JPanel jp = new JPanel(true);
+    }
+
+    @Override
+    public void mouseMoved(MouseEvent e) {
+	currentX = e.getX() - (DIAMETER / 2);
+	currentY = e.getY() - (DIAMETER / 2);
+    }
+
+    /*
+      It now creates a circle under the cursor. It does not draw when
+      dragging, only thing that is missing.
+     */
+   @Override
+    public void mouseDragged(MouseEvent e) {
+	currentX = e.getX() - (DIAMETER / 2);
+	currentY = e.getY() - (DIAMETER / 2);
+    }
+
+    @Override
+    public void mousePressed(MouseEvent e) {
+	System.out.println("create new circle");
+	Circle circle = new Circle(currentX, currentY);
+	circleVector.add(circle);
+
+	int x = currentX - 25; 
+	int y = currentY - 25;
+    
+	circle.setLocation(x, y);
+	
+	this.add(circle);
+
+	this.revalidate();
+
+	this.repaint();
+    }
+    // Required by MouseListener interface, even if empty
+    public void mouseReleased(MouseEvent e) {}
+    public void mouseClicked(MouseEvent e) {}
+    public void mouseEntered(MouseEvent e) {}
+    public void mouseExited(MouseEvent e) {}
+
+}

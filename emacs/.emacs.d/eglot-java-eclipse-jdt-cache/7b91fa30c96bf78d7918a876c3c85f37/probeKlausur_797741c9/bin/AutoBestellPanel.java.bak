@@ -1,0 +1,125 @@
+import javax.swing.*;
+import java.awt.*;
+import java.util.*;
+import java.awt.event.*;
+
+public class AutoBestellPanel extends JPanel {
+
+    JTextField tfCarType ;
+    JTextField tfCarColor ;
+    JComboBox<String> boxCarMaterial ;
+    JTextArea taOrder ;
+    JButton btnOk ;
+
+    JLabel labelCarType ;
+    JLabel labelCarColor ;
+    JLabel labelCarMaterial;
+    JLabel labelCarOrder ;
+
+    HashMap<String, Integer > carConfigMap;
+
+    public AutoBestellPanel () {
+
+        setLayout(new FlowLayout());
+        setPreferredSize(new Dimension( 1000, 500));
+
+        tfCarType = new JTextField(8);
+        tfCarColor = new JTextField (8);
+        boxCarMaterial = new JComboBox<String>(new String [] { "Kunstoff ", "Baumwolle", "Leder" } );
+        taOrder = new JTextArea(100,50) ;
+        btnOk = new JButton("Ok");
+
+        labelCarType = new JLabel("Autotyp: ");
+        labelCarColor = new JLabel("Farbe : ");
+        labelCarMaterial = new JLabel("Sitzmaterial : ");
+        labelCarOrder = new JLabel("Bestellung");
+
+        this.add (labelCarType);
+        this.add (tfCarType );
+        this.add (labelCarColor);
+        this.add (tfCarColor);
+        this.add (labelCarMaterial);
+        this.add (boxCarMaterial);
+        this.add (btnOk );
+        this.add (labelCarOrder);
+        this.add (taOrder );
+
+        carConfigMap = new HashMap <String, Integer>() {{
+            put("prolo ", 18000 );
+            put("gnolf ", 25000);
+            put("krassat ", 32000);
+            put("rot ", 500);
+            put("blau ", 500);
+            put("gelb", 500);
+            put("baumwolle ", 500);
+            put("leder ", 2000);
+        }};
+
+	bestellung();
+    }
+
+    public void bestellung() {
+        btnOk.addActionListener(new ActionListener(){public void actionPerformed(ActionEvent e){
+            /*
+            On button press we want to send the Config to the Text Area
+            based on input we display correct price => HashMap?
+            Color      price
+            key        value
+            material   price
+            */
+
+	    System.out.println("button pressed");
+	    
+            String type = tfCarType.getText().toLowerCase();
+            String color = tfCarColor.getText().toLowerCase();
+            String material = (String) boxCarMaterial.getSelectedItem();
+
+            int orderprice = 0;
+	    
+	    if(type == null) {
+            int typePrice = carConfigMap.get(type);		
+	    }
+	    if(color == null);
+	    if(material == null);
+	    
+
+
+            int colorPrice = carConfigMap.get(color);
+            int materialPrice = carConfigMap.get(material.toLowerCase());
+
+            if(typePrice > 0) orderprice += typePrice ;
+            if(colorPrice > 0) orderprice += colorPrice;
+            if(materialPrice > 0) orderprice += materialPrice;
+
+            taOrder.append(type         );
+            taOrder.append(String.valueOf(typePrice)    );
+            taOrder.append(color        );
+            taOrder.append(String.valueOf(colorPrice)   );
+            taOrder.append(material     );
+            taOrder.append(String.valueOf(materialPrice));
+            taOrder.append("Gesamtpreis: ");
+            taOrder.append(String.valueOf(orderprice));
+        }});
+    }
+
+    public static void main(String[] args) {
+    // Create the window (Frame)
+    javax.swing.JFrame frame = new javax.swing.JFrame("Auto Konfigurator");
+    
+    // Ensure the application closes when the window is closed
+    frame.setDefaultCloseOperation(javax.swing.JFrame.EXIT_ON_CLOSE);
+    
+    // Create an instance of your panel
+    AutoBestellPanel panel = new AutoBestellPanel();
+    
+    // Add the panel to the window
+    // Note: This requires AutoBestellPanel to extend JPanel (see note below)
+    frame.add(panel);
+    
+    // Adjust size to fit components or use the preferred size defined in your class
+    frame.pack();
+    frame.setLocationRelativeTo(null);
+    // Make the window visible
+    frame.setVisible(true);
+}
+}

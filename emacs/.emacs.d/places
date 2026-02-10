@@ -1,2 +1,59 @@
 ;;; -*- coding: utf-8; mode: lisp-data -*-
-(("/home/ole/.config/hypr/hyprlock.conf" . 1416))
+(("/home/ole/Dokumente/Projekte/cpp/comodoro/"
+  (dired-filename . "/home/ole/Dokumente/Projekte/cpp/comodoro/src"))
+ ("/home/ole/Dokumente/Projekte/cpp/comodoro/src/"
+  (dired-filename
+   . "/home/ole/Dokumente/Projekte/cpp/comodoro/src/main.cpp"))
+ ("/usr/include/c++/15.2.1/bits/chrono.h" . 27901)
+ ("/home/ole/Dokumente/Projekte/cpp/comodoro/src/utils.cpp" . 144)
+ ("/home/ole/Dokumente/Projekte/cpp/comodoro/include/utils.hpp" . 28)
+ ("/home/ole/Dokumente/Projekte/cpp/comodoro/src/main.cpp" . 1672)
+ ("/home/ole/stow-dots/emacs/.emacs.d/lisp/mail.el" . 1781)
+ ("/home/ole/Dokumente/Uni/java/WiSe26/restaurant/"
+  (dired-filename
+   . "/home/ole/Dokumente/Uni/java/WiSe26/restaurant/Bestellung.java"))
+ ("/home/ole/Dokumente/Uni/java/WiSe26/restaurant/Kueche.java" . 1170)
+ ("/home/ole/Dokumente/Uni/java/WiSe26/restaurant/Bestellung.java"
+  . 377)
+ ("/home/ole/Dokumente/Uni/java/WiSe26/restaurant/Koch.java" . 709)
+ ("/home/ole/Dokumente/Uni/java/WiSe26/example.java" . 2977)
+ ("/home/ole/Dokumente/Uni/java/WiSe26/rekursion/"
+  (dired-filename
+   . "/home/ole/Dokumente/Uni/java/WiSe26/rekursion/Quersumme.java"))
+ ("/home/ole/Dokumente/Uni/java/WiSe26/rekursion/Quersumme.java" . 863)
+ ("/home/ole/Dokumente/Uni/java/WiSe26/rekursion/DebugRekursion.java"
+  . 1598)
+ ("/home/ole/Dokumente/Projekte/python/VSDC-hausmeister/MAINTAINML.md"
+  . 937)
+ ("/home/ole/Dokumente/Projekte/python/VSDC-hausmeister/README.md"
+  . 68)
+ ("/home/ole/Dokumente/Projekte/python/VSDC-hausmeister/"
+  (dired-filename
+   . "/home/ole/Dokumente/Projekte/python/VSDC-hausmeister/README.md"))
+ ("/home/ole/Dokumente/Projekte/python/VSDC-verification/src/"
+  (dired-filename
+   . "/home/ole/Dokumente/Projekte/python/VSDC-verification"))
+ ("/home/ole/Dokumente/Projekte/python/VSDC-hausmeister/scripts/"
+  (dired-filename
+   . "/home/ole/Dokumente/Projekte/python/VSDC-hausmeister/scripts/sendPatch.sh"))
+ ("/home/ole/Dokumente/Projekte/python/VSDC-hausmeister/scripts/sendPatch.sh"
+  . 1199)
+ ("/home/ole/Dokumente/Projekte/python/VSDC-verification/scripts/sendPatch.sh"
+  . 1199)
+ ("/home/ole/Dokumente/Projekte/python/VSDC-verification/CONTRIBUTING.md"
+  . 3190)
+ ("/home/ole/Dokumente/Projekte/python/VSDC-verification/"
+  (dired-filename
+   . "/home/ole/Dokumente/Projekte/python/VSDC-verification/scripts"))
+ ("/home/ole/Dokumente/Projekte/python/VSDC-verification/scripts/"
+  (dired-filename
+   . "/home/ole/Dokumente/Projekte/python/VSDC-verification"))
+ ("/home/ole/stow-dots/emacs/.emacs.d/lisp/mail.el.bak" . 1498)
+ ("/home/ole/Dokumente/Uni/java/WiSe26/geminiExcercise/"
+  (dired-filename
+   . "/home/ole/Dokumente/Uni/java/WiSe26/geminiExcercise/main.tex"))
+ ("/home/ole/Dokumente/Uni/java/WiSe26/" . 1906)
+ ("/home/ole/Dokumente/Uni/java/WiSe26/exercise2/main.tex" . 6265)
+ ("/home/ole/stow-dots/emacs/.emacs.d/lisp/packages.el" . 1812)
+ ("/home/ole/stow-dots/hypr/.config/hypr/hyprland.conf" . 1300)
+ ("/home/ole/stow-dots/emacs/.emacs.d/init.el" . 944))

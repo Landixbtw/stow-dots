@@ -1,0 +1,93 @@
+!SESSION 2026-02-06 14:57:48.035 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=25.0.2
+java.vendor=Arch Linux
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=de_DE
+Command-line arguments:  -data /home/ole/.emacs.d/eglot-java-eclipse-jdt-cache/7224f7445a7a1b7b85b71f65f02232ad
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-06 14:57:50.225
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is started
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-06 14:57:50.310
+!MESSAGE Started org.eclipse.buildship.core 58ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-06 14:57:50.311
+!MESSAGE Started org.eclipse.m2e.core 0ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-06 14:57:50.535
+!MESSAGE Main thread is waiting
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-06 14:57:50.621
+!MESSAGE >> initialize
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-06 14:57:50.624
+!MESSAGE Initializing Java Language Server 1.55.0.202601131729
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-06 14:57:51.498
+!MESSAGE ProjectRegistryRefreshJob finished 1186ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-06 14:57:51.639
+!MESSAGE Setting java.home /usr/lib/jvm/default as default global VM
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-06 14:57:51.654
+!MESSAGE Default VM Install changed from  1770386271607-/usr/lib/jvm/java-25-openjdk to 1770386271638-/usr/lib/jvm/default
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-06 14:57:51.679
+!MESSAGE JVM Runtimes changed, saving new configuration
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-06 14:57:51.722
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-06 14:57:51.723
+!MESSAGE Non-Static Commands: [java.project.import, java.project.changeImportedProjects, java.navigate.openTypeHierarchy, java.project.resolveStackTraceLocation, java.edit.handlePasteEvent, java.edit.stringFormatting, java.project.getSettings, java.project.resolveWorkspaceSymbol, java.project.upgradeGradle, java.project.createModuleInfo, java.vm.getAllInstalls, java.edit.organizeImports, java.project.refreshDiagnostics, java.project.removeFromSourcePath, java.project.listSourcePaths, java.project.updateSettings, java.project.getAll, java.reloadBundles, java.project.isTestFile, java.project.resolveText, java.project.getClasspaths, java.navigate.resolveTypeHierarchy, java.getTroubleshootingInfo, java.edit.smartSemicolonDetection, java.project.updateSourceAttachment, java.project.updateClassPaths, java.decompile, java.protobuf.generateSources, java.project.resolveSourceAttachment, java.project.updateJdk, java.project.addToSourcePath, java.completion.onDidSelect]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-06 14:57:51.736
+!MESSAGE RepositoryRegistryUpdateJob finished 0ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-06 14:57:51.752
+!MESSAGE Importers: GradleProjectImporter, MavenProjectImporter, EclipseProjectImporter, InvisibleProjectImporter
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-06 14:57:51.753
+!MESSAGE >> initialized
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-06 14:57:51.757
+!MESSAGE Importing Maven project(s)
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-06 14:57:53.431
+!MESSAGE Workspace initialized in 1696ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-06 14:57:53.442
+!MESSAGE >> initialization job finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-06 14:57:53.991
+!MESSAGE >> build jobs finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-06 14:57:53.992
+!MESSAGE >> registerWatchers'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-06 14:57:53.996
+!MESSAGE >> registerFeature 'workspace/didChangeWatchedFiles'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-06 14:57:54.090
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-06 14:57:54.849
+!MESSAGE begin problem for /ServerApp.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-06 14:57:54.853
+!MESSAGE 3 problems reported for /ServerApp.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-06 14:57:54.858
+!MESSAGE Validated 1. Took 116 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-06 15:07:59.103
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-06 15:07:59.608
+!MESSAGE begin problem for /Model.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-06 15:07:59.609
+!MESSAGE 0 problems reported for /Model.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-06 15:07:59.609
+!MESSAGE Validated 1. Took 54 ms

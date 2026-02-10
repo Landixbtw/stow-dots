@@ -1,0 +1,12 @@
+import javax.swing.JFrame;
+
+public class DrawFrame {
+    /*
+      This creates the frame and adds the panel to it. It does nothing else
+     */
+
+    public static void initFrame() {
+	JFrame frame = new JFrame();
+	
+    }
+}

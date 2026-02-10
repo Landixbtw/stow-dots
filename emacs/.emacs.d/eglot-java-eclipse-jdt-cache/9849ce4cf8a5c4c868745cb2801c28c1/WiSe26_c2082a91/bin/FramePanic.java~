@@ -1,0 +1,136 @@
+import java.awt.*;
+import javax.swing.*;
+import java.util.Random;
+import java.awt.event.*;
+import java.util.*;
+
+public class FramePanic extends Thread implements MouseListener {
+    /*
+      This should create a Frame.
+      This Frame has a button,
+      If the user presses this button, the Frame moves to a random location on the screen.
+     */
+
+    private JFrame frame;
+    private Random rand;
+    public FramePanic() {
+	setup();
+    }
+
+    
+    private void setup() {
+	/*
+	  Create a frame 300x300
+	  It should have a button on it.
+	  Need to listen to MousePressed.
+	 */
+
+	rand = new Random();
+
+	frame = new JFrame();
+	frame.setUndecorated(true);
+	frame.setSize(300,300);
+
+	frame.getContentPane().setBackground(Color.YELLOW);
+
+	addButton();
+	frame.setVisible(true);
+    }
+
+    private void moveFrame() {
+	/*
+	  This should make up a random location and set the frame to that location
+	 */
+
+	/*
+	  This spawns a frame partly outside the screen.
+	 */
+	Dimension screen = Toolkit.getDefaultToolkit().getScreenSize();
+	int x = rand.nextInt((int)screen.getWidth());
+	int y = rand.nextInt((int)screen.getHeight());
+
+	frame.setLocation(x,y);
+    }
+
+    @Override
+    public void mouseEntered(MouseEvent e) {
+	System.out.println("Mouse Entered");
+	moveFrame();
+
+    }
+
+    @Override
+    public void mousePressed(MouseEvent e) {
+	System.out.println("Mouse pressed");
+	moveFrame();
+
+    }
+
+    public void mouseExited(MouseEvent e) {}
+    public void mouseReleased(MouseEvent e) {}
+    public void mouseClicked(MouseEvent e) {}
+
+    private void changeColor() {
+
+	float r = rand.nextFloat();
+	float g = rand.nextFloat();
+	float b = rand.nextFloat();
+
+	Color randomColor = new Color(r,g,b);
+	
+	frame.getContentPane().setBackground(randomColor);
+    }
+
+    private void addButton() {
+	JButton b1 = new JButton();
+	b1.setSize(200,100);
+	b1.setVisible(true);
+	b1.setText("Click me");
+	frame.setLayout(new FlowLayout());    
+	frame.add(b1);
+
+	// NOTE: Das ist der korrekte Aufbau damit der listner auf hört
+	
+	b1.addMouseListener(new MouseAdapter() {
+		@Override
+		public void mouseEntered(java.awt.event.MouseEvent e) {
+		    moveFrame();
+		}
+	    });
+    }
+
+    @Override
+    public void run() {
+	while(frame == null) {
+	    try {
+		Thread.sleep(1000);
+	    } catch (InterruptedException e) {
+		break;
+	    }
+	}
+	while(true) {
+	    try {
+		Thread.sleep(5000);
+		SwingUtilities.invokeLater(() -> {
+		    /*
+		      Change window size every 500ms between 100x100, 500x500,
+		      ? Change to 300x300 sometimes at random?
+		     */
+			if(frame.getContentPane().getHeight() >= 300) {
+			    frame.setSize(100,100);
+			} else if (frame.getContentPane().getHeight() <= 300) {
+			    frame.setSize(500,500);
+			}
+		});		
+	    } catch (InterruptedException e) {
+		break;
+	    }
+
+	}
+    }
+    
+    public static void main(String[] args) {
+	FramePanic frame = new FramePanic();
+	frame.start();
+    }
+}

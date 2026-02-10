@@ -1,0 +1,78 @@
+import javax.swing.*;
+import java.awt.*;
+import java.util.Random;
+
+// The class extends Thread to allow parallel execution
+public class FrameMover extends Thread {
+
+    private JFrame frame;
+    private Random rand = new Random();
+
+    // Constructor sets up the frame
+    public FrameMover() {
+        // Create the frame on the Event Dispatch Thread for safety
+        SwingUtilities.invokeLater(() -> {
+            frame = new JFrame("FrameMover");
+            frame.setSize(100, 100); // Requirement: 100x100
+            frame.setUndecorated(true); // Optional: Looks better for small squares
+            
+            // Requirement: Random Color
+            float r = rand.nextFloat();
+            float g = rand.nextFloat();
+            float b = rand.nextFloat();
+            frame.getContentPane().setBackground(new Color(r, g, b));
+
+            // Initial random location
+            moveFrameRandomly();
+            
+            // Requirement: Display
+            frame.setVisible(true);
+            
+            // Prevent closing one frame from killing the app
+            frame.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
+        });
+    }
+
+    private void moveFrameRandomly() {
+        if (frame == null) return;
+        
+        Dimension screenSize = Toolkit.getDefaultToolkit().getScreenSize();
+        int x = rand.nextInt(screenSize.width - 100);
+        int y = rand.nextInt(screenSize.height - 100);
+
+        frame.setLocation(x, y);
+    }
+
+    @Override
+    public void run() {
+        // Wait for frame to be initialized
+        while(frame == null) {
+            try { Thread.sleep(100); } catch (InterruptedException e) {}
+        }
+
+        while (true) {
+            try {
+                // Requirement: 3-5 Seconds (3000 - 5000 ms)
+                int sleepTime = 3000 + rand.nextInt(2001); 
+                Thread.sleep(sleepTime);
+
+                // Update UI on the Event Dispatch Thread
+                SwingUtilities.invokeLater(this::moveFrameRandomly);
+
+            } catch (InterruptedException e) {
+                break;
+            }
+        }
+    }
+
+    public static void main(String[] args) {
+        // Requirement: 200 Objects started in parallel
+        for (int i = 0; i < 200; i++) {
+            FrameMover mover = new FrameMover();
+            mover.start(); // Starts the thread
+            
+            // Optional: Stagger creation slightly to prevent initial lag spike
+            try { Thread.sleep(50); } catch (InterruptedException e) {}
+        }
+    }
+}

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="_/restaurant"/>
+	<classpathentry kind="src" path="_/rekursion"/>
+	<classpathentry kind="src" path="_/paint"/>
+	<classpathentry kind="src" path="_/aquarium"/>
+	<classpathentry kind="src" path="_/Laeufer"/>
+	<classpathentry kind="src" path="_/FramePanic"/>
+	<classpathentry kind="src" path="_/FrameMover"/>
+	<classpathentry kind="src" path="_/FractalPanel"/>
+	<classpathentry kind="src" path="_/Eieruhr"/>
+	<classpathentry excluding="restaurant/|rekursion/|paint/|aquarium/|Laeufer/|FramePanic/|FrameMover/|FractalPanel/|Eieruhr/" kind="src" path="_"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

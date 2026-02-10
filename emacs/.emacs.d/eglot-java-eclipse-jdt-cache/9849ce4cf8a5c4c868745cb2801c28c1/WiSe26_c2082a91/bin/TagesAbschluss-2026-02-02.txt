@@ -1,0 +1,16 @@
+Name: Pommes
+Price: 10.0
+Table: 1
+
+Name: Burger
+Price: 15.0
+Table: 2
+
+Name: Fanta
+Price: 5.0
+Table: 3
+
+Name: Pizza
+Price: 13.5
+Table: 4
+

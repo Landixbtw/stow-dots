@@ -1,0 +1,31 @@
+import java.awt.geom.*;
+
+public class Circle extends JPanel {
+
+    public Circle() {
+        // We set the preferred size slightly larger than the drawing (160 + 40 + 40)
+        setPreferredSize(new Dimension(250, 250));
+    }
+    
+    @Override
+    protected void paintComponent(Graphics g) {
+	super.paintComponent(g);
+
+	Graphics2D g2 = (Graphics2D) g.create();
+	try {
+	    double diameter = 160;
+	    double x = 40;
+	    double y = 40;
+	    Shape circle = new Ellipse2D.Double(x, y, diameter, diameter);
+
+	    g2.setPaint(new Color(0xB3E5FC));
+	    g2.fill(circle);
+
+	    g2.setPaint(new Color(0x01579B));
+	    g2.setStroke(new BasicStroke(2f, BasicStroke.CAP_ROUND, BasicStroke.JOIN_ROUND));
+	    g2.draw(circle);
+	} finally {
+	    g2.dispose();
+	}	
+    }
+}

@@ -1,0 +1,956 @@
+!SESSION 2026-02-04 09:46:34.620 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=25.0.2
+java.vendor=Arch Linux
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=de_DE
+Command-line arguments:  -data /home/ole/.emacs.d/eglot-java-eclipse-jdt-cache/b32f95dd7e66d6cb7c89634f3b77a9c1
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 09:46:36.978
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is started
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 09:46:37.075
+!MESSAGE Started org.eclipse.buildship.core 59ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 09:46:37.076
+!MESSAGE Started org.eclipse.m2e.core 1ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 09:46:37.294
+!MESSAGE Main thread is waiting
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 09:46:37.381
+!MESSAGE >> initialize
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 09:46:37.386
+!MESSAGE Initializing Java Language Server 1.55.0.202601131729
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 09:46:38.200
+!MESSAGE ProjectRegistryRefreshJob finished 1124ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 09:46:38.336
+!MESSAGE Setting java.home /usr/lib/jvm/default as default global VM
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 09:46:38.350
+!MESSAGE Default VM Install changed from  1770194798297-/usr/lib/jvm/java-25-openjdk to 1770194798335-/usr/lib/jvm/default
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 09:46:38.378
+!MESSAGE JVM Runtimes changed, saving new configuration
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 09:46:38.426
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 09:46:38.427
+!MESSAGE Non-Static Commands: [java.project.import, java.project.changeImportedProjects, java.navigate.openTypeHierarchy, java.project.resolveStackTraceLocation, java.edit.handlePasteEvent, java.edit.stringFormatting, java.project.getSettings, java.project.resolveWorkspaceSymbol, java.project.upgradeGradle, java.project.createModuleInfo, java.vm.getAllInstalls, java.edit.organizeImports, java.project.refreshDiagnostics, java.project.removeFromSourcePath, java.project.listSourcePaths, java.project.updateSettings, java.project.getAll, java.reloadBundles, java.project.isTestFile, java.project.resolveText, java.project.getClasspaths, java.navigate.resolveTypeHierarchy, java.getTroubleshootingInfo, java.edit.smartSemicolonDetection, java.project.updateSourceAttachment, java.project.updateClassPaths, java.decompile, java.protobuf.generateSources, java.project.resolveSourceAttachment, java.project.updateJdk, java.project.addToSourcePath, java.completion.onDidSelect]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 09:46:38.447
+!MESSAGE RepositoryRegistryUpdateJob finished 1ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 09:46:38.459
+!MESSAGE >> initialized
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 09:46:38.478
+!MESSAGE Importers: GradleProjectImporter, MavenProjectImporter, EclipseProjectImporter, InvisibleProjectImporter
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 09:46:38.488
+!MESSAGE Workspace initialized in 41ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 09:46:38.491
+!MESSAGE >> initialization job finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 09:46:38.509
+!MESSAGE >> build jobs finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 09:46:38.510
+!MESSAGE >> registerWatchers'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 09:46:38.513
+!MESSAGE >> registerFeature 'workspace/didChangeWatchedFiles'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 09:46:38.515
+!MESSAGE Try to create an invisible project for the workspace /home/ole/Dokumente/Uni/java/WiSe26/SternenPanel
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 09:46:38.516
+!MESSAGE Creating the Java project SternenPanel_8646fe59
+
+!ENTRY org.eclipse.jdt.ls.core 4 0 2026-02-04 09:46:38.528
+!MESSAGE Project 'SternenPanel_8646fe59' is not open.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException(/SternenPanel_8646fe59)[372]: java.lang.Exception: Project 'SternenPanel_8646fe59' is not open.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.resources.Project.checkAccessible(Project.java:192)
+	at org.eclipse.core.internal.resources.Resource.findMarkers(Resource.java:1064)
+	at org.eclipse.jdt.ls.core.internal.handlers.WorkspaceDiagnosticsHandler.getProblemMarkers(WorkspaceDiagnosticsHandler.java:274)
+	at org.eclipse.jdt.ls.core.internal.handlers.WorkspaceDiagnosticsHandler.publishDiagnostics(WorkspaceDiagnosticsHandler.java:259)
+	at org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer$2.run(JDTLanguageServer.java:340)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.core.resources 4 372 2026-02-04 09:46:38.530
+!MESSAGE Project 'SternenPanel_8646fe59' is not open.
+!STACK 0
+java.lang.Exception: Project 'SternenPanel_8646fe59' is not open.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.resources.Project.checkAccessible(Project.java:192)
+	at org.eclipse.core.internal.resources.Resource.findMarkers(Resource.java:1064)
+	at org.eclipse.jdt.ls.core.internal.handlers.WorkspaceDiagnosticsHandler.getProblemMarkers(WorkspaceDiagnosticsHandler.java:274)
+	at org.eclipse.jdt.ls.core.internal.handlers.WorkspaceDiagnosticsHandler.publishDiagnostics(WorkspaceDiagnosticsHandler.java:259)
+	at org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer$2.run(JDTLanguageServer.java:340)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 09:46:38.612
+!MESSAGE Finished creating the Java project SternenPanel_8646fe59
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 09:46:38.620
+!MESSAGE Successfully created a workspace invisible project SternenPanel_8646fe59
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 09:46:39.644
+!MESSAGE >> Updating classpath for project SternenPanel_8646fe59
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 09:46:39.831
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 09:46:40.401
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 09:46:41.237
+!MESSAGE begin problem for /SternenPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 09:46:41.242
+!MESSAGE 1 problems reported for /SternenPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 09:46:41.246
+!MESSAGE Validated 1. Took 240 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 09:49:27.458
+!MESSAGE Reconciled 1. Took 9 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 09:49:27.683
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 09:49:28.217
+!MESSAGE begin problem for /SternenPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 09:49:28.218
+!MESSAGE 1 problems reported for /SternenPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 09:49:28.219
+!MESSAGE Validated 1. Took 84 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 09:54:17.296
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 09:54:17.567
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 09:54:18.026
+!MESSAGE begin problem for /SternenPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 09:54:18.026
+!MESSAGE 1 problems reported for /SternenPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 09:54:18.027
+!MESSAGE Validated 1. Took 59 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 09:55:23.365
+!MESSAGE Reconciled 1. Took 6 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 09:55:23.413
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 09:55:23.878
+!MESSAGE begin problem for /SternenPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 09:55:23.879
+!MESSAGE 2 problems reported for /SternenPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 09:55:23.880
+!MESSAGE Validated 1. Took 63 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 09:55:24.533
+!MESSAGE Reconciled 1. Took 5 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 09:55:25.028
+!MESSAGE begin problem for /SternenPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 09:55:25.028
+!MESSAGE 2 problems reported for /SternenPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 09:55:25.029
+!MESSAGE Validated 1. Took 44 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 09:55:26.206
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 09:55:26.593
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 09:55:27.085
+!MESSAGE begin problem for /SternenPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 09:55:27.086
+!MESSAGE 1 problems reported for /SternenPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 09:55:27.087
+!MESSAGE Validated 1. Took 42 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 09:55:28.805
+!MESSAGE Converting html to markdown
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 09:56:37.733
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 09:56:38.167
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 09:56:38.429
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 09:56:38.939
+!MESSAGE begin problem for /SternenPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 09:56:38.940
+!MESSAGE 1 problems reported for /SternenPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 09:56:38.941
+!MESSAGE Validated 1. Took 60 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 09:56:40.256
+!MESSAGE Reconciled 1. Took 5 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 09:56:40.454
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 09:56:40.948
+!MESSAGE begin problem for /SternenPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 09:56:40.949
+!MESSAGE 1 problems reported for /SternenPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 09:56:40.949
+!MESSAGE Validated 1. Took 45 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 09:56:55.983
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 09:56:56.462
+!MESSAGE Reconciled 1. Took 18 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 09:56:56.647
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 09:56:57.133
+!MESSAGE begin problem for /SternenPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 09:56:57.134
+!MESSAGE 2 problems reported for /SternenPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 09:56:57.134
+!MESSAGE Validated 1. Took 36 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 09:57:02.943
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 09:57:03.430
+!MESSAGE begin problem for /SternenPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 09:57:03.430
+!MESSAGE 2 problems reported for /SternenPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 09:57:03.431
+!MESSAGE Validated 1. Took 35 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 09:57:03.543
+!MESSAGE Reconciled 1. Took 5 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 09:57:03.745
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 09:57:04.241
+!MESSAGE begin problem for /SternenPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 09:57:04.242
+!MESSAGE 1 problems reported for /SternenPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 09:57:04.243
+!MESSAGE Validated 1. Took 47 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 09:57:06.024
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 09:57:06.461
+!MESSAGE begin problem for /SternenPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 09:57:06.461
+!MESSAGE 1 problems reported for /SternenPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 09:57:06.462
+!MESSAGE Validated 1. Took 37 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 09:57:18.959
+!MESSAGE Reconciled 1. Took 7 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 09:57:19.159
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 09:57:19.647
+!MESSAGE begin problem for /SternenPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 09:57:19.648
+!MESSAGE 1 problems reported for /SternenPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 09:57:19.648
+!MESSAGE Validated 1. Took 37 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 09:57:20.704
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 09:57:21.140
+!MESSAGE begin problem for /SternenPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 09:57:21.140
+!MESSAGE 1 problems reported for /SternenPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 09:57:21.141
+!MESSAGE Validated 1. Took 36 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 09:57:21.258
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 09:57:21.451
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 09:57:21.938
+!MESSAGE begin problem for /SternenPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 09:57:21.938
+!MESSAGE 2 problems reported for /SternenPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 09:57:21.943
+!MESSAGE Validated 1. Took 39 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 09:57:22.144
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 09:57:22.644
+!MESSAGE begin problem for /SternenPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 09:57:22.644
+!MESSAGE 2 problems reported for /SternenPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 09:57:22.646
+!MESSAGE Validated 1. Took 49 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 09:57:27.192
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 09:57:27.436
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 09:57:27.870
+!MESSAGE begin problem for /SternenPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 09:57:27.870
+!MESSAGE 1 problems reported for /SternenPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 09:57:27.871
+!MESSAGE Validated 1. Took 34 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 09:57:27.897
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 09:57:28.324
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 09:57:28.568
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 09:57:29.052
+!MESSAGE begin problem for /SternenPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 09:57:29.052
+!MESSAGE 1 problems reported for /SternenPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 09:57:29.052
+!MESSAGE Validated 1. Took 32 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 09:57:59.400
+!MESSAGE Reconciled 1. Took 21 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 09:57:59.551
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 09:57:59.606
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 09:57:59.655
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 09:57:59.739
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 09:57:59.788
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 09:57:59.863
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 09:57:59.913
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 09:58:00.405
+!MESSAGE begin problem for /SternenPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 09:58:00.405
+!MESSAGE 2 problems reported for /SternenPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 09:58:00.407
+!MESSAGE Validated 1. Took 41 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 09:58:00.727
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 09:58:01.235
+!MESSAGE begin problem for /SternenPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 09:58:01.236
+!MESSAGE 1 problems reported for /SternenPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 09:58:01.237
+!MESSAGE Validated 1. Took 58 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 09:58:06.856
+!MESSAGE Reconciled 1. Took 8 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 09:58:07.344
+!MESSAGE begin problem for /SternenPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 09:58:07.345
+!MESSAGE 3 problems reported for /SternenPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 09:58:07.346
+!MESSAGE Validated 1. Took 37 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 09:58:08.886
+!MESSAGE Reconciled 1. Took 4 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 09:58:09.380
+!MESSAGE begin problem for /SternenPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 09:58:09.380
+!MESSAGE 2 problems reported for /SternenPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 09:58:09.381
+!MESSAGE Validated 1. Took 45 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 09:58:09.873
+!MESSAGE Reconciled 1. Took 4 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 09:58:10.366
+!MESSAGE begin problem for /SternenPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 09:58:10.366
+!MESSAGE 1 problems reported for /SternenPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 09:58:10.367
+!MESSAGE Validated 1. Took 44 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 09:58:11.935
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 09:58:12.365
+!MESSAGE begin problem for /SternenPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 09:58:12.366
+!MESSAGE 2 problems reported for /SternenPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 09:58:12.366
+!MESSAGE Validated 1. Took 30 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 09:58:13.162
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 09:58:13.214
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 09:58:13.262
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 09:58:13.311
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 09:58:13.423
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 09:58:13.474
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 09:58:13.904
+!MESSAGE Validated 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 09:58:14.096
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 09:58:14.577
+!MESSAGE begin problem for /SternenPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 09:58:14.577
+!MESSAGE 2 problems reported for /SternenPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 09:58:14.578
+!MESSAGE Validated 1. Took 30 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 09:58:49.213
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 09:58:49.519
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 09:58:50.008
+!MESSAGE begin problem for /SternenPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 09:58:50.008
+!MESSAGE 2 problems reported for /SternenPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 09:58:50.009
+!MESSAGE Validated 1. Took 38 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 09:58:55.120
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 09:58:55.305
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 09:58:55.789
+!MESSAGE begin problem for /SternenPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 09:58:55.789
+!MESSAGE 1 problems reported for /SternenPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 09:58:55.790
+!MESSAGE Validated 1. Took 34 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 09:58:57.001
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 09:58:57.403
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 09:58:57.889
+!MESSAGE begin problem for /SternenPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 09:58:57.890
+!MESSAGE 1 problems reported for /SternenPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 09:58:57.890
+!MESSAGE Validated 1. Took 36 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 09:59:08.024
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 09:59:08.454
+!MESSAGE begin problem for /SternenPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 09:59:08.455
+!MESSAGE 0 problems reported for /SternenPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 09:59:08.455
+!MESSAGE Validated 1. Took 30 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 09:59:08.702
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 09:59:09.182
+!MESSAGE begin problem for /SternenPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 09:59:09.182
+!MESSAGE 0 problems reported for /SternenPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 09:59:09.182
+!MESSAGE Validated 1. Took 29 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 10:01:40.805
+!MESSAGE Converting html to markdown
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 10:01:56.642
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 10:01:56.695
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 10:01:56.752
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 10:01:56.806
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 10:01:57.284
+!MESSAGE begin problem for /SternenPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 10:01:57.284
+!MESSAGE 0 problems reported for /SternenPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 10:01:57.284
+!MESSAGE Validated 1. Took 27 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 10:02:19.353
+!MESSAGE Converting html to markdown
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 10:02:25.404
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 10:02:25.888
+!MESSAGE begin problem for /SternenPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 10:02:25.888
+!MESSAGE 0 problems reported for /SternenPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 10:02:25.889
+!MESSAGE Validated 1. Took 34 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 10:02:28.638
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 10:02:29.118
+!MESSAGE begin problem for /SternenPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 10:02:29.119
+!MESSAGE 0 problems reported for /SternenPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 10:02:29.119
+!MESSAGE Validated 1. Took 30 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 10:02:30.190
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 10:02:30.679
+!MESSAGE begin problem for /SternenPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 10:02:30.680
+!MESSAGE 0 problems reported for /SternenPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 10:02:30.681
+!MESSAGE Validated 1. Took 40 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 10:02:34.597
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 10:02:35.084
+!MESSAGE begin problem for /SternenPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 10:02:35.084
+!MESSAGE 0 problems reported for /SternenPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 10:02:35.085
+!MESSAGE Validated 1. Took 37 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 10:02:36.896
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 10:02:37.329
+!MESSAGE begin problem for /SternenPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 10:02:37.330
+!MESSAGE 0 problems reported for /SternenPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 10:02:37.330
+!MESSAGE Validated 1. Took 32 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 10:02:38.233
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 10:02:38.661
+!MESSAGE begin problem for /SternenPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 10:02:38.662
+!MESSAGE 0 problems reported for /SternenPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 10:02:38.662
+!MESSAGE Validated 1. Took 28 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 10:02:38.681
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 10:02:39.158
+!MESSAGE begin problem for /SternenPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 10:02:39.158
+!MESSAGE 0 problems reported for /SternenPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 10:02:39.159
+!MESSAGE Validated 1. Took 26 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 10:02:39.958
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 10:02:40.436
+!MESSAGE begin problem for /SternenPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 10:02:40.436
+!MESSAGE 0 problems reported for /SternenPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 10:02:40.436
+!MESSAGE Validated 1. Took 27 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 10:02:47.580
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 10:02:48.008
+!MESSAGE begin problem for /SternenPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 10:02:48.008
+!MESSAGE 0 problems reported for /SternenPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 10:02:48.009
+!MESSAGE Validated 1. Took 28 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 10:02:49.151
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 10:02:49.302
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 10:02:49.430
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 10:02:49.909
+!MESSAGE begin problem for /SternenPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 10:02:49.909
+!MESSAGE 0 problems reported for /SternenPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 10:02:49.910
+!MESSAGE Validated 1. Took 29 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 10:02:49.949
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 10:02:50.375
+!MESSAGE begin problem for /SternenPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 10:02:50.376
+!MESSAGE 0 problems reported for /SternenPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 10:02:50.376
+!MESSAGE Validated 1. Took 26 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 10:02:50.810
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 10:02:51.288
+!MESSAGE begin problem for /SternenPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 10:02:51.289
+!MESSAGE 0 problems reported for /SternenPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 10:02:51.289
+!MESSAGE Validated 1. Took 27 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 10:02:53.968
+!MESSAGE Reconciled 1. Took 5 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 10:02:54.462
+!MESSAGE begin problem for /SternenPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 10:02:54.462
+!MESSAGE 2 problems reported for /SternenPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 10:02:54.464
+!MESSAGE Validated 1. Took 45 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 10:02:54.988
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 10:02:55.775
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 10:02:56.210
+!MESSAGE begin problem for /SternenPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 10:02:56.210
+!MESSAGE 3 problems reported for /SternenPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 10:02:56.210
+!MESSAGE Validated 1. Took 34 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 10:02:57.151
+!MESSAGE Reconciled 1. Took 4 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 10:02:57.161
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 10:02:57.181
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 10:02:57.220
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 10:02:57.653
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 10:02:57.656
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 10:02:57.804
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 10:02:57.820
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 10:02:58.259
+!MESSAGE begin problem for /SternenPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 10:02:58.259
+!MESSAGE 4 problems reported for /SternenPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 10:02:58.262
+!MESSAGE Validated 1. Took 40 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 10:02:58.762
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 10:02:58.974
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 10:02:59.407
+!MESSAGE begin problem for /SternenPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 10:02:59.407
+!MESSAGE 2 problems reported for /SternenPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 10:02:59.407
+!MESSAGE Validated 1. Took 31 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 10:03:00.297
+!MESSAGE Converting html to markdown
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 10:03:07.571
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 10:03:07.767
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 10:03:08.252
+!MESSAGE begin problem for /SternenPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 10:03:08.253
+!MESSAGE 0 problems reported for /SternenPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 10:03:08.253
+!MESSAGE Validated 1. Took 34 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 10:03:24.585
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 10:03:24.636
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 10:03:25.122
+!MESSAGE begin problem for /SternenPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 10:03:25.123
+!MESSAGE 0 problems reported for /SternenPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 10:03:25.123
+!MESSAGE Validated 1. Took 35 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 10:03:26.626
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 10:03:26.677
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 10:03:27.164
+!MESSAGE begin problem for /SternenPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 10:03:27.165
+!MESSAGE 0 problems reported for /SternenPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 10:03:27.165
+!MESSAGE Validated 1. Took 36 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 10:03:27.584
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 10:03:27.637
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 10:03:28.116
+!MESSAGE begin problem for /SternenPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 10:03:28.116
+!MESSAGE 0 problems reported for /SternenPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-04 10:03:28.117
+!MESSAGE Validated 1. Took 29 ms
+!SESSION 2026-02-05 09:35:03.543 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=25.0.2
+java.vendor=Arch Linux
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=de_DE
+Framework arguments:  -jar /home/ole/.emacs.d/share/eclipse.jdt.ls/plugins/org.eclipse.equinox.launcher_1.7.100.v20251111-0406.jar -jar /home/ole/.emacs.d/share/eclipse.jdt.ls/plugins/org.eclipse.equinox.launcher_1.7.100.v20251111-0406.jar -jar /home/ole/.emacs.d/share/eclipse.jdt.ls/plugins/org.eclipse.equinox.launcher_1.7.100.v20251111-0406.jar -jar /home/ole/.emacs.d/share/eclipse.jdt.ls/plugins/org.eclipse.equinox.launcher_1.7.100.v20251111-0406.jar
+Command-line arguments:  -data /home/ole/.emacs.d/eglot-java-eclipse-jdt-cache/9849ce4cf8a5c4c868745cb2801c28c1 -jar /home/ole/.emacs.d/share/eclipse.jdt.ls/plugins/org.eclipse.equinox.launcher_1.7.100.v20251111-0406.jar -data /home/ole/.emacs.d/eglot-java-eclipse-jdt-cache/00246e0b16845537a6e551da92a3fb27 -jar /home/ole/.emacs.d/share/eclipse.jdt.ls/plugins/org.eclipse.equinox.launcher_1.7.100.v20251111-0406.jar -data /home/ole/.emacs.d/eglot-java-eclipse-jdt-cache/00246e0b16845537a6e551da92a3fb27 -jar /home/ole/.emacs.d/share/eclipse.jdt.ls/plugins/org.eclipse.equinox.launcher_1.7.100.v20251111-0406.jar -data /home/ole/.emacs.d/eglot-java-eclipse-jdt-cache/7b91fa30c96bf78d7918a876c3c85f37 -jar /home/ole/.emacs.d/share/eclipse.jdt.ls/plugins/org.eclipse.equinox.launcher_1.7.100.v20251111-0406.jar -data /home/ole/.emacs.d/eglot-java-eclipse-jdt-cache/b32f95dd7e66d6cb7c89634f3b77a9c1
+
+!ENTRY org.eclipse.core.resources 2 10035 2026-02-05 09:35:04.650
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-05 09:35:05.462
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is started
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-05 09:35:05.531
+!MESSAGE Started org.eclipse.buildship.core 42ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-05 09:35:05.532
+!MESSAGE Started org.eclipse.m2e.core 0ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-05 09:35:05.676
+!MESSAGE Main thread is waiting
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-05 09:35:05.686
+!MESSAGE >> initialize
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-05 09:35:05.688
+!MESSAGE Initializing Java Language Server 1.55.0.202601131729
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-05 09:35:06.639
+!MESSAGE ProjectRegistryRefreshJob finished 1105ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-05 09:35:06.716
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-05 09:35:06.716
+!MESSAGE Non-Static Commands: [java.project.import, java.project.changeImportedProjects, java.navigate.openTypeHierarchy, java.project.resolveStackTraceLocation, java.edit.handlePasteEvent, java.edit.stringFormatting, java.project.getSettings, java.project.resolveWorkspaceSymbol, java.project.upgradeGradle, java.project.createModuleInfo, java.vm.getAllInstalls, java.edit.organizeImports, java.project.refreshDiagnostics, java.project.removeFromSourcePath, java.project.listSourcePaths, java.project.updateSettings, java.project.getAll, java.reloadBundles, java.project.isTestFile, java.project.resolveText, java.project.getClasspaths, java.navigate.resolveTypeHierarchy, java.getTroubleshootingInfo, java.edit.smartSemicolonDetection, java.project.updateSourceAttachment, java.project.updateClassPaths, java.decompile, java.protobuf.generateSources, java.project.resolveSourceAttachment, java.project.updateJdk, java.project.addToSourcePath, java.completion.onDidSelect]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-05 09:35:06.753
+!MESSAGE RepositoryRegistryUpdateJob finished 0ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-05 09:35:06.770
+!MESSAGE >> initialized
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-05 09:35:06.774
+!MESSAGE Importers: GradleProjectImporter, MavenProjectImporter, EclipseProjectImporter, InvisibleProjectImporter
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-05 09:35:06.792
+!MESSAGE Workspace initialized in 39ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-05 09:35:06.802
+!MESSAGE >> initialization job finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-05 09:35:06.832
+!MESSAGE >> build jobs finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-05 09:35:06.833
+!MESSAGE >> registerWatchers'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-05 09:35:06.837
+!MESSAGE >> registerFeature 'workspace/didChangeWatchedFiles'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-05 09:35:07.336
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-05 09:35:08.118
+!MESSAGE begin problem for /SternenPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-05 09:35:08.121
+!MESSAGE 0 problems reported for /SternenPanel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-05 09:35:08.124
+!MESSAGE Validated 1. Took 136 ms

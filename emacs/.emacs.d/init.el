@@ -1,5 +1,6 @@
 ;;; init.el: --- main initialization for emacs -*- lexical-binding: t; -*-
 
+;;; Code:
 ;; --- Bootstrap Straight.el ---
 (defvar bootstrap-version)
 (let ((bootstrap-file
@@ -26,6 +27,9 @@
 ;; (require 'org)
 (require 'mail)
 
+(setq use-dialog-box nil)
+(setq x-gtk-use-system-tooltips nil)
+
 (setq custom-file (expand-file-name "custom.el" user-emacs-directory))
 (when (file-exists-p custom-file)
   (load custom-file))
@@ -39,7 +43,8 @@
 (setq display-line-numbers-type 'relative)
 (global-display-line-numbers-mode 1)
 
-(set-face-attribute 'default nil :family "CaskaydiaMono Nerd Font" :height 170)
+;; (set-face-attribute 'default nil :family "CaskaydiaMono Nerd Font" :height 170)
+(set-face-attribute 'default nil :family "Liberation Mono" :height 170)
 
 ;; --- Editor Behavior ---
 (electric-pair-mode 1)
@@ -65,27 +70,27 @@
                (display-buffer-at-bottom)
                (window-height . 10)
                (reusable-frames . t)))
-(setq compilation-auto-jump-to-first-error t) 
+(setq compilation-auto-jump-to-first-error t)
 
 ;; Disable bell
 (setq ring-bell-function 'ignore)
 
-
 ;; --- TRAMP & Remote (Cleaned for Eglot) ---
 
-;; Enable TRAMP to find the environment
-(add-to-list 'tramp-remote-path 'tramp-own-remote-path)
+(with-eval-after-load 'tramp
+  ;; Enable TRAMP to find the environment
+  (add-to-list 'tramp-remote-path 'tramp-own-remote-path)
+  
+  ;; Optimize TRAMP for heavy usage
+  (setq tramp-verbose 1)                       ; Keep logs quiet for speed
+  (setq remote-file-name-inhibit-cache nil)    ; Cache file properties
+  (setq vc-handled-backends '(Git)))           ; Only check Git
 
-;; Optimize TRAMP for heavy usage
-(setq tramp-verbose 1)                        ; Keep logs quiet for speed
-(setq remote-file-name-inhibit-cache nil)     ; Cache file properties
-(setq vc-handled-backends '(Git))             ; Only check Git
-
-;; Prevent Emacs from trying to use fancy lock files over Docker/Remote
+;; This can stay outside as it's a global Emacs variable
 (setq create-lockfiles nil)
 
 ;; Note: The specific `lsp-register-client` block was removed here.
-;; Eglot generally handles remote connections automatically via TRAMP 
+;; Eglot generally handles remote connections automatically via TRAMP
 ;; without needing manual client registration.
 
 ;; --- Projectile (Optional legacy support) ---

@@ -1,0 +1,164 @@
+\documentclass[a4paper,11pt]{article}
+
+% --- Pakete für Sprache und Kodierung ---
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[ngerman]{babel}
+
+% --- Layout und Ränder ---
+\usepackage{geometry}
+\geometry{top=3cm, bottom=3cm, left=2.5cm, right=2.5cm}
+\usepackage{fancyhdr}
+\usepackage{parskip} % Besserer Abstand zwischen Absätzen
+
+% --- Mathe und Code ---
+\usepackage{amsmath}
+\usepackage{listings}
+\usepackage{xcolor}
+
+% --- Kopf- und Fußzeilen Konfiguration ---
+\pagestyle{fancy}
+\fancyhf{} % Alles bereinigen
+\lhead{\textbf{Prog 2}\\Objektorientierte Programmierung in Java}
+\rhead{\textbf{ZUSATZAUFGABEN}\\(Prüfungsvorbereitung)}
+\cfoot{\thepage}
+\renewcommand{\headrulewidth}{0.4pt}
+
+% --- Code-Stil Definition ---
+\lstset{
+    basicstyle=\ttfamily\small,
+    frame=single,
+    breaklines=true,
+    backgroundcolor=\color{gray!10},
+    literate={ö}{{\"o}}1 {ä}{{\"a}}1 {ü}{{\"u}}1 {ß}{{\ss}}1
+}
+
+\begin{document}
+
+% --- Titelbereich ---
+\begin{center}
+    \LARGE \textbf{Übungsblatt: Prüfungsvorbereitung}
+\end{center}
+\vspace{0.5cm}
+
+% ================= AUFGABE 1 =================
+\section*{Übungsaufgabe 1: Klassen, Collections \& File I/O}
+\textit{Themen: Szenario Restaurant, ArrayList/Vector, Exception Handling}
+
+\subsection*{A: Die Bestellung}
+Schreiben Sie eine Klasse \texttt{Bestellung}. Jede Bestellung verfügt über folgende Attribute:
+\begin{itemize}
+    \item Einen \texttt{Namen} (des Gerichts, Typ String)
+    \item Einen \texttt{Preis} (Typ double)
+    \item Eine \texttt{TischNummer} (Typ int)
+\end{itemize}
+
+\subsection*{B: Die Verwaltung}
+Schreiben Sie eine Klasse \texttt{Kueche}.
+\begin{itemize}
+    \item Diese nutzt intern einen \textbf{Vektor} (oder eine \texttt{ArrayList}), um Objekte vom Typ \texttt{Bestellung} zu speichern.
+    \item Implementieren Sie eine Methode: \\
+    \texttt{public void neueBestellung(String name, double preis, int tisch)} \\
+    Diese Methode soll ein neues Objekt erzeugen und in die Liste einfügen.
+\end{itemize}
+
+\subsection*{C: Dateiverarbeitung (File I/O)}
+Implementieren Sie in der Klasse \texttt{Kueche} eine Methode: \\
+\texttt{public void tagesAbschlussSpeichern(String dateiname)}
+\begin{itemize}
+    \item Die Methode soll alle aktuellen Bestellungen in eine Textdatei schreiben.
+    \item Formatbeispiel in der Datei: \texttt{"Tisch 1: Pizza - 9.50 Euro"}
+    \item Fangen Sie mögliche Fehler (Exceptions) mit einem Standard \texttt{try-catch}-Block ab (keine eigene Exception-Klasse schreiben!).
+\end{itemize}
+
+\vspace{0.5cm}
+\hrule
+\vspace{0.5cm}
+
+% ================= AUFGABE 2 =================
+\section*{Übungsaufgabe 2: Parallele Programmierung}
+\textit{Themen: Threads, Runnable, sleep}
+
+Schreiben Sie eine Klasse \texttt{Koch}, die von \texttt{Thread} erbt (oder \texttt{Runnable} implementiert).
+\begin{enumerate}
+    \item Ein Koch wird mit einem \texttt{GerichtNamen} (String) und einer \texttt{ZubereitungsZeit} (int, in Millisekunden) initialisiert.
+    \item In der \texttt{run()}-Methode soll der Koch folgende Schritte ausführen:
+    \begin{itemize}
+        \item Konsolenausgabe: \texttt{"Fange an mit [Gericht]..."}
+        \item Schlafen für die angegebene Zeit (\texttt{Thread.sleep()}).
+        \item Konsolenausgabe: \texttt{"[Gericht] ist fertig!"}
+    \end{itemize}
+    \item \textbf{Main-Methode:} Erstellen Sie in einer Hauptklasse drei Koch-Objekte mit unterschiedlichen Zeiten und starten Sie diese so, dass sie \textbf{parallel} arbeiten.
+\end{enumerate}
+
+\newpage
+
+% ================= AUFGABE 3 =================
+\section*{Übungsaufgabe 3: Rekursion}
+\textit{Themen: Rekursive Aufrufe, Logik, Konsolenausgabe}
+
+\subsection*{A: Die Quersumme}
+Schreiben Sie eine \textbf{rekursive} Funktion \texttt{int quersumme(int n)}. \\
+Beispiel: \texttt{quersumme(123)} $\rightarrow 1 + 2 + 3 = 6$. \\
+\textit{Tipp: Nutzen Sie Modulo 10 und Ganzzahldivision durch 10.}
+
+\subsection*{B: Rekursives Muster}
+Schreiben Sie eine rekursive Methode \texttt{printPattern(int n)}, die folgende Ausgabe auf der Konsole erzeugt (Beispiel für $n=4$):
+
+\begin{lstlisting}
+*
+**
+***
+****
+***
+**
+*
+\end{lstlisting}
+\textit{Hinweis: Die Methode ruft sich selbst in der Mitte auf. Reihenfolge: Print, rekursiver Aufruf, Print.}
+
+\vspace{0.5cm}
+\hrule
+\vspace{0.5cm}
+
+% ================= AUFGABE 4 =================
+\section*{Übungsaufgabe 4: Grafik \& Logik}
+\textit{Themen: JPanel, paintComponent, Mathe-Logik}
+
+Erstellen Sie eine Klasse \texttt{SternenPanel}, die von \texttt{JPanel} erbt.
+
+\subsection*{A: Die Datenhaltung}
+\begin{itemize}
+    \item Das Panel besitzt eine Liste (Vektor oder ArrayList) von \texttt{Point}-Objekten.
+    \item Erzeugen Sie im Konstruktor 50 zufällige Punkte $(x, y)$ innerhalb der Panel-Größe und speichern Sie diese in der Liste.
+\end{itemize}
+
+\subsection*{B: Das Zeichnen (paintComponent)}
+Überschreiben Sie die \texttt{paintComponent(Graphics g)} Methode:
+\begin{enumerate}
+    \item Zeichnen Sie den Hintergrund schwarz.
+    \item Zeichnen Sie jeden Punkt aus der Liste als kleinen weißen Kreis.
+    \item \textbf{Die Logik:} Überprüfen Sie in einer doppelten Schleife den Abstand aller Punkte zueinander.
+    \item Wenn der Abstand zwischen Punkt A und Punkt B kleiner als 50 Pixel ist, zeichnen Sie eine \textbf{gelbe Linie} zwischen ihnen.
+\end{enumerate}
+\textit{Formel für die Distanz:}
+\[
+\text{Distanz} = \sqrt{(x_2 - x_1)^2 + (y_2 - y_1)^2}
+\]
+(Alternativ nutzen Sie \texttt{Point.distance(...)})
+
+\vspace{0.5cm}
+\hrule
+\vspace{0.5cm}
+
+% ================= AUFGABE 5 =================
+\section*{Übungsaufgabe 5: Theorie-Check}
+Beantworten Sie folgende Fragen stichpunktartig:
+
+\begin{enumerate}
+    \item \textbf{Vektor vs. Array:} Nennen Sie zwei wesentliche Unterschiede zwischen einem primitiven Array (\texttt{[]}) und der Klasse \texttt{Vector}.
+    \item \textbf{Packages:} Wozu dienen Packages in Java? Nennen Sie einen Vorteil.
+    \item \textbf{Exceptions:} Was ist der Unterschied zwischen einer \textit{Checked Exception} (z.B. \texttt{IOException}) und einer \textit{Unchecked Exception} (z.B. \texttt{NullPointerException}) in Bezug auf den Compiler?
+    \item \textbf{Vererbung:} Kann eine Klasse von mehreren abstrakten Klassen erben? Kann sie mehrere Interfaces implementieren?
+\end{enumerate}
+
+\end{document}
