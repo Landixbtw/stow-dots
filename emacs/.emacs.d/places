@@ -1,5 +1,18 @@
 ;;; -*- coding: utf-8; mode: lisp-data -*-
-(("/home/ole/Dokumente/Projekte/cpp/comodoro/"
+(("/home/ole/org-roam/20260215170814-grundlagen_org.org" . 1568)
+ ("/home/ole/.emacs.d/lisp/org-config.el" . 3678)
+ ("/home/ole/stow-dots/emacs/.emacs.d/lisp/packages.el" . 3216)
+ ("/home/ole/stow-dots/emacs/.emacs.d/lisp/org-config.el" . 3667)
+ ("/home/ole/stow-dots/emacs/.emacs.d/init.el" . 2566)
+ ("/home/ole/stow-dots/emacs/.emacs.d/early-init.el" . 286)
+ ("/home/ole/org-roam/LinaVorkurs/Grundlagen.org" . 13)
+ ("/home/ole/stow-dots/emacs/.emacs.d/"
+  (dired-filename . "/home/ole/stow-dots/emacs/.emacs.d/init.el"))
+ ("/home/ole/Dokumente/org/org-basics.org" . 627)
+ ("/home/ole/Dokumente/org/" . 361)
+ ("/home/ole/Dokumente/org/Mathe/" . 137)
+ ("/home/ole/stow-dots/emacs/.emacs.d/lisp/auctex.el" . 529)
+ ("/home/ole/Dokumente/Projekte/cpp/comodoro/"
   (dired-filename . "/home/ole/Dokumente/Projekte/cpp/comodoro/src"))
  ("/home/ole/Dokumente/Projekte/cpp/comodoro/src/"
   (dired-filename
@@ -54,6 +67,4 @@
    . "/home/ole/Dokumente/Uni/java/WiSe26/geminiExcercise/main.tex"))
  ("/home/ole/Dokumente/Uni/java/WiSe26/" . 1906)
  ("/home/ole/Dokumente/Uni/java/WiSe26/exercise2/main.tex" . 6265)
- ("/home/ole/stow-dots/emacs/.emacs.d/lisp/packages.el" . 1812)
- ("/home/ole/stow-dots/hypr/.config/hypr/hyprland.conf" . 1300)
- ("/home/ole/stow-dots/emacs/.emacs.d/init.el" . 944))
+ ("/home/ole/stow-dots/hypr/.config/hypr/hyprland.conf" . 1300))

@@ -1,23 +1,24 @@
-;;; packages.el --- Package declarations -*- lexical-binding: t; -*-
+;;; packages.el --- Package Declarations & Basic Config -*- lexical-binding: t; -*-
 
-;; --- Themes ---
-;; (use-package gruber-darker-theme
-;;   :config (load-theme 'gruber-darker t))
+;; 1. Global Installation Settings
+(setq straight-use-package-by-default t)
 
-;; (use-package temple-os-theme
-;;   :straight (:host github :repo "Senka07/temple-os-emacs-theme")
-;;   :config (load-theme 'temple-os t))
-
-
-;; --- Git / Magit ---
+;; ============================================================
+;;  GIT & PROJECT MANAGEMENT
+;; ============================================================
 (use-package magit
   :bind (("C-c m s" . magit-status)
          ("C-c m l" . magit-log))
   :config
   (setq magit-auto-revert-mode nil))
 
+(use-package magit-todos
+  :after magit
+  :config
+  (magit-todos-mode 1))
+
+;; Restored your custom colors for TODOs
 (use-package hl-todo
-  :ensure t
   :hook ((prog-mode . hl-todo-mode)
          (yaml-ts-mode . hl-todo-mode))
   :config
@@ -30,138 +31,92 @@
           ("NOTE"   . "#008000")
           ("PERF"   . "#A020F0"))))
 
-(use-package magit-todos
-  :ensure t
-  :after magit
-  :config
-  (magit-todos-mode 1)
-  (setq magit-todos-keywords (mapcar #'car hl-todo-keyword-faces)))
+(use-package project)
 
 
-;; --- Completion & Minibuffer ---
-
-;; Vertico: Better minibuffer completion
+;; ============================================================
+;;  MINIBUFFER & COMPLETION (Vertico Stack)
+;; ============================================================
 (use-package vertico
+  :init (vertico-mode)
   :custom
-  (vertico-cycle t)
-  (read-buffer-completion-ignore-case t)
-  (read-file-name-completion-ignore-case t)
-  (completion-styles '(basic substring partial-completion flex))
-  :config
-  (vertico-mode))
+  (vertico-cycle t))
 
-;; Marginalia: Rich annotations in minibuffer
 (use-package marginalia
-  :ensure t
-  :config
-  (marginalia-mode))
+  :init (marginalia-mode))
 
-;; Embark: Actions on targets
 (use-package embark
-  :ensure t
-  :bind
-  (("C-." . embark-act)
-   ("C-;" . embark-dwim)
-   ("C-h B" . embark-bindings))
-  :init
-  (add-hook 'eldoc-documentation-functions #'embark-eldoc-first-target)
-  (setq eldoc-documentation-strategy #'eldoc-documentation-compose-eagerly)
-  (setq eldoc-idle-delay 1.5)
+  :bind ("C-." . embark-act)
   :config
+  ;; Restored your embark display rules
   (add-to-list 'display-buffer-alist
                '("\\`\\*Embark Collect \\(Live\\|Completions\\)\\*"
                  nil
                  (window-parameters (mode-line-format . none)))))
 
-;; Company: Code completion
 (use-package company
+  :hook (prog-mode . company-mode)
   :custom
   (company-idle-delay 0.0)
-  (company-minimum-prefix-length 1)
-  :hook (prog-mode . company-mode) ;; Hook added here instead of loosely at end
-  :config
-  (global-company-mode))
+  (company-minimum-prefix-length 1))
 
 (use-package which-key
-  :config
-  (setq which-key-idle-delay 0.2)
-  (which-key-mode))
+  :init (which-key-mode))
 
 
-;; --- LSP & Checking ---
-
-;; Flycheck: Syntax checking UI
+;; ============================================================
+;;  PROGRAMMING, LSP & COMPILERS
+;; ============================================================
 (use-package flycheck
-  :config
-  (global-flycheck-mode))
+  :init (global-flycheck-mode))
 
-;; Bridge: Connect Eglot to Flycheck (Solves your "No Checker" issue)
 (use-package flycheck-eglot
-  :ensure t
   :after (flycheck eglot)
-  :config
-  (global-flycheck-eglot-mode 1))
+  :config (global-flycheck-eglot-mode 1))
 
-;; Eglot: LSP Client
+;; Restored your Clangd and Java settings
 (use-package eglot
-  :ensure t
-  :hook
-  ((c-mode . eglot-ensure)
-   (c++-mode . eglot-ensure)
-   (java-mode . eglot-ensure))
+  :hook ((c-mode c++-mode java-mode LaTeX-mode) . eglot-ensure)
   :config
   (setq read-process-output-max (* 1024 1024))
-  ;; FIX: Wrapped in with-eval-after-load to prevent startup errors
   (with-eval-after-load 'eglot
     (add-to-list 'eglot-server-programs
                  '((c++-mode c-mode) . ("clangd" "--header-insertion=never" "--clang-tidy" "--background-index")))))
 
-;; Eglot Java: Helper for JDTLS
 (use-package eglot-java
-  :ensure t
   :hook (java-mode . eglot-java-mode))
 
-(use-package project
-  :ensure t)
 
-
-;; --- UI & Dired ---
-
-(use-package all-the-icons
-  :ensure t
-  :if (display-graphic-p))
-
-(use-package all-the-icons-dired
-  :hook (dired-mode . all-the-icons-dired-mode))
-
-(use-package diredfl
-  :config
-  (diredfl-global-mode))
+;; ============================================================
+;;  UI & APPEARANCE
+;; ============================================================
+(use-package all-the-icons :if (display-graphic-p))
+(use-package all-the-icons-dired :hook (dired-mode . all-the-icons-dired-mode))
+(use-package diredfl :init (diredfl-global-mode))
 
 (use-package olivetti
-    :diminish
-    :hook (text-mode . olivetti-mode)
-    :config
-    (setq olivetti-body-width 120))
-
-
-;; --- Bibliography & Org ---
-
-(use-package ivy-bibtex
-  :after org
-  :custom
-  (bibtex-completion-bibliography '("~/ref.bib"))
-  (bibtex-completion-library-path '("~/papers"))
-  (bibtex-completion-cite-prompt-for-optional-arguments nil)
-  (bibtex-completion-cite-default-as-initial-input t))
-
-(use-package org-ref
-  :custom
-  (org-ref-default-bibliography "~/ref.bib")
-  (org-ref-pdf-directory "~/papers")
-  (org-ref-completion-library 'org-ref-ivy-cite)
+  :hook (text-mode . olivetti-mode)
   :config
-  (require 'org-ref-wos)
-  (require 'doi-utils))
+  (setq olivetti-body-width 120))
+
+
+;; ============================================================
+;;  ORG MODE MANIFEST (Config is in org.el)
+;; ============================================================
+
+;; 1. Core Org (Built-in)
+(use-package org :straight (:type built-in))
+
+;; 2. The Ecosystem (Just install them here)
+(use-package org-roam)
+(use-package cdlatex)
+(use-package org-fragtog)
+(use-package org-download)
+(use-package org-modern)
+
+;; 3. Citations
+(use-package citar)
+(use-package citar-embark :after citar embark)
 
 (provide 'packages)
+;;; packages.el ends here

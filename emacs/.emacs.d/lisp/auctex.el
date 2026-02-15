@@ -12,6 +12,11 @@
 (use-package company-math)
 (use-package company-auctex)
 (use-package company-reftex)
+;; (use-package cdlatex
+;;   :hook ((LaTeX-mode . turn-on-cdlatex)
+;; 	 (org-mode . turn-on-org-cdlatex))
+;;   :ensure t
+;;   :pin nongnu)
 (use-package cdlatex)
 
 ;; Start Emacs server for synctex inverse search

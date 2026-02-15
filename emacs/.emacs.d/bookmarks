@@ -2,7 +2,13 @@
 ;;; This format is meant to be slightly human-readable;
 ;;; nevertheless, you probably don't want to edit it.
 ;;; -*- End Of Bookmark File Format Version Stamp -*-
-(("adeHome"
+(("org-capture-last-stored"
+ (filename . "~/org-roam/20260215170814-grundlagen_org.org")
+ (front-context-string . "\n\n# This is a te")
+ (rear-context-string . "ew inlineimages\n")
+ (position . 172)
+ (last-modified 27025 61368 971752 256000))
+("adeHome"
  (filename . "/docker:ole@ade:~/")
  (front-context-string . ".devcontainer\n  ")
  (rear-context-string . "96 Nov 17 18:06 ")

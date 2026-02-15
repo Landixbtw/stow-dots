@@ -1,4 +1,9 @@
-;;; init.el: --- main initialization for emacs -*- lexical-binding: t; -*-
+;;; early-init.el --- Early Initialization -*- lexical-binding: t; -*-
+
+;; Prevent package.el from loading before straight.el
 (setq package-enable-at-startup nil)
 
-;;; init.el ends here
+;; Optional: Speed up startup by inhibiting some UI resizing
+(setq frame-inhibit-implied-resize t)
+
+(provide 'early-init)
