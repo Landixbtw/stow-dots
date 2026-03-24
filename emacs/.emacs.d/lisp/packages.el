@@ -107,7 +107,6 @@
 ;; 1. Core Org (Built-in)
 (use-package org :straight (:type built-in))
 
-;; 2. The Ecosystem (Just install them here)
 (use-package org-roam)
 (use-package cdlatex)
 (use-package org-fragtog)
