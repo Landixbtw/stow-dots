@@ -29,7 +29,6 @@
 (require 'mail)
 (require 'auctex)
 
-;; --- 3. Global UI & Behavior ---
 (setq use-dialog-box nil)
 (setq x-gtk-use-system-tooltips nil)
 (setq ring-bell-function 'ignore)

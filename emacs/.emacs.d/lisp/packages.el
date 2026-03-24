@@ -1,7 +1,13 @@
 ;;; packages.el --- Package Declarations & Basic Config -*- lexical-binding: t; -*-
 
-;; 1. Global Installation Settings
+
 (setq straight-use-package-by-default t)
+
+;; Themes
+(use-package vscode-dark-plus-theme
+  :ensure t
+  :config
+  (load-theme 'vscode-dark-plus t))
 
 ;; ============================================================
 ;;  GIT & PROJECT MANAGEMENT

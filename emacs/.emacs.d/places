@@ -1,9 +1,10 @@
 ;;; -*- coding: utf-8; mode: lisp-data -*-
-(("/home/ole/org-roam/20260215170814-grundlagen_org.org" . 1568)
+(("/home/ole/org-roam/20260317122205-einf_inf_org.org" . 278)
+ ("/home/ole/stow-dots/emacs/.emacs.d/init.el" . 985)
+ ("/home/ole/stow-dots/emacs/.emacs.d/lisp/packages.el" . 196)
+ ("/home/ole/org-roam/20260215170814-grundlagen_org.org" . 1568)
  ("/home/ole/.emacs.d/lisp/org-config.el" . 3678)
- ("/home/ole/stow-dots/emacs/.emacs.d/lisp/packages.el" . 3216)
  ("/home/ole/stow-dots/emacs/.emacs.d/lisp/org-config.el" . 3667)
- ("/home/ole/stow-dots/emacs/.emacs.d/init.el" . 2566)
  ("/home/ole/stow-dots/emacs/.emacs.d/early-init.el" . 286)
  ("/home/ole/org-roam/LinaVorkurs/Grundlagen.org" . 13)
  ("/home/ole/stow-dots/emacs/.emacs.d/"
